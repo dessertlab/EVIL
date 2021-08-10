@@ -11,7 +11,7 @@ if [ $# -ne 2 ]; then
     echo "Preprocessing Options:"
     echo "0 - used for raw corpus token counts"
     echo "1 - Preprocessing without the Intent Parser (IP)"
-    echo "2 - Preprocessing without the Intent Parser (IP)"
+    echo "2 - Preprocessing with the Intent Parser (IP)"
     exit 1
 fi;
 
