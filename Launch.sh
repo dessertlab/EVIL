@@ -56,6 +56,9 @@ function select_machine() {
 
 echo "Welcome to EVIL's Launcher!";
 rm -rf $SRC_DIR/model/finetuned_model $SRC_DIR/model/__pycache__ >/dev/null 2>&1;
+echo "Checking if pretrained models are installed..."
+python utils/model_prep.py
+rm -rf $SRC_DIR/model/pretrained_models/codebert.zip
 select_machine $1;
 		echo_time "Processing the Shellcode_IA32 dataset...";
 bash $SRC_DIR/utils/test_split.sh 1
