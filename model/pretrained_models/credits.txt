@@ -1,2 +1,5 @@
 Credits to the authors of CodeBERT for providing this pre-trained model: https://github.com/microsoft/CodeBERT
 https://arxiv.org/pdf/2002.08155.pdf
+
+Installed using:
+gdown https://drive.google.com/uc?id=1Rw60M7A1h4L_nHfeLRhi7Z8H3EHvuHRG

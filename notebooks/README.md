@@ -1,8 +1,8 @@
 # EVIL: Exploiting Software via Natural Language
 
-## Notebooks
+## Notebooks (WIP)
 
-This folder contains a Google Colab notebook that you can run on a GPU runtime instance to finetune or best performing model (CodeBERT) on both the encoder and decoder datasets.
+This folder contains a Google Colab notebook that you can run on a GPU runtime instance to run our finetuned best performing models (CodeBERT) on both the encoder and decoder datasets.
 
 
 
