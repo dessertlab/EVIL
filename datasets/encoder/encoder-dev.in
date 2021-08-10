@@ -1,0 +1,375 @@
+convert to hexadecimal a random integer between 1 and 100 and append it to the string a
+append string '0x' to a
+increment a by 1
+cast a to int16
+ba1 is a bytearrary of ba1
+call the import_string with argument backend, substitute it for backend_cls.
+bad_app_labels is an empty set.
+break loop execution.
+break from the loop execution.
+breaks from the smallest enclosing loop.
+skip this loop iteration.
+break from the loop execution
+read one line from self file stream, substitute the result for buf.
+buf is an instance of StreamingBuffer class.
+substitute line for buffer_.
+builtins is an dictionary with 3 initial entries: boolean True for 'True', boolean False for 'False' and None for 'None'.
+call te method operator.itemgetter with an argument integer 0, substitute the result for byte2int.
+convert bytes to floating point number, substitute it for bytes.
+c is the sum of a and b modulo 100
+call the self._read_limiter with length of self.buffer subtracted from size as argument, store the result into chunk.
+call the method stream.read with an argument max_header_size, substitute the result for chunk.
+substitute length of chunk for chunk_length.
+double the chunk size.
+call the function get_quantifier with 2 arguments: ch and pattern_iter, substitute the result for count and ch, respectively.
+call the itertools.count function with argument integer 1, substitute the result for count.
+multiply seconds by count, subtract it from since, divide the result by seconds2, store the floored result in count2.
+define a variable named counter and assign 0 to it
+add the string value '0x' to the variable d
+append e to debugs list for every e in all_issues, if e.level is lesser than checks.INFO and result of the method e.is_silenced in false.
+substitute first decimal_pos elements of dec_part for dec_part.
+update declared_fields dictionary with entry base.declared_fields.
+declared_fields is an instance of OrderedDict class.
+call the function curry with 2 arguments: _proxy_method and method set to bytes.decode, substitute the result for decode.
+s and max_age set to max_age, use it as an argument for the force_bytes function, substitute the result for base64d.   decompress is boolean False.
+called with with an argument lambda function which returns result of the force_text function called with an argument text.   define the method add_truncation_text with 3 arguments: self, text and truncate set to None.
+define a method named add with the parameters a, b and c. C has a default value of 3
+define the function find_template_loader with an argument loader.
+define the function first with an argument value.
+define a method named func with the parameters n,x, and y. Y has a default value of 1
+define the function mark_safe with an argument s.
+define the function media with an argument request.
+define the function rmtree_errorhandler with 3 arguments func, path and exc_info.
+define the method root_attributes with an argument self.
+define a method named routine that takes in n as a parameter
+define the method rss_attributes with an argument self.
+else if name is equal to the string 'abcd'
+otherwise if fourth element of version does not equals to 'final',
+if not,
+to the function timedelta called with an argument seconds as negative time.altzone, return the result.   if not,
+elt is an list with an element elt.
+EMPTY_VALUES is a tuple containing 5 initial elements: None, empty string, empty list, empty tuple and an empty dictionary.
+put elements of validators.EMPTY_VALUES to a list, substitute the result for empty_values.
+call the function curry with 2 arguments: _proxy_method and method set to six.text_type.encode, substitute the result for encode.
+encode is an lambda function with arguments k and v, return value is string '%s=%s', where '%s' is replaced with:
+add the string value ',' to the variable encoded
+add the string value '\\y' to the variable encoded
+Convert the value of j to a hexadecimal then add it to the variable encoded followed by the string ', '
+Convert the value of y bitwise and 0xff to a hexadecimal then add it to the variable encoded followed by the string ','
+Convert the value of x to a hexadecimal then add it to the variable encoded followed by the string ', '
+Convert the variable x to a hexadecimal. Concatenate the result with the string ',' add the result to the variable encoded
+convert the value x to hex, concatenate the result with ',' and append it to the string encoded
+convert (7 -(256 - x)) to hexadecimal, concatenate the result with the string ',' and append it to the string encoded
+Convert the value of h bitwise and 0xff to a hexadecimal, concatenate the result with the string ',' and then add it to the variable encoded
+convert (x+7) to hexadecimal, concatenate the result with the string ',' and append it to the string encoded
+Convert the value of y to a hexadecimal, concatenate the result with the string ',' and then add it to the variable encoded
+convert the value x to hex and append it to the string encoded
+concatenate the string '0x' with the hexadecimal conversion of 0xAA and append the result to the string encoded
+concatenate the string '0x' with the hexadecimal conversion of rand and append the result to the string encoded
+set encoded to the string '0x'
+encoded is the concatenation of the string "0x" with the hexadecimal conversion of the lenght of the array of bytes of shellcode
+convert the value z to hex and append it to the string encoded1
+Convert the value of leader to hexadecimal, then slice it at the index of 2 and add its value to the variable encoded3
+call the method Encoders.encode_base64 with an argument attachment.
+substitute string 'ascii' for encoding.
+if encoding does not exists substitute it for settings.DEFAULT_CHARSET.
+substitute elements of tuple boundary to end and next, respectively.
+es is a bytearrary of the byte string "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xe3\xb0\x0b\xcd\x80"
+if ZeroDivisionError exception is caught,
+if zlib.error as e exception is raised,
+except
+executor is an instance of the class MigrationExecutor created with an argument: value under the DEFAULT_DB_ALIAS key of the connections dictionary.
+substitute them for app_label and migration_name, respectively.   executor is an instance of MigrationExecutor, created with value under the DEFAULT_DB_ALIAS key of the connections dictionary.
+call the function exhaust with an argument field_stream.
+call the function exhaust with an argument self._input_data.
+call the function os.spawnve with os.P_WAIT, sys.executable, args and new_environ as arguments, substitute the result for exit_code.
+call the function restart_with_reloader, substitute the return value for exit_code.
+terminate the program with exit code 4
+terminate the program with exit code 5
+on the object under the db key of connections dictionary call the method ops.value_to_db_datetime with argument exp, substitute the result for the exp.
+call the function datetime.fromtimestamp with argument timeout, substitute it for exp.
+call the method test_runner.run_tests with an argument test_labels, substitute it for failures.
+FASTCGI_OPTIONS is a dictionary containing 16 initial entries: 'fcgi' for 'protocol', None for 'host', None for 'port',
+dir set to None as the arguments.   call the method tmpfile.mkstemp with suffix set to suffix, prefix set to prefix and dir set to dir, store the result in the fd and name, respective.
+join base an unpacked list paths into a string, get the absolute path in unicode representation of the result, substitute the result for final_path.
+finally perform,
+call the method smart_split_re.finditer with an argument text, for every bit in result,
+split tag_re by self.template_string separator, for every bit in result,
+iterate over bytes in array
+iterate bytes in list lst
+iterate byte in the list lst1
+iterate byte in lst2
+iterate over bytes in lst3
+for every bytes in stream,
+for every c in lineno_comment_map dictionary value under the comment_lineno_cache key,
+for every ch and escaped in input_iter,
+for every ch in input_iter,
+for every char in fmt,
+iterate char over str
+for every i and widget in enumerated iterable self.widgets,
+for every i and word in enumerated iterable words,
+loop through sc3 converted into a bytearray
+Make a for loop for each i in the bytearray of sc4
+declare a for loop with an iterator i for each element in sh starting from index 4 converted into a bytearray
+iterate i in lst
+iterate i over 200 random numbers between 1 and 256
+for every i in range of integers from integer 0 to the length of pieces decremented by one, with step of integer 3,
+call the method self.total_form_count, for every i in sequence of integers, from 0 to the previous result,
+for every i in range of integers from 0 to length of result, not included,
+iterate i over a sequence of number from 0 to 5
+initialize a for loop with an iterator i with a range starting from 0 until the length of shellcode_original with a step of 8
+initialize a for loop with an iterator i with a range starting from 0 until the value of stop
+loop over shellcode
+zip elements of inner_result and inner_args into a list of tuples, for every i_item and i_args in the result,
+for every index in range of integers from 0 to length of hextets, not included,
+for every j in range of integers from 0 to iterations converted to an integer,
+for every x in argset,
+Make a for loop for each x in the bytearray of sh1
+loop through sh2 converted into a bytearray
+loop x over the bytearray of the string sh3
+for every x is the range of integers from level to the integer 2, in the reversed order,
+substitute force_bytes for force_str.
+get the value under the 'format' key of the options dictionary, substitute the result for format.
+append encoded_instruction_in_hex and string "," to the variable format_0x
+initialize format_0x to an empty string
+format key is an empty string.
+format_slash_x is an empty string ""
+substitute second element of bits without the first and last element for format_string.
+call the function re.sub with 3 arguments: raw string "\\.|.", escape_quotes and tok without the first and last element,
+h is the sum of y and x modulo 256
+substitute self.handle_app for handle_app.
+call the function digest, substitute the filed digest_size of the result for hlen.
+if return value of the self.is_secure is false and server port is not equal to string '80',   join host and server_port into a string, separated with ':', substitute the result for host.
+result of the function force_text called with an argument title, and with sublist, append the string to output.   increment i by 1.
+increment i by 1
+add 1 to the variable i
+i is integer 0.
+substitute self.pointer for i.
+initialize i as an integer
+I18N_MODIFIED is integer 2
+if character '=' is contained in x,
+if string "0x1," is in format_0x
+if string 'help' is contained in options,
+strings "Please submit %d or fewer forms.", "Please submit %d or fewer forms." and self.max_num,   where '%d' is replaced with self.max_num, and code as a string 'too_many_forms'.   if self.validate_min is true, and length of self.deleted_forms subtracted from the return value of the method self.total_form_count,
+check if the length of the variable a is not even
+check if the variable r xor shellcode_original at index i is not equal to 0 and r bitwise xor shellcode_original at index i+1 does not equal 0 and r bitwise xor shellcode_original at index i+2 does not equal 0 and r bitwise xor shellcode_original at index i+3 does not equal 0
+if response.status_code is lesser than integer 200 and grater or equal than 100, or response.status_code equals to integer 204 or 304,
+check if variable a is less than the value of 1
+if accept_lang equals '*',
+if changes is true,
+if cookie is an empty string,
+if count does not equals to integer 0,
+if count modulo 2 is not equal to zero
+if count2 does not equals to integer 0,
+if counter modulo 3 is equal to 0
+if not csrf_token is None.   if csrf_token is true,
+bring integer 36 to the power of factor, if i is smaller than the result,
+if variable i is lower than the length of chunk
+if i equals to integer 0 and
+convert to integer base 16 the string shellcode encoded to hex and check if it is equal to i
+if length of x is equal to integer 0,
+if len_values is smaller than integer 1,
+if the length of sys.argv is not equal to 3
+if the number of  command-line arguments is lower than 10
+Check if the length of x is greater than 4
+if the length of z is not divisable by 4
+if level is true,
+check if matched_a_byte is True
+if mtime is different than the value of dictionary _mtimes under the key filename,
+if match is false or call to the method match.group with an argument integer 1 evaluates to boolean false,
+check if matched_a_byte is not True
+if p_pattern starts with a string '^',
+check if the variable padding does not equal 0
+if role is contained in value under the NOCOLOR_PALETTE key of the PALETTES dictionary and definition is true,
+if root is true,
+call the method router.allow_migrate with 2 arguments: self.using and obj.object.__class__, if it evaluates to true,
+if fifth and sixth elements of row are None,
+on the result call the method encode with the arguments encoding and errors, return the result.   if strings_only and boolean return value of the call to the function is_protected_type for argument s are boolean True,
+check if the bytes object containing my_value packed according to the format string unsigned char is equal to the variable z
+if sub_match is true,
+if total is not equivalent to 2
+if with_base_fields is true,
+if words is not empty and length is smaller than or equal to integer 0,
+if x equals to integer 0,
+check if x is equal to the element n in shellcode converted into a bytearray
+check if xxx is greater or equals to 0
+if y, m and d are all equal to string '0',
+if z is equal to byte
+convert the string byte to hex, then cast the result to int16 and then check if it is equal to variable z
+import module struc.
+import module subprocess.
+import module sys.
+import module tarfile.
+import module tempfile.
+inputs is an empty list.
+substitute complain for insert.
+generate a random integer between 1 and 2 then convert the random number into a hexadecimal and store the value in insertByte
+and unpacked dictionary kwargs.   instance.keyOrder is an empty list.
+substitute _itervalues for itervalues.
+compute the sum of i and magic modulus 256 and store in the variable j
+bring integer 36 to the power of factor, substitute the result for j.
+call the function escape with an argument lead, substitute the result for lead, call the function escape with an argument trail,
+sum lead and opening, substitute the result for lead.
+set leader to the second command-line argument after casting it to an int
+substitute length of values for len_values.
+print the length of array of bytes of the string var
+substitute arg converted into a integer for length.
+store in the variable length_format_0x the number of "," occurences in format_0x
+increment level by one.
+Declare an empty bytes literal and store it in the variable lit
+m2m_value is an lambda function with value as an argument, return value is the result of the method value.natural_key.
+match is boolean True.
+matches is boolean False.
+multiply delta.days with an integer 86400 add to the result delta.seconds, if the result is greater than integer 0,
+intialize the variable max_bits to an integer with the value of 8
+call the mw_class function, store the result in the mw_instance.
+n is equal to n bitwise and masked width
+Convert the value of y to a hexadecimal then add it to the variable n
+increase n by 1
+get the attribute '__name__' from the getattr, if it exists substitute it for m, if not, m is None.
+convert idx to an integer, substitute it or n.
+initialize an empty string variable called name
+in the variable encoded replace all occurrences of "\\x" with ",0x" 
+set the variable nasm to all the elements in the variable nasm starting from index 1 until the end
+call the value.natural_key method, substitute the result for natural.
+call the method obj.natural_key, substitute the result for natural_key.
+set the variable nbits to the second command-line argument converted to integer
+append orig_file to string '#: ', substitute it for new.
+set the variable new to not i bitwise and 0xff
+set new to new xor the variable xor
+set new to new shifted left by shift
+ORDERING_FIELD_NAME is a string 'ORDER'.
+set orig to an empty list
+call the method cls.__dict__.copy substitute the result for orig_vars.
+append i to the variable orig
+join tmpdir and sting 'original' into a file path name, substitute it for original_path.
+convert the value x to a hexadecimal and append it to the string original_shellcode followed by the string ','
+close the process with an argument 0.
+exit the program with the code integer 1.
+feed data to the parser p.
+P is a string '\03335m'
+calculate negative length of s, by modulus integer 4, use the result as the number of '=' characters to be stored in pad.
+assign the variable padding 4 minus the length of shellcode_original modulus 4
+remove 3 elements from r starting at the index 23.
+set the variable r to a random integer between 10 and 255
+raise an exception.
+RAISE_ERROR is an instance of object class.
+random is an instance of random.SystemRandom class.
+assign the first two elements of op to res
+increment res by element of to_digit at the digit index.
+res is x xor y
+right shift by val2 the and operation between z and val1 and assign it to res1
+perform the and operation between x shifted right by val2 and val1 and assign the result to res1
+assign the variable res2 variable x bitwise and val1
+assign res2 the value of res2 left shift by max_bits minus val2
+left shift x by max_bits plus val2 and assign the result to res2
+result is the concatenation of the string "\\x", the hexadecimal value of the length of array of bytes of the variable sc and the string ',' 
+return a tuple with 3 elements: TYPE, outdict and stream.
+return the result of bitwise left shift of n and temp bitwise and mask_value bitwise or with the bitwise right shift of n by the subtraction of temp from width
+return the result of bitwise right shift of n and rotations xor the bitwise left shift of n and subtract rotations from width bitwise and mask_value
+return n right shift by rotations bitwise or with the result of n left shift by width bitwise and mask_value
+return 2 to the power of n minus 1
+return i.
+if filename ends with string '.mo' return I18N_MODIFIED, otherwise return FILE_MODIFIED.
+return msgs.
+return name.
+call the method self.expression, substitute the result for retval.
+substitute element at self.pos index of self.tokens for retval.
+store in rev_suplx the reverse of the array suplX
+substitute complain for reverse.
+and lambda function with 2 arguments: self and other, resulting boolean False if self is lesser than other or self is equal to other,   tuple with 2 elements: string '__le__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is lesser than other or self is equal to other,   tuple with 2 elements: string '__ge__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is lesser than other, for '__lt__',   list with 3 tuples: tuple with 2 elements: string '__ge__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is lesser than or equal to other,   or self is equal to other, tuple with 2 elements: string '__lt__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is lesser than or equal to other,   or self is not equal to other, tuple with 2 elements: string '__gt__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is lesser than or equal to other, for '__le__',   list with 3 tuples: tuple with 2 elements: string '__lt__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is greater than other or self is equal to other,   tuple with 2 elements: string '__ge__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is greater than other or self is equal to other,   tuple with 2 elements: string '__le__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is greater than other, for '__gt__',   and list with 3 tuples: tuple with 2 elements: string '__le__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is not greater than or is not equal to other,   or self is equal to other, tuple with 2 elements: string '__gt__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is greater than or not equal to other,   or self is not equal to other, tuple with 2 elements: string '__lt__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is greater than or equal to other, for '__ge__',   convert cls to a dictionary, convert the result into a set and convert convert into a set, roots is a set of differences of the two previous sets.
+ROT is the first command-line argument converted to integer
+assign rox_encoded_instruction res1 bitwise or res2 
+append string '\\x' followed by the conversion in hex of 0xFF to the string s
+set s to the string 'hello'
+assign sb the hexadecimal value of leader casted into an int16
+append to sc a bytes object containing the value val2 packed according to the format string unsigned char
+call the function urlsplit with an argument url, assign the result to scheme, netloc, path, query and fragment, respectively.
+call the method shell.mainloop.
+convert shellcode to a bytearray and store its length in the variable shell_n
+concatenate in the string shellcode the concatenation of '\\x' and the string byte encoded in hexadecimal
+Convert the value of x bitwise and 0xff to a hexadecimal then add it to the variable shellcode
+remove the first 3 items from shellcode
+Declare a string shellcode and add the string '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' into it
+assign the variable shellcode_encoded_hex the hexadecimal values of shellcode_encoded separated by the string '\\x'
+store in the variable shellcode_encoded_nasm the hexadecimal values of shellcode_encoded separated by the string '0x' and remove any trailing ','
+append to the variable shellcode_encoded the value of shellcode_original at index i xor the variable r
+append to the variable shellcode_encoded the value of shellcode_original at index i+1 xor the variable r
+read the file f as a bytearray from hexadecimal values remove whitespaces and replace all occurences of the string '\\t' with ''" and store the result in shellcode_original
+assign the variable shellcode_original_hex the hexadecimal values of shellcode_original separated by the string '\\x'
+append 0x70 to shellcode
+shells is a list containing 2 elements: string 'ipython' and string 'bpython'.
+if value is an instance of datetime and settings.USE_TZ if use_tz is None else use_tz and call to the function is_naive,
+append string '0x' to str
+Convert the value of z bitwise and 0xff to a hexadecimal then add it to the variable str followed by ','
+add the string value '0x' to the variable str
+str is an empty string
+initialize the variable str to an empty string
+append str1 to str
+add to str a bytes object containing the value xor_byte packed according to the format string unsigned char
+append string '0x' to str1
+add the string value '\\x' to the variable str1
+str1 is a string containing the hexadecimal conversion of str
+str1 is a string ""
+add to str1 a bytes object containing the value val4 packed according to the format string unsigned char
+convert shift to hexadecimal and append it followed by ', ' to the string str4
+convert val2 in hexadecimal and append it followed by ', ' to the string str5
+substitute str for string_types.
+call the function allow_lazy with an argument strip_tags, substitute the result for strip_tags.
+substitute style.ERROR for style.ERROR_OUTPUT.
+call the function get_commands, convert the result to a list, append string 'help' to it, substitute it for subcommands.
+substitute __setitem__ filed of the base class of the class SortedDict for super_set.
+supports_microseconds is boolean False.
+separate every 2 characters of the string swapped with the separator ", "
+add "0x" to every 2 characters of the string swapped
+convert the values of swapped to hexadecimals
+open out_log file in append mode with buffering size of the input buffer, substitute the result for sys.stdout.
+exit the program with code 0
+decrement t by integer 1,
+call the method self.non_field_errors, substitute the result for top_errors.
+integer 0 and integer 0.   try,
+append to the string val the value (7 - (256 -x)) converted to hexadecimal
+convert (x+7) to hexadecimal and append it to the string val
+for each element in var convert the element to an integer representing the unicode then convert it to a hexadecimal ignore slice at index 2 until the end and join separating each element by the string '\\x'
+subtract 1 from 2 to the power of max_bits and assign the result to val1
+call the function func with the argument tmp and save the return value in val1
+assign val1 the hexadecimal value of the variable byte converted to int16  xor with the variable i
+call the method self.var1.resolve with 2 arguments: context and boolean True, substitute the result for val2.
+val2 is the result of the bitwise xor between the integer base 32 of the element i of chunk encoded to hex and xor_byte
+call the method parser.compile_filter with an argument, third element of bits, substitute the result for val2.
+add the string value '\\x' to the variable var
+Convert the variable rand to a hexadecimal and add it to the variable var
+append '0x' to var
+add the bytes literal "\x0a\x1b\x2c\x3d\x4e\x5f\x6a\x10\x56\x57\x68\x99\xa5" to the variable var
+add the bytes literal "\x5b\x37\x42\x01\xbd\x3c\x72\x7c\x02\x3d\x5f\xc1\xcf" to the variable var
+add the bytes literal "\x90\x4a\x5c\xf3\x1e\x81\x69\x14\x75\x72\xde\xac\x77" to the variable var
+add the bytes literal "\x99\xaf\xbb\xed\xbe\x46\x56\x4e\x88\x72\x53\x44\x68" to the variable var
+add the bytes literal "\x0d\x01\xc7\xe2\xf2\x52\x57\x8b\x52\x10\x8b\x4a\x3c" to the variable var
+Convert the value of val1 to hexadecimal, then slice it between the indicies 2 and 3, convert it to an int16 and add its value to var1
+visible_issue_count is an integer 0.
+endless loop,
+while x is greater than zero,
+subtract decimals from digits, substitute the result for whole_digits.
+open writer.path file in write mode, with file descriptor as fh, perform the following,
+append to the string x the hexadecimal conversion of the and operation between a and 0xff
+append to the string encoded the hexadecimal conversion of the and operation between y and 0xff
+perform the and operation between y and 0xff, then convert the result in hexadecimal and append it to the string x
+add 1 to x
+Convert the value of y to hexadecimal, then slice it at index 3 and add its value to x
+Slice y at index 3 and add its value to x
+Convert the value of y to hexadecimal, then slice it at index 3 and add the value to x
+Convert the variable x to a hexadecimal and store it in the variable x
+initialize an empty string variable called x
+store the variable x the value of the function rol with x and rand as parameters
+perform a left shift on x by n, then store the result in x
+in x replace '\x45' with bytes object containing the value y packed according to the format string unsigned char
+assign the variable x the value of x xor 0xDD
+assign xor_byte the value of the function find_valid_xor_byte with chunk and bad_chars as parameters
+Take the absolute value of subfs then convert subfs to an integer, then cast to a hexadecimal, slice the variable rev_suplx between the indicies 0 and 2 then cast rev_suplx to the type int32, store the value of the summation in the variable xxx
+Convert the variable x to a hexadecimal and store it in the variable y
+append the value x converted in hex to the string y
+assign the variable y the bytearray of the variable shellcode at index 0 bitwise xor bytearray of shellcode at index 1
+assign the variable y to x bitwise xor the bytearray of shellcode at index n
+Convert the variable x to a hexadecimal and add it to the variable z followed by ','
+append the value y converted to hex to the string z
+zbuf is an instance of BytesIO class.

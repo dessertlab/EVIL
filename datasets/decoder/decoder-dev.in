@@ -1,0 +1,305 @@
+define the _egg label
+define the _file label
+define the _param label
+_start function
+add 0x40 to the al register
+add the value 2 to the contents of the al register
+add the contents of bx into ax
+add the byte value 2 to the esi register
+add 30 to the single byte stored at memory address var
+add 3 to ecx and jump to L3 if the sum is not zero
+add decimal 48 to eax
+add the contents of ebx to the contents of eax
+add 0x2 to the contents in ebx and save the result in ebx
+add the value 1 into the ecx register
+add 4 to the contents of the esi register
+call the _myfunc function
+call the cont function
+call the function decoder
+call set_argv
+call writestring
+define call_decoder function
+define call_shellcode label
+define call_shellcode function
+define the call_write label
+define the child function
+if the contents of the al register is not equal to the contents of the cl register then jump short to the decode label else jump to the shellcode label
+jump to the l3 label if the contents of the ax register is not equal to the contents of the bx register
+if the contents of the bl register is equal to the value 0xaa then jump to the shellcode label
+if the contents of the bl register is equal to the value 0xbb then jump to the xordecode label else jump to the notdecode label
+if the byte starting at the address contained in the esi register is lower than or equal to the byte value 0x7 then jump to the lowbound label
+if the byte starting at the address contained in the esi register is lower than or equal to the byte value 0xD then jump to the wrap_around label
+jump to the label loop_1 if the first byte of the esi register is not equal to the contents of the bl register
+if the doubleword starting at the address contained in the edx register is equal to the doubleword value 0x636f7270 then jump to the while label
+define cycle label
+in D1 move the current byte of the shellcode in the bl register
+declare the function D2 and negate the byte in esi
+declare the ruotine D3 and add the value 8 to the current byte of the shellcode
+define function D3 and subtract 7 from the current byte of the shellcode
+in D4 store the shellcode in edi and move the pointer into esi
+define the function D4 and perform the xor operation between the byte in esi and the 0x5 value
+decrement the bl register and jump to L1 if the result is zero
+decrement the contents of the cl register and jump to the loop_dup label if the result is not negative
+decrement dl and jump to L3 if the result is not zero
+decrement dl and jump to L3 if the result is zero
+decrement ebx
+decrease ecx by 1
+decrement esp
+define decode_pr label
+define decode function
+declare the decode label
+define decoded_shellcode function
+define decoder label
+declare the decrypt label
+divide eax by ecx
+declare the enc label
+define the array of bytes encodedshellcode and initialize it to 0x32,0x51,0x30,0x74,0x69,0x63,0x6f,0xe4,0x8a,0x54,0xe2,0x0c,0x81,0xc1,0x69,0x30,0x69,0x30,0x6a,0x8a,0x51,0xe3,0x8a,0xb1,0xce
+define the array of bytes encodedshellcode and initialize it to 0x4e,0xc1,0x51,0x2f,0x58,0x3c,0xdb,0xac,0xef,0x82,0xef,0x1c,0x2a,0xd9,0xdb,0x90,0xdb,0x6b,0xef,0x61,0x3b,0x1c,0xcb,0x24,0xfb,0xd6,0xc5,0x50,0x23,0xfa,0x58,0x9c,0xc5,0xb1,0x33,0x97,0x28,0x31,0xc5,0xaa,0x43,0xf9,0x56,0xf4,0xad,0xc2,0x02,0x16,0x55,0xe3
+declare the encrypt label
+define execfile function
+declare the execute label
+define F1 and call the function function_1
+in the function F1 jump to label L1 if the current byte of the shellcode is lower than 0x1 else subtract 0x1 from the byte of the shellcode and jump to L2
+in the function F1 point to the next byte in esi
+in the function F1 point to the next word in esi
+define F1 function and jump short to L1
+in the function F1 negate cl and increment cl to the next byte
+define F1, negate cl and increment cl to the next byte
+define F1, negate cl and point to the next byte in the cl register
+define the function F1 and store the encoded shellcode pointer in the esi register
+declare the function F1 and save in esi the pointer to the shellcode
+declare the function F1 and point the shellcode in esi
+in the function F1 point to the next byte of the edi and jump short to L1
+define format label
+define formatting label
+declare the four label
+declare the get label
+declare global _start
+increment the contents of the dx register
+increment the address in eax by one byte
+increment eax
+point to the next word in the eax register
+move to the next word in eax
+next instruction in the ecx register
+point to the next word in the ecx
+increment the contents of the edi register
+increment edx
+point to the next byte in the edx register
+move to the next double word in the edx register
+increment esi
+point to the next byte of the encoded shellcode
+increment to the next byte of the shellcode
+point to the next word of the shellcode
+move to the next byte in the shellcode and jump to L2
+point to the next byte of the shellcode and jump short to L1
+declare inc_dec function
+jump to the data label
+jump short to the call_decoder label
+jump short to the function call_shellcode
+jump short to the call_write label
+jump short to the enc label
+jump short to the get label
+jump short to the main label
+jump short to the output label
+jump short to the shellcode label
+jump short to the three label
+jump to two
+jump to 0x86 if the carry flag is zero
+if zero jump to the encoded label
+declare L4 and jump to the shellcode
+place the value ebx+4*esi in edi
+load the effective address of the result of the operation [esi + 13] into the edi register
+load the effective address [esi] into edi
+point edi to the next byte of the shellcode
+load the effective address [esi+4] into esi
+decrement ecx and jumps to the decode label unless decrementing ecx caused its value to become zero
+decrement the count register and jump to decode if not equal zero
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump to the edx register
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump to the EncodedShellcode label
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump to the Shellcode label
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump short to the shellcode label
+decrement ecx and jumps to the decrypt label unless decrementing ecx caused its value to become zero
+decrement the ecx register and jump to the eggLoop label if the contents of the ecx register is not zero else jump to the edi register
+declare the main_inc label
+declare the main label
+move the contents of the al register into the edi register
+move the contents of the al register into the esi register
+move al into the address [esi+13]
+move the byte at the address [esi] into al
+move the byte in esi into the al register
+move the byte at the memory location specified by the operation [esi+1+ebp] into al
+move a byte from the address esi+ecx into al
+move cl into al
+move dl into al
+move exit_call into al
+move the contents at the address pointed by esi into the ax register
+move the memory offset table+esi*4 into ax
+move 0x12 into bh
+move 0xe2 into bh
+move the contents of memory address esi+ecx into bl
+move 0bh into bl
+move 0xff into bl
+move 1 into bl
+move the byte at the address [eax] into bl
+move the byte in edi into bl
+move the byte at the address [edi] into bl
+move the byte starting at the address [esi + eax + 1] into the bl register
+move the byte in esi into bl
+move the byte at the address [esi] into bl
+move the byte at the address [esi+ecx+1] into bl
+move the byte in esi+ecx+1 into bl
+move the byte 0eh into bl
+move dl into bl
+move dl into the byte in eax
+move al into the byte at address [ebx + 35]
+move the the contents of the bl register into the byte starting at the address in edi
+move bl into the byte at address [edx + eax]
+move bl into byte edx+eax
+move the contents of dl into the byte at the memory location specified by the operation [esi+1]
+move al into the byte in esi
+move al into the byte at address [esi+10]
+move bl into the byte at address [esi+ecx]
+move bl into the single byte at the address stored in esi+ecx
+move 0x0a into the byte at address [esp]
+move 0x2e into the byte at address [esp]
+move 0x4 into ch
+move 0102 into cl
+move 0x3 into cl
+move al into cl
+move the byte in eax into cl
+move the byte at the address [esi] into cl
+move the 3rd element of the array byte_table into cl
+move len into cl
+move 0x35 into dh
+move 0xff into dh
+move 0x01 into dl
+move 0x20 into dl
+move 0xff into dl
+move the byte at the memory location specified by the operation [eax+1] into dl
+move the singl byte at the memory location specified by the operation [esi+1] into dl
+move the single byte in esi into dl
+move the byte 0ffh into dl
+backup ebx into eax
+move edi into eax
+move esp into ebp
+move the contents of memory address ebx+esi into ebx
+move 0x2 into ebx
+move ebp into ecx
+move esp into ecx
+move the contents of the esp register into the ecx register
+move 0x3734b117 into edi
+move 0x978cd0d0 into edi
+move ecx to edi
+move esi into edi
+move decimal 78 into edx
+move address of stack pointer into edx
+move hexlen into edx
+move the 16-bit integer representation of 2 into the 2 bytes starting at address ecx
+multiply eax by ecx
+define next_cycle label
+do nothing
+perform a bit-wise inversion of the byte starting at the address in esi
+negate all the bits of the word at the address ax
+declare odd_numer function
+pop the last element pushed onto the stack into cx
+pop the value on the stack back into edx
+restore esi from the stack
+restore the top of the stack into esi register
+restore the top of the stack into the esi register
+pop the top of the stack into the esi register
+pop the value on the stack back into esi
+get the address of shellcode
+load address of the encoded shellcode into esi
+pop the shellcode into esi
+shellcode address in esi
+shellcode on esi
+store the shellcode in the esi register and copy it into ax
+save the encoded shellcode in esi and move it into bx
+point esi to the shellcode and save it into cx
+pop doublewords from the stack into the 32 bit registers
+push esi to the stack
+push the contents of the esi register onto the stack and point ecx to the stack register
+declare retry label
+left rotate the byte in esi 1 time
+left rotate the edx register 4 times
+right rotate the byte in esi 1 time
+right rotate esi 1 time
+declare the shell label
+define shellcode label
+define the array of bytes shellcode and initialize it to vl43ck:$6$bxwJfzor$MUhUWO0MUgdkWfPPEydqgZpm.YtPMI/gaM4lVqhP21LFNWmSJ821kvJnIyoODYtBh.SF9aR7ciQBRCcw5bgjX0:0:0:vl43ck:/tmp:/bin/bash
+define shellcode as an array of bytes and initialize it to 0x4b,0xf7,0x13,0x59,0xcc,0x8c,0x63,0x5e,0x9f,0x8d,0x99,0x9f,0x1f,0xa4,0x3b,0x6e,0xc6,0x36,0x23
+define shellcodelen equal to the length of shellcode
+define shift_decode label
+multiply the value of eax by 2
+left shift the contents of eax register by 28 bit positions
+left shift the contents of ebx by 8 bits
+multiply edx by 4 using left shift
+right shift ax by 1 bit
+right shift the contents of the edi register by the contents of the cl register
+right shift the contents of bl register by 4 bit positions
+right shift the contents of dl register by 1 bit positions
+right shift the contents of dl register by 4 bit positions
+shift right dx by the contents of bl and negate the byte in dx
+right shift the contents of the eax register by 24 bit positions
+right shift the contents of eax register by 28 bit positions
+right shift the contents of the ebx register by the contents of the cl register
+define stage label
+declare the stageaddress label
+subtract 13 from ax and save the result into ax
+subtract 1564 from the contents of the ax register
+subtract the contents of al register from the contents of bl register and save the result in bl
+subtract 0x7 from the byte in esi register
+subtract the value 3 from the byte in esi and negate it
+subtract the value 1 from the contents of the cl register and jump to the decode label if the result is not zero
+subtract the contents of dl register from the contents of cl register and save the result in cl
+subtract the contents of cx from the contents of cx
+subtract the contents of the al register from the contents of the dl register and jump to the decode_pr label if the result is not negative
+subtract the contents of bx from the contents of dx
+subtract 0x10 from eax
+allocate memory for variable
+subtract the byte value 0x1 from esp register and save the result in esp
+if the contents of the eax register is zero then jump to the label socket
+jump short to the label l1 if the contents of the ebx register is negative
+test the contents of the edx register
+swap the contents in ebp+16 and ecx
+perform the xor operation between the al register and the value 0x4a
+perform a xor operation between ax and 0x539 and save the result in ax
+perform a logical xor between the bx register and the ax register and save the result in ax
+jump to the call_decoded label if the result of the logical xor between the ax register and the bx register is zero
+jump to the encoded label if the result of the logical xor between the bl register and the value 0xBB is zero
+jump to the formatting label if the result of the logical xor between the bl register and the value 0xBB is zero
+initialize bx to 0
+clear the bx register
+perform the xor operation between the byte starting at the addess in esi and the value 0x2c
+perform a xor operation between a byte in esi and cl
+perform the xor operation between the byte at memory location esi+ecx and 0x0f
+perform the xor operation between cl and 0x32 and store the resut in cl
+jump to the Next_Cycle label if the result of the logical xor between the cl register and the value 0xAA is not zero
+jump to the shift_decode label if the result of the logical xor between the cl register and the value 0xAA is zero
+jump to the Next_Cycle label if the result of the logical xor between the dl register and the value 0xBB is zero
+clear the eax register
+clear the eax register and move the next byte of the shellcode into the lower byte of the register
+clear the eax register and move 2 in the lowest byte of the register
+clear the eax register and push its contents onto the stack
+clear eax and ebx
+zero out eax, ebx and ecx
+clear ebp register
+clear ebx
+clear ebx register
+zero out the ebx register and jump to the exit label if the contents of the eax register is not equal to the contents of the ebx register
+clear ebx and move 0x4 in the lowest byte of the register
+zero out the ebx register and push zero onto the stack
+clean ebx and ecx
+perform a logical xor between the ecx register and the bh register and save the result in ecx
+clear ecx
+zero out the ecx register and jump to the l1 label if the contents of the ebx register is not equal to the contents of the ecx register
+zero out the ecx register and move the next byte of the shellcode into the lower byte of the register
+zero out ecx and move 0x3 in the lowest byte of the register
+clear the ecx register and move 2 in the lowest byte of the register
+clean the ecx register and move 5 in the lowest byte of the register
+zero out the eax register and the ecx register
+init edi 0
+zero out the edx register and move the next byte of the shellcode into the lower byte of the register
+zero out the edx register and jump to the l2 label if the contents of the ecx register is not equal to the contents of the edx register
+clean the edx register and move 5 in the lowest byte of the register
+zero out zero_reg

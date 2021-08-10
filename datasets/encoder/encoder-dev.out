@@ -1,0 +1,375 @@
+a += '\\x%02x' % random.randint(1,100)
+a += '0x'
+a += 1
+a = int(hopcode, 16)
+ba1 = bytearray(ba1)
+backend_cls = import_string ( backend )
+bad_app_labels = set ( )
+break
+break
+break
+break
+break
+buf = self . readline ( )
+buf = StreamingBuffer ( )
+buffer_ = line
+builtins = { 'True' : True , 'False' : False , 'None' : None }
+byte2int = operator . itemgetter ( 0 )
+bytes = float ( bytes )
+c = (a + b)%100
+chunk = self . _read_limited ( size - len ( self . buffer ) )
+chunk = stream . read ( max_header_size )
+chunk_length = len ( chunk )
+chunk_size *= 2
+count , ch = get_quantifier ( ch , pattern_iter )
+count = itertools . count ( 1 )
+count2 = ( since - ( seconds * count ) ) // seconds2
+counter = 0
+d += '0x'
+debugs = [ e for e in all_issues if e . level < checks . INFO and not e . is_silenced ( ) ]
+dec_part = dec_part [ : decimal_pos ]
+declared_fields . update ( base . declared_fields )
+declared_fields = OrderedDict ( )
+decode = curry ( _proxy_method , method = bytes . decode )
+decompress = False
+def add_truncation_text ( self , text , truncate = None ) :
+def add(a, b, c=3):
+def find_template_loader ( loader ) :
+def first ( value ) :
+def func(n, x, y=1):
+def mark_safe ( s ) :
+def media ( request ) :
+def rmtree_errorhandler ( func , path , exc_info ) :
+def root_attributes ( self ) :
+def routine(n):
+def rss_attributes ( self ) :
+elif name == 'abcd':
+elif version [ 3 ] != 'final' :
+else :
+else :
+elt = [ elt ]
+EMPTY_VALUES = ( None , '' , [ ] , ( ) , { } )
+empty_values = list ( validators . EMPTY_VALUES )
+encode = curry ( _proxy_method , method = six . text_type . encode )
+encode = lambda k , v : '%s=%s' % ( ( quote ( k , safe ) , quote ( v , safe ) ) )
+encoded += ','
+encoded += '\\y'
+encoded += '%02x, ' %j
+encoded += '%02x,' % (y & 0xff)
+encoded += '%02x,' % x
+encoded += '%02x,' % x
+encoded += '%02x,' % x
+encoded += '%02x,' %(7 -(256 - x))
+encoded += '%02x,' %(h & 0xff)
+encoded += '%02x,' %(x+7)
+encoded += '%02x,' %y
+encoded += '%02x' % x
+encoded += '0x%02x,' % 0xAA
+encoded += '0x%02x,' % rand
+encoded = '0x'
+encoded = "0x%02x," % len(bytearray(shellcode))
+encoded1 += '%02x' % z
+encoded3 += hex(leader)[2:]
+Encoders . encode_base64 ( attachment )
+encoding = 'ascii'
+encoding = encoding or settings . DEFAULT_CHARSET
+end , next = boundary
+es = bytearray(b"\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xe3\xb0\x0b\xcd\x80")
+except ZeroDivisionError :
+except zlib . error as e :
+except:
+executor = MigrationExecutor ( connections [ DEFAULT_DB_ALIAS ] )
+executor = MigrationExecutor ( connections [ DEFAULT_DB_ALIAS ] )
+exhaust ( field_stream )
+exhaust ( self . _input_data )
+exit_code = os . spawnve ( os . P_WAIT , sys . executable , args , new_environ )
+exit_code = restart_with_reloader ( )
+exit(4)
+exit(5)
+exp = connections [ db ] . ops . value_to_db_datetime ( exp )
+exp = datetime . fromtimestamp ( timeout )
+failures = test_runner . run_tests ( test_labels )
+FASTCGI_OPTIONS = {  'protocol' : 'fcgi' ,  'host' : None ,  'port' : None ,  'socket' : None ,  'method' : 'fork' ,  'daemonize' : None ,  'workdir' : '/' ,  'pidfile' : None ,  'maxspare' : 5 ,  'minspare' : 2 ,  'maxchildren' : 50 ,  'maxrequests' : 0 ,  'debug' : None ,  'outlog' : None ,  'errlog' : None ,  'umask' : None ,  }
+fd , name = tempfile . mkstemp ( suffix = suffix , prefix = prefix , dir = dir )
+final_path = abspathu ( join ( base , * paths ) )
+finally :
+for bit in smart_split_re . finditer ( text ) :
+for bit in tag_re . split ( self . template_string ) :
+for byte in array:
+for byte in lst:
+for byte in lst1:
+for byte in lst2:
+for byte in lst3_
+for bytes in stream :
+for c in lineno_comment_map [ comment_lineno_cache ] :
+for ch , escaped in input_iter :
+for ch in input_iter :
+for char in fmt :
+for char in str:
+for i , widget in enumerate ( self . widgets ) :
+for i , word in enumerate ( words ) :
+for i in bytearray(sc3):
+for i in bytearray(sc4):
+for i in bytearray(sh)[4:]:
+for i in lst:
+for i in random.sample(range(1, 256), 200):
+for i in range ( 0 , len ( pieces ) - 1 , 3 ) :
+for i in range ( 0 , self . total_form_count ( ) ) :
+for i in range ( len ( result ) ) :
+for i in range(0, 5):
+for i in range(0, len(shellcode_original), 8):
+for i in range(0, stop):
+for i in shellcode:
+for i_item , i_args in zip ( inner_result , inner_args ) :
+for index in range ( len ( hextets ) ) :
+for j in xrange ( int ( iterations ) ) :
+for x in argset :
+for x in bytearray(sh1) :
+for x in bytearray(sh2) :
+for x in bytearray(sh3) :
+for x in range ( level , 1 , - 1 ) :
+force_str = force_bytes
+format = options . get ( 'format' )
+format_0x += encoded_instruction_in_hex+","
+format_0x = ""
+format_key = ''
+format_slash_x = ""
+format_string = bits [ 1 ] [ 1 : - 1 ]
+guts = re . sub ( r"\\.|." , escape_quotes , tok [ 1 : - 1 ] )
+h = (y + x)%256
+handle_app = self . handle_app
+hlen = digest ( ) . digest_size
+host = '%s:%s' % ( host , server_port )
+i += 1
+i += 1
+i +=1
+i = 0
+i = self . pointer
+i=0
+I18N_MODIFIED = 2
+if "=" in x :
+if "0x1," in format_0x:
+if "help" in options :
+if ( self . validate_min and  self . total_form_count ( ) - len ( self . deleted_forms ) < self . min_num ) :
+if (len(a)%2)!=0:
+if (r ^ shellcode_original[i] != 0) and (r ^ shellcode_original[i+1] != 0) and (r ^ shellcode_original[i+2] != 0) and (r ^ shellcode_original[i+3] != 0):
+if 100 <= response . status_code < 200 or response . status_code in ( 204 , 304 ) :
+if a < 1:
+if accept_lang == '*' :
+if changes :
+if cookie == '' :
+if count != 0 :
+if count % 2 != 0:
+if count2 != 0 :
+if counter % 3 == 0 :
+if csrf_token :
+if i < 36 ** factor :
+if i < len(chunk):
+if i == 0 and not is_writable ( npath ( base_path + '.mo' ) ) :
+if i == int(shellcode.encode('hex'), 16):
+if len ( x ) == 0 :
+if len_values < 1 :
+if len(sys.argv) != 3:
+if len(sys.argv) < 10:
+if len(x) > 4:
+if len(z) % 4 != 0:
+if level :
+if matched_a_byte:
+if mtime != _mtimes [ filename ] :
+if not match or not match . group ( 1 ) :
+if not matched_a_byte:
+if p_pattern . startswith ( '^' ) :
+if padding:
+if role in PALETTES [ NOCOLOR_PALETTE ] and definition :
+if root :
+if router . allow_migrate ( self . using , obj . object . __class__ ) :
+if row [ 4 ] is None or row [ 5 ] is None :
+if strings_only and is_protected_type ( s ) :
+if struct.pack('B', my_value ^ i) == z:
+if sub_match :
+if total != 2:
+if with_base_fields :
+if words and length <= 0 :
+if x == 0 :
+if x == bytearray(shellcode)[n]:
+if xxx >= 0:
+if y == m == d == "0" :
+if z == byte:
+if z == int(byte.encode('hex'), 16):
+import struct
+import subprocess
+import sys
+import tarfile
+import tempfile
+inputs = [ ]
+insert = complain
+insertByte = hex(random.randint(1,2))
+instance . keyOrder = [ ]
+itervalues = _itervalues
+j = (i + magic)%256
+j = 36 ** factor
+lead , trail = escape ( lead ) , escape ( trail )
+lead = lead + opening
+leader = int(sys.argv[2])
+len_values = len ( values )
+len(bytearray(var)))
+length = int ( arg )
+length_format_0x = format_0x.count(',')
+level += 1
+lit = b""
+m2m_value = lambda value : value . natural_key ( )
+match = True
+matches = False
+max_age = max ( 0 , delta . days * 86400 + delta . seconds )
+max_bits = 8
+mw_instance = mw_class ( )
+n &= mask(width)
+n += '%02x' % y
+n += 1
+n = getattr ( lookup_view , '__name__' , None )
+n = int ( idx )
+name = ""
+nasm = encoded.replace("\\x", ",0x")
+nasm = nasm[1:]
+natural = value . natural_key ( )
+natural_key = obj . natural_key ( )
+nbits = int(sys.argv[2])
+new = '#: ' + orig_file
+new = ~i & 0xff
+new = new ^ xor
+new = new << shift
+ORDERING_FIELD_NAME = 'ORDER'
+orig = []
+orig_vars = cls . __dict__ . copy ( )
+orig.append(i)
+original_path = os . path . join ( tmpdir , 'original' )
+original_shellcode += '%02x, ' %x
+os . _exit ( 0 )
+os . _exit ( 1 )
+p . feed ( data )
+P = '\03335m'
+pad = b'=' * ( - len ( s ) % 4 )
+padding = 4 - (len(shellcode_original) % 4)
+r = r [ : 23 ] + r [ 26 : ]
+r = random.randint(10,255)
+raise
+RAISE_ERROR = object ( )
+random = random . SystemRandom ( )
+res = op[0:2]
+res = to_digits [ digit ] + res
+res = x ^ y
+res1 = ((z & val1) >> val2)
+res1 = (x >> val2) & (val1)
+res2 = (x & val1)
+res2 = res2 >> (max_bits-val2)
+res2 = x << (max_bits + val2)
+result = "\\x%02x," % len(bytearray(sc))
+return ( TYPE , outdict , stream )
+return ((n << temp) & mask_value) | (n >> (width - temp))
+return (n >> rotations) ^ ((n << (width - rotations)) & mask_value)
+return [  Warning (  "BooleanField does not have a default value." ,  hint = ( "Django 1.6 changed the default value of BooleanField from False to None. "  "See https://docs.djangoproject.com/en/1.6/ref/models/fields/#booleanfield "  "for more information." ) ,  obj = field ,  id = '1_6.W002' ,  )  for field in problem_fields  ]
+return 2**n - 1
+return i
+return I18N_MODIFIED if filename . endswith ( '.mo' ) else FILE_MODIFIED
+return msgs
+return name
+retval = self . expression ( )
+retval = self . tokens [ self . pos ]
+rev_suplx = suplX[::-1]
+reverse = complain
+roots = set ( dir ( cls ) ) & set ( convert )
+ROT = int(sys.argv[1])
+rox_encoded_instruction = res1 | res2
+s += '\\x%02x' % 0xAA
+s = 'hello'
+sb = int(hex(leader),16) 
+sc.append(struct.pack('B', val2))
+scheme , netloc , path , query , fragment = urlsplit ( url )
+shell . mainloop ( )
+shell_len = len(bytearray(shellcode))
+shellcode += '\\x' + byte.encode('hex')
+shellcode += "%02x" %(x & 0xff)
+shellcode = shellcode[3::]
+shellcode ='\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80'
+shellcode_encoded_hex = ''.join('\\x{:02x}'.format(x) for x in shellcode_encoded)
+shellcode_encoded_nasm = ''.join('0x{:02x},'.format(i) for i in shellcode_encoded).rstrip(',')
+shellcode_encoded.append(shellcode_original[i] ^ r)
+shellcode_encoded.append(shellcode_original[i+1] ^ r)
+shellcode_original = bytearray.fromhex(f.read().strip().replace('\\t',''))
+shellcode_original_hex = ''.join('\\x{:02x}'.format(x) for x in shellcode_original)
+shellcode.append(0x70)
+shells = [ 'ipython' , 'bpython' ]
+should_convert = ( isinstance ( value , datetime )  and ( settings . USE_TZ if use_tz is None else use_tz )  and not is_naive ( value )  and getattr ( value , 'convert_to_local_time' , True ) )
+str += '0x'
+str += "%02x," %(z & 0xff)
+str += "0x"
+str = ""
+str = ""
+str = str + str1
+str.append(struct.pack('B', xor_byte))
+str1 += '0x'
+str1 += "\\x"
+str1 = '%02x' % str
+str1 = ""
+str1.append(struct.pack('B', val4))
+str4 += '%02x, ' %shift
+str5 += '%02x, ' %val2
+string_types = str ,
+strip_tags = allow_lazy ( strip_tags )
+style . ERROR_OUTPUT = style . ERROR
+subcommands = list ( get_commands ( ) ) + [ 'help' ]
+super_set = super ( SortedDict , self ) . __setitem__
+supports_microseconds = False
+swapped=", ".join(swapped[i:i+2] for i in range(0, len(swapped), 2))
+swapped="0x".join(swapped[i:i+2] for i in range(0, len(swapped), 2))
+swapped=binascii.hexlify(bytearray(swapped))
+sys . stdout = open ( out_log , 'a' , buffering )
+sys.exit(0)
+t -= 1
+top_errors = self . non_field_errors ( )
+try :
+val += '%02x' %(7 -(256 - x))
+val += '%02x'%(x+7)
+val = ''.join('\\x{}'.format(hex(ord(x))[2:]) for x in var)
+val1 = 2**max_bits-1
+val1 = func(tmp)
+val1 = int(byte.encode('hex'), 16) ^ i
+val1 = self . var1 . resolve ( context , True )
+val2 = int(chunk[i].encode('hex'), 32) ^ xor_byte
+val2 = parser . compile_filter ( bits [ 2 ] )
+var += '\\x'
+var += '\\x%02x' % rand
+var += '0x'
+var += b"\x0a\x1b\x2c\x3d\x4e\x5f\x6a\x10\x56\x57\x68\x99\xa5"
+var += b"\x5b\x37\x42\x01\xbd\x3c\x72\x7c\x02\x3d\x5f\xc1\xcf"
+var += b"\x90\x4a\x5c\xf3\x1e\x81\x69\x14\x75\x72\xde\xac\x77"
+var += b"\x99\xaf\xbb\xed\xbe\x46\x56\x4e\x88\x72\x53\x44\x68"
+var += b"\xae\xf2\xc4\xbb\x03\x41\xcd\x8b\x52\x10\x8b\x4a\x3c"
+var1 = int(hex(val1)[2:3],16)
+visible_issue_count = 0
+while True :
+while x > 0 :
+whole_digits = digits - decimals
+with open ( writer . path , "wb" ) as fh :
+x += '%02x' % (a & 0xff)
+x += '%02x' % (a & 0xff)
+x += '%02x' % (y & 0xff)
+x += 1
+x += hex(y)[3:]
+x += y[3:]
+x += y[3:]
+x = '%02x' %x
+x = ""
+x = rol(x,rand)
+x = x << nbits
+x = x.replace('\x45', struct.pack('B', y))
+x = x^0xDD
+xor_byte = find_valid_xor_byte(chunk, bad_chars)
+xxx = hex(int(abs(subfs)) + int(rev_suplx[0:2],32))
+y += '%02x' % x
+y += '%02x' % x
+y = bytearray(shellcode)[0]^bytearray(shellcode)[1]
+y = x^bytearray(shellcode)[n]
+z += '%02x,' % x
+z += '%02x' % y
+zbuf = BytesIO ( )

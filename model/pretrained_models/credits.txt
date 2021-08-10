@@ -1,0 +1,2 @@
+Credits to the authors of CodeBERT for providing this pre-trained model: https://github.com/microsoft/CodeBERT
+https://arxiv.org/pdf/2002.08155.pdf
