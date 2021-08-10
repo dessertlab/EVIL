@@ -12,7 +12,7 @@ This section is written based on our setup experience on *Red Hat's Linux 7.5*. 
 
 #### Recommended GPU Set up
 * If you are using an HPC cluster run the following command to enable **Python 3.7 with CUDA**: `module load cuda/9.2  anaconda3/5.0.1-cuda92`
-* If you are using a local machine and have anaconda set up already run the following command `conda env create -f shellbe_env_gpu.yml` Upon completion activate it using `conda activate shellbe_env`. The move to the Install Natural Language tools section.
+* If you are using a local machine and have anaconda set up already run the following command `conda env create -f evil_env_gpu.yml` Upon completion activate it using `conda activate evil_env`. The move to the Install Natural Language tools section.
 
 
 ### Step 2: Dependencies Setup
