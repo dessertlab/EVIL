@@ -44,7 +44,7 @@ if [ $1 -eq 1 ]; then
     #double check this
     echo_time "Exctracting raw data ..."
     cd $WDIR/processed_dataset/
-    python $SDIR/preproc/our_extract_raw_data.py $2 # > raw_data.txt
+    python $SDIR/preproc/our_extract_raw_data.py $1 $2 # > raw_data.txt
     # Preprocess Assembly Dataset
     echo_time "Preprocessing ..."
     python $SDIR/preproc/json_to_seq2seq.py encoder-train.json.seq2seq encoder-train.intent encoder-train.snippet
@@ -65,7 +65,7 @@ if [ $1 -eq 2 ]; then
     #double check this
     echo_time "Exctracting raw data ..."
     cd $WDIR/processed_dataset/
-    python $SDIR/preproc/our_extract_raw_data.py $2 # > raw_data.txt
+    python $SDIR/preproc/our_extract_raw_data.py $1 $2 # > raw_data.txt
     # Preprocess Assembly Dataset
     echo_time "Preprocessing ..."
     python $SDIR/preproc/json_to_seq2seq.py decoder-train.json.seq2seq decoder-train.intent decoder-train.snippet

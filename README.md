@@ -73,8 +73,8 @@ The predicted output will be generated in the subdirectory ``model/eval/[encoder
 * Run ``bash utils/test_split.sh [DATASET] 0`` for raw corpus token counts
 
 ## TODO
-- [ ] Add in preprocessing options for both encoder and decoder datasets in the ``preproc`` folder
-- [ ] Edit `Launch.sh` to account for dataset and preproccessing selections
+- [x] Add in preprocessing options for both encoder and decoder datasets in the ``preproc`` folder
+- [x] Edit `Launch.sh` to account for dataset and preproccessing selections
 - [ ] Edit `eval_prep.py` to account for dataset selection.
 - [x] Update the README
 - [x] CodeBERT download and set up

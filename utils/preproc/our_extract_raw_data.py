@@ -32,25 +32,82 @@ if __name__ == '__main__':
                   ),
 
         
-     #Pre-processing 1: ShellBe Best preprocessing 
-        Canonical(remove=[],
-                replace={' in ' : ' ', ' of ': ' ', ' into ' : ' ', ' a ': ' ',' an ' : ' ', ' to ': ' ',' at ' : ' ',' on ': ' ' ,' onto ' : ' ', ' from ' : ' ', ' each ' : ' ',' with ' : ' ', ' as ': ' ',' between ':' ', ' there ': ' ',' itself ': ' ', ' the ':' ', ' in ': ' ', ' by ': ' ', ' are ' : ' ', ' is ' : ' ' },
+    #Pre-processing 1: Encoder without IP
+        Canonical(remove=["is there (a|any)?", 'how (do|can|should|would) (i|you)',
+                          '(programmatic|pythonic)(ally)?', '(with )?(in )?python', '[a-z ]*(possible|way|how) to ',
+                          '(is there an? )?(in a )?(simple)|(easy) way( to)?|simply|easily', 'cant?( (i)|(you)|(we))?'],
+                  replace={' an?[ .]': ' ', 'dictionary': 'dict', " the ": " "},
+                  lower=True,
+                  stemmer=None,
+                  remove_punctuation=False,
+                  std_var=False,
+                  parser=0
+                  ),
+
+        # Pre-processing 2: Encoder with IP
+        Canonical(remove=["is there (a|any)?", 'how (do|can|should|would) (i|you)',
+                          '(programmatic|pythonic)(ally)?', '(with )?(in )?python', '[a-z ]*(possible|way|how) to ',
+                          '(is there an? )?(in a )?(simple)|(easy) way( to)?|simply|easily', 'cant?( (i)|(you)|(we))?'],
+                  replace={' an?[ .]': ' ', 'dictionary': 'dict', " the ": " "},
                   lower=False,
                   stemmer=None,
                   remove_punctuation=False,
                   std_var=True,
-                 ),         
+                  parser=0),
+
+        # Pre-processing 3: Decoder without IP
+        Canonical(remove=[],
+                  replace={' in ': ' ', ' of ': ' ', ' into ': ' ', ' a ': ' ', ' an ': ' ', ' to ': ' ', ' at ': ' ',
+                           ' on ': ' ', ' onto ': ' ', ' from ': ' ', ' each ': ' ', ' with ': ' ', ' as ': ' ',
+                           ' between ': ' ', ' there ': ' ', ' itself ': ' ', ' the ': ' ', ' in ': ' ', ' by ': ' ',
+                           ' are ': ' ', ' is ': ' ', ' than ': ' '},
+                  lower=False,
+                  stemmer=None,
+                  remove_punctuation=True,
+                  std_var=False,
+                  parser=0,
+                  reserved_words='assembly',
+                  ),
+
+
+
+        # Pre-processing 4: Decoder with IP
+        Canonical(remove=[],
+                  replace={' in ': ' ', ' of ': ' ', ' into ': ' ', ' a ': ' ', ' an ': ' ', ' to ': ' ', ' at ': ' ',
+                           ' on ': ' ', ' onto ': ' ', ' from ': ' ', ' each ': ' ', ' with ': ' ', ' as ': ' ',
+                           ' between ': ' ', ' there ': ' ', ' itself ': ' ', ' the ': ' ', ' in ': ' ', ' by ': ' ',
+                           ' are ': ' ', ' is ': ' ', ' than ': ' '},
+                  lower=False,
+                  stemmer=None,
+                  remove_punctuation=False,
+                  std_var=True,
+                  parser=0,
+                  reserved_words='assembly',
+                  ),
+
+
 
     ]
+    fileSelect = int(sys.argv[1])
 
-    list_of_files = [('assembly-train.json','to_parse'), ('assembly-dev.json','to_parse'),('assembly-test.json','to_parse')]
+
+    if fileSelect == 1:
+        list_of_files = [('encoder-train.json', 'to_parse'), ('encoder-dev.json', 'to_parse'),
+                         ('encoder-test.json', 'to_parse')]
+
+    elif fileSelect == 2:
+        list_of_files = [('decoder-train.json','to_parse'), ('decoder-dev.json','to_parse'),('decoder-test.json','to_parse')]
+
 
    
     
-    canonSelect = int(sys.argv[1])
+    canonSelect = int(sys.argv[2])
     if canonSelect < len(canonOptions):
-        print("Setting canon")
-        canon = canonOptions[canonSelect]
+        print("Setting preprocessing pipeline")
+        if canonSelect !=0 and fileSelect == 2:
+            canon = canonOptions[canonSelect + fileSelect]
+        else:
+            canon = canonOptions[canonSelect]
     else:
         print("Failed to set cannon...., using default")
 
@@ -134,7 +191,7 @@ if __name__ == '__main__':
                       encoded_reconstr_code = get_encoded_code_tokens(snippet.strip())
                       #print('Error #1')
                 except:
-                    print('Error #1')
+                    #print('Error #1')
                     #num_failed += 1
                     failed = True
                     #traceback.print_exc()
