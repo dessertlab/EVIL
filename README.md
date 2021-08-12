@@ -1,5 +1,13 @@
 # EVIL: Exploiting Software via Natural Language
 
+This repository contains the dataset and the code related to the paper **EVIL: Exploiting Software via Natural Language** accepted for publication at the 32nd International Symposium on Software Reliability Engineering (ISSRE 2021) conference. 
+
+The repo contains:
+* A substantive dataset containing exploits collected from shellcode databases, and their descriptions in the English language. The dataset includes both assembly code (i.e, shellcodes and decoders) and Python code (i.e., encoders). Such data is valuable to support research in machine translation for security-oriented applications since the techniques are data-driven. 
+* The code to reproduce the experiments in the paper.
+* Additional information on the test set
+
+
 ## Setup Prerequisites
 
 Before setting up our project we'd like to make sure you have some prerequisite installations and setups.
