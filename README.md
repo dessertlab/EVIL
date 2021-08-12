@@ -5,7 +5,7 @@ This repository contains the dataset and the code related to the paper **EVIL: E
 The repo contains:
 * A substantive dataset containing exploits collected from shellcode databases, and their descriptions in the English language. The dataset includes both assembly code (i.e, shellcodes and decoders) and Python code (i.e., encoders). Such data is valuable to support research in machine translation for security-oriented applications since the techniques are data-driven. 
 * The code to reproduce the experiments in the paper.
-* Additional information on the test set
+* The appendix of the paper containing additional information on the test set.
 
 
 ## Setup Prerequisites
