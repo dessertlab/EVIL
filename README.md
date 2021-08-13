@@ -24,7 +24,7 @@ This section is written based on our setup experience on *Red Hat's Linux 7.5*. 
 
 
 ### Step 2: Dependencies Setup
-* It is recommended you use a virtual environment for the dependency set up (**Conda environment**). If you do not  wish to do so, then simply run ``pip3 install -r requirements.txt`` from the ShellBe directory.
+* It is recommended you use a virtual environment for the dependency set up (**Conda environment**). If you do not  wish to do so, then simply run ``pip3 install -r requirements.txt``.
 
 #### Setting up a Conda environment
 * Import our saved conda environment using the command: ``conda env create -f evil_env.yml`` and activate it using ``source activate evil_env`` or ``conda activate evil_env``
@@ -40,23 +40,26 @@ This section is written based on our setup experience on *Red Hat's Linux 7.5*. 
    
 
 ### Step 3: Replicating Results
-This  section briefly describes how to replicate the ShellBe experiment mentioned in the manuscript under Table 3. Before running any of the bash commands ensure that you conda environment is **activated**.
+This  section briefly describes how to replicate the experiment mentioned in the paper. Before running any of the bash commands ensure that you conda environment is **activated**.
 To Launch the finetuning and evalulation processes the basic command template is as follows: <br>
 ``bash Launch.sh [DEVICE] [DATASET] [PREPROCESSING]``<br>
 
-**Preprocessing Options:**
-0. Raw corpus counts
-1. Preprocessing without the Intent Parser (IP)
-2. Preprocessing with the Intent Parser (IP)
+**Device Options**:
+
+0. Local machine
+1. HPC with a SLURM scheduler
+2. HPC with a TORQUE scheduler
 
 **Dataset Options:** 
 1.  Python Encoder Dataset
 2.  Assembly Decoder Dataset
 
-**Device Options**:
-0. Local machine
-1. HPC with a SLURM scheduler
-2. HPC with a TORQUE scheduler
+**Preprocessing Options:**
+
+0. Raw corpus counts
+1. Preprocessing without the Intent Parser (IP)
+2. Preprocessing with the Intent Parser (IP)
+
 #### Running on a local machine
 * From the EVIL home directory, run ``bash Launch.sh 0 [DATASET] [PREPROCESSING]``
 
