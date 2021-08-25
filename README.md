@@ -9,11 +9,13 @@ This repository contains:
 * The appendix of the paper containing additional information on the test set.
 
 
-## Datasets
+## Dataset
 To automatically generate Python and assembly programs used for security exploits, we curated a large dataset for feeding NMT techniques. A sample in the dataset consists of a snippet of code from these exploits and their corresponding description in the English language.
 We collected exploits from publicly available databases ([*exploitdb*](https://www.exploit-db.com/), [*shellstorm*](http://shell-storm.org/shellcode/)), public repositories (e.g., GitHub), and programming guidelines. In particular, we focused on exploits targeting Linux, the most common OS for security-critical network services, running on IA-32 (i.e., the 32-bit version of the x86 Intel Architecture). The dataset consists of two parts: 
 1. **Encoders**: a Python dataset, which contains Python code used by exploits to encode the shellcode;
-2. **Decoders**: an assembly dataset, which includes shellcode and decoders to revert the encoding.  
+2. **Decoders**: an assembly dataset, which includes shellcode and decoders to revert the encoding.
+
+ 
 Please, find the detailed information of the datasets on the paper. 
 
 
