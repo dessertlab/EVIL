@@ -45,11 +45,11 @@ function select_dataset() {
 		echo_time "Python Encoder dataset selected";
 	elif [ $2 -eq 2 ]; then
 		dataset=2;
-		echo_time "Assembly Deocder dataset selected";
+		echo_time "Assembly Decoder dataset selected";
 	else
 		echo "ERROR: Wrong machine";
 	        echo "Usage: ./Launch.sh [DEVICE] [DATASET] [PREPROCESSING]"
-		echo "DATASET: type 1 for the Encoder Python dataset, 2 for the Deocder Assembly Dataset."
+		echo "DATASET: type 1 for the Encoder Python dataset, 2 for the Decoder Assembly Dataset."
 		exit 0;
 	fi
 }
