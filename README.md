@@ -50,8 +50,10 @@ This section is written based on our setup experience on *Red Hat's Linux 7.5*. 
 
 ### Step 3: Replicating Results
 This  section briefly describes how to replicate the experiment mentioned in the paper. Before running any of the bash commands ensure that you conda environment is **activated**.
-To Launch the finetuning and evalulation processes the basic command template is as follows: <br>
-``bash Launch.sh [DEVICE] [DATASET] [PREPROCESSING]``<br>
+
+### CodeBERT Finetuning
+To Launch the finetuning and evaluation processes of CodeBERT the basic command template is as follows: <br>
+``bash CodeBERT_Launch.sh [DEVICE] [DATASET] [PREPROCESSING]``<br>
 
 **Device Options**:
 
@@ -70,21 +72,30 @@ To Launch the finetuning and evalulation processes the basic command template is
 2. Preprocessing with the Intent Parser (IP)
 
 #### Running on a local machine
-* From the EVIL home directory, run ``bash Launch.sh 0 [DATASET] [PREPROCESSING]``
+* From the EVIL home directory, run ``bash CodeBERT_Launch.sh 0 [DATASET] [PREPROCESSING]``
 
 #### Running on an HPC with a SLURM scheduler
 * Navigate to ``EVIL/model/fine_tune.slurm`` and add in your GPU queue name under the TODO comment.
-* From the EVIL home directory, run ``bash Launch.sh 1 [DATASET] [PREPROCESSING]``
+* From the EVIL home directory, run ``bash CodeBERT_Launch.sh 1 [DATASET] [PREPROCESSING]``
 * When the job is complete, from the EVIL home directory, run ``bash evaluate.sh``
 
 #### Running on an HPC with a TORQUE scheduler
 * Navigate to ``EVIL/model/fine_tune.pbs`` and add in your GPU queue name under the TODO comment.
-* From the EVIL home directory, run ``bash Launch.sh 2 [DATASET] [PREPROCESSING]``
+* From the EVIL home directory, run ``bash CodeBERT_Launch.sh 2 [DATASET] [PREPROCESSING]``
 * When the job is complete, from the EVIL home directory, run ``bash evaluate.sh``
 
 #### Final Results
 The final evaluation results would appear on your console if you are running on your local machine and in the specified logging output directory if a job was submitted.
 The predicted output will be generated in the subdirectory ``model/eval/[encoder/decoder]_test_output.json``.
+
+
+### Seq2Seq Training
+To launch the training and evaluation of the Seq2Seq model mentioned in the paper also ensure the conda environment is active. The basic command template is as follows: <br>
+``bash Seq2Seq_Launch.sh [DATASET] [PREPROCESSING]``<br>
+The dataset and preprocessing options are the same as that of CodeBERT.
+#### Final Results
+The final evaluation results would appear on your console if you are running on your local machine and in the specified logging output directory `seq2seq/logs`
+The predicted output will be generated in the subdirectory ``seq2seq/archive/id-[timestamp]/answer_[encoder/decoder].txt``.
 
 ## Appendix
 The folder *EVIL/Appendix* contains detailed information on the 20 encoders and decoders used in the test set.

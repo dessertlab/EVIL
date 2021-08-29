@@ -29,8 +29,8 @@ function select_machine() {
 		file="fine_tune.pbs";    
 		echo_time "TORQUE machine selected";   
 	else 
-		echo "ERROR: Wrong machine";
-	        echo "Usage: ./Launch.sh [DEVICE] [DATASET] [PREPROCESSING]"
+		echo "ERROR: Invalid machine";
+	        echo "Usage: ./CodeBERT_Launch.sh [DEVICE] [DATASET] [PREPROCESSING]"
 		echo "DEVICE: type 0 for local machine, 1 for HPC w/ SLURM, 2 for HPC w/ TORQUE."
 		exit 0;
 	fi
@@ -49,8 +49,8 @@ function select_dataset() {
 		dataset_str="decoder";
 		echo_time "Assembly Decoder dataset selected";
 	else
-		echo "ERROR: Wrong machine";
-	        echo "Usage: ./Launch.sh [DEVICE] [DATASET] [PREPROCESSING]"
+		echo "ERROR: Invalid dataset";
+	        echo "Usage: ./CodeBERT_Launch.sh [DEVICE] [DATASET] [PREPROCESSING]"
 		echo "DATASET: type 1 for the Encoder Python dataset, 2 for the Decoder Assembly Dataset."
 		exit 0;
 	fi
@@ -66,8 +66,8 @@ function select_preprocessing() {
 		preprocessing=2;
 		echo_time "Preprocessing with Intent Parser (IP) selected";
 	else
-		echo "ERROR: Wrong machine";
-	        echo "Usage: ./Launch.sh [DEVICE] [DATASET] [PREPROCESSING]"
+		echo "ERROR: Invalid preprocessing";
+	        echo "Usage: ./CodeBERT_Launch.sh [DEVICE] [DATASET] [PREPROCESSING]"
 		echo "PREPROCESSING: type 1 preprocessing without the Intent Parser, 2 for preprocessing with the Intent Parser"
 		exit 0;
 	fi
