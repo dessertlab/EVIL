@@ -20,7 +20,27 @@
 
 cd $PBS_O_WORKDIR
 
-lang=Shellcode_IA32 #change when changing dataset version (i.e. _fixed, _intent_parser) etc 
+function select_dataset() {
+	dataset=1; #modify this variable to change the model
+	if [ $1 -eq 1 ]; then
+		dataset=1;
+		dataset_str="encoder";
+		echo_time "Python Encoder dataset selected";
+	elif [ $1 -eq 2 ]; then
+		dataset=2;
+		dataset_str="decoder";
+		echo_time "Assembly Decoder dataset selected";
+	else
+		echo "ERROR: Wrong machine";
+	        echo "Usage: ./Launch.sh [DEVICE] [DATASET] [PREPROCESSING]"
+		echo "DATASET: type 1 for the Encoder Python dataset, 2 for the Decoder Assembly Dataset."
+		exit 0;
+	fi
+}
+
+select_dataset $1;
+
+lang=$dataset_str
 lr=5e-5
 batch_size=32 # or 64
 beam_size=10
@@ -28,9 +48,9 @@ source_length=256
 target_length=128
 data_dir=../processed_dataset/ #change when changing dataset version
 output_dir=finetuned_model/$lang
-train_file=$data_dir/assembly-train.json.seq2seq #change when changing dataset
-dev_file=$data_dir/assembly-dev.json.seq2seq #change when changing dataset
-test_file=$data_dir/assembly-test.json.seq2seq #change when changing dataset
+train_file=$data_dir/$dataset_str-train.json.seq2seq #change when changing dataset
+dev_file=$data_dir/$dataset_str-dev.json.seq2seq #change when changing dataset
+test_file=$data_dir/$dataset_str-test.json.seq2seq #change when changing dataset
 eval_steps=320 
 train_steps=2800 
 pretrained_model=pretrained_models/pytorch_model.bin #CodeBERT: path to CodeBERT. Roberta: roberta-base
