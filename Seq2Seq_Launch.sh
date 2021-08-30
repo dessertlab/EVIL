@@ -9,13 +9,13 @@ echo "|______|   \/   |_____|______|";
 
 #SRC_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 SRC_DIR=$PWD
-mkdir -p seq2seq
-mkdir -p seq2seq/logs
-mkdir -p seq2seq/
-mkdir -p seq2seq/archive
 RES_DIR=$SRC_DIR"/seq2seq/results"
 LOG_DIR=$SRC_DIR"/seq2seq/logs"
 ARCHIVE=$SRC_DIR"/seq2seq/archive"
+mkdir -p seq2seq
+mkdir -p $RES_DIR
+mkdir -p $LOG_DIR
+mkdir -p $ARCHIVE
 timestamp=$(date +%Y-%m-%d-%H-%M)
 exec > >(tee -ia $LOG_DIR/log_$timestamp.txt  | tee -ia >(grep -e 'bleu\|exact\|Duration' >> $LOG_DIR/shortLog_$timestamp.txt))
 exec 2>&1
