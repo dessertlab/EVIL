@@ -123,6 +123,7 @@ class Canonical:
         self.remove_punctuation = remove_punctuation
         self.lower = lower
         self.translator = str.maketrans('', '', string.punctuation)
+        self.reserved_words = reserved_words
         #print(self.reserved_words)
         if (self.std_var):
             shellbe_index = os.path.abspath(".").index('EVIL')
