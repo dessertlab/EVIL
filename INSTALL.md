@@ -34,7 +34,7 @@ Ensure you have Anaconda3 installed, if not install **Python 3.7** from [*Anacon
    
 
 ## Step 3: Running Experiments
-This  section briefly describes how to replicate the experiment mentioned in the paper. Before running any of the bash commands ensure that you conda environment is **activated**.
+This section briefly describes how to replicate the experiment mentioned in the paper. If you are using an anaconda environment, please ensure that you conda environment is **activated** before running any of the bash commands below.
 
 ### CodeBERT
 To Launch the finetuning and evaluation processes of CodeBERT the basic command template is as follows: <br>
