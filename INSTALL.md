@@ -83,3 +83,10 @@ The dataset and preprocessing options are the same as that of CodeBERT.
 The final evaluation results would appear on your console if you are running on your local machine and in the specified logging output directory `seq2seq/logs`
 The predicted output will be generated in the subdirectory ``seq2seq/archive/id-[timestamp]/answer_[encoder/decoder].txt``.
 
+
+ 
+## Notes
+* Run ``bash utils/test_split.sh`` for details on the different preprocessing options
+* If you chose to submit a job, the logs will be stored in ``model/job_logs/``, named with the job id.
+* Run ``bash utils/test_split.sh [DATASET] 0`` for raw corpus token counts
+
