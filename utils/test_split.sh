@@ -39,7 +39,7 @@ if [ $1 -eq 1 ]; then
     python text_to_json.py $DATASET/encoder/encoder-dev.in $DATASET/encoder/encoder-dev.out
     python text_to_json.py $DATASET/encoder/encoder-train.in $DATASET/encoder/encoder-train.out
     python text_to_json.py $DATASET/encoder/encoder-test.in $DATASET/encoder/encoder-test.out
-    mv $WDIR/assembly-*.json $WDIR/processed_dataset/
+    mv $WDIR/encoder-*.json $WDIR/processed_dataset/
 
     #double check this
     echo_time "Exctracting raw data ..."
@@ -53,14 +53,14 @@ if [ $1 -eq 1 ]; then
 
 
 
-if [ $1 -eq 2 ]; then
+elif [ $1 -eq 2 ]; then
     echo_time "You selected the Assembly Decoder dataset"
     # Convert Assembly Dataset to JSON
     echo_time "Converting and moving the dataset ..."
     python text_to_json.py $DATASET/decoder/decoder-dev.in $DATASET/decoder/decoder-dev.out
     python text_to_json.py $DATASET/decoder/decoder-train.in $DATASET/decoder/decoder-train.out
     python text_to_json.py $DATASET/decoder/decoder-test.in $DATASET/decoder/decoder-test.out
-    mv $WDIR/assembly-*.json $WDIR/processed_dataset/
+    mv $WDIR/decoder-*.json $WDIR/processed_dataset/
 
     #double check this
     echo_time "Exctracting raw data ..."

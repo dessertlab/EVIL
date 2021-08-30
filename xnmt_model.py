@@ -97,41 +97,41 @@ class Seq2SeqRunner():
         ParamManager.init_param_col()
         ParamManager.param_col.model_file = model_file
         
-        builder = VocabBuilder(f"{EXP_DIR}/conala-corpus/"+self.train + '.json.seq2seq',self.min_freq)
+        builder = VocabBuilder(f"{EXP_DIR}/processed_dataset/"+self.train + '.json.seq2seq',self.min_freq)
         builder.build()
 
 
-        pre_runner=PreprocRunner(tasks= [PreprocTokenize(in_files=[f'{EXP_DIR}/conala-corpus/'+self.train+'.snippet',
-                                                                   f'{EXP_DIR}/conala-corpus/'+self.train+'.intent',
-                                                                   f'{EXP_DIR}/conala-corpus/'+self.dev+'.intent',
-                                                                   f'{EXP_DIR}/conala-corpus/'+self.dev+'.snippet',
-                                                                   f'{EXP_DIR}/conala-corpus/'+self.test+'.intent',
-                                                                   f'{EXP_DIR}/conala-corpus/'+self.test+'.snippet'],
-                                                         out_files= [f'{EXP_DIR}/conala-corpus/'+self.train+'.tmspm'+str(self.vocab_size)+'.snippet',
-                                                                     f'{EXP_DIR}/conala-corpus/'+self.train+'.tmspm'+str(self.vocab_size)+'.intent',
-                                                                     f'{EXP_DIR}/conala-corpus/'+self.dev+'.tmspm'+str(self.vocab_size)+'.intent',
-                                                                     f'{EXP_DIR}/conala-corpus/'+self.dev+'.tmspm'+str(self.vocab_size)+'.snippet',
-                                                                     f'{EXP_DIR}/conala-corpus/'+self.test+'.tmspm'+str(self.vocab_size)+'.intent',
-                                                                     f'{EXP_DIR}/conala-corpus/'+self.test+'.tmspm'+str(self.vocab_size)+'.snippet'],
+        pre_runner=PreprocRunner(tasks= [PreprocTokenize(in_files=[f'{EXP_DIR}/processed_dataset/'+self.train+'.snippet',
+                                                                   f'{EXP_DIR}/processed_dataset/'+self.train+'.intent',
+                                                                   f'{EXP_DIR}/processed_dataset/'+self.dev+'.intent',
+                                                                   f'{EXP_DIR}/processed_dataset/'+self.dev+'.snippet',
+                                                                   f'{EXP_DIR}/processed_dataset/'+self.test+'.intent',
+                                                                   f'{EXP_DIR}/processed_dataset/'+self.test+'.snippet'],
+                                                         out_files= [f'{EXP_DIR}/processed_dataset/'+self.train+'.tmspm'+str(self.vocab_size)+'.snippet',
+                                                                     f'{EXP_DIR}/processed_dataset/'+self.train+'.tmspm'+str(self.vocab_size)+'.intent',
+                                                                     f'{EXP_DIR}/processed_dataset/'+self.dev+'.tmspm'+str(self.vocab_size)+'.intent',
+                                                                     f'{EXP_DIR}/processed_dataset/'+self.dev+'.tmspm'+str(self.vocab_size)+'.snippet',
+                                                                     f'{EXP_DIR}/processed_dataset/'+self.test+'.tmspm'+str(self.vocab_size)+'.intent',
+                                                                     f'{EXP_DIR}/processed_dataset/'+self.test+'.tmspm'+str(self.vocab_size)+'.snippet'],
                                                          specs= [{'filenum':'all',
                                                                  'tokenizers':[SentencepieceTokenizer(
                                                                     hard_vocab_limit=False,
-                                                                    train_files= [f'{EXP_DIR}/conala-corpus/'+self.train+'.intent',
-                                                                         f'{EXP_DIR}/conala-corpus/'+self.train+'.snippet'],vocab_size=self.vocab_size,
-                                                                 model_type= self.model_type,model_prefix= 'conala-corpus/'+self.train+'.tmspm'+str(self.vocab_size)+'.spm')]}])
-            ,PreprocVocab(in_files= [f'{EXP_DIR}/conala-corpus/'+self.train+'.tmspm'+str(self.vocab_size)+'.intent',
-                                     f'{EXP_DIR}/conala-corpus/'+self.train+'.tmspm'+str(self.vocab_size)+'.snippet'],
-                          out_files=[f'{EXP_DIR}/conala-corpus/'+self.train+'.tmspm'+str(self.vocab_size)+'.intent.vocab',
-                                     f'{EXP_DIR}/conala-corpus/'+self.train+'.tmspm'+str(self.vocab_size)+'.snippet.vocab'],
+                                                                    train_files= [f'{EXP_DIR}/processed_dataset/'+self.train+'.intent',
+                                                                         f'{EXP_DIR}/processed_dataset/'+self.train+'.snippet'],vocab_size=self.vocab_size,
+                                                                 model_type= self.model_type,model_prefix= 'processed_dataset/'+self.train+'.tmspm'+str(self.vocab_size)+'.spm')]}])
+            ,PreprocVocab(in_files= [f'{EXP_DIR}/processed_dataset/'+self.train+'.tmspm'+str(self.vocab_size)+'.intent',
+                                     f'{EXP_DIR}/processed_dataset/'+self.train+'.tmspm'+str(self.vocab_size)+'.snippet'],
+                          out_files=[f'{EXP_DIR}/processed_dataset/'+self.train+'.tmspm'+str(self.vocab_size)+'.intent.vocab',
+                                     f'{EXP_DIR}/processed_dataset/'+self.train+'.tmspm'+str(self.vocab_size)+'.snippet.vocab'],
                           specs=[{'filenum':'all','filters':[VocabFiltererFreq(min_freq = self.min_freq)]}])],overwrite=True)
 
-        src_vocab = Vocab(vocab_file=f'{EXP_DIR}/conala-corpus/'+self.train+'.tmspm'+str(self.vocab_size)+'.intent.vocab')
-        trg_vocab = Vocab(vocab_file=f'{EXP_DIR}/conala-corpus/'+self.train+'.tmspm'+str(self.vocab_size)+'.snippet.vocab')
-        #trg_vocab = Vocab(vocab_file=f'{EXP_DIR}/conala-corpus/'+self.train+'.intent.vocab')
-        #src_vocab = Vocab(vocab_file=f'{EXP_DIR}/conala-corpus/'+self.train+'.snippet.vocab')
+        src_vocab = Vocab(vocab_file=f'{EXP_DIR}/processed_dataset/'+self.train+'.tmspm'+str(self.vocab_size)+'.intent.vocab')
+        trg_vocab = Vocab(vocab_file=f'{EXP_DIR}/processed_dataset/'+self.train+'.tmspm'+str(self.vocab_size)+'.snippet.vocab')
+        #trg_vocab = Vocab(vocab_file=f'{EXP_DIR}/processed_dataset/'+self.train+'.intent.vocab')
+        #src_vocab = Vocab(vocab_file=f'{EXP_DIR}/processed_dataset/'+self.train+'.snippet.vocab')
         batcher = Batcher(batch_size=64)
 
-#       inference = AutoRegressiveInference(search_strategy= BeamSearch(beam_size= 5), post_process = 'none',src_file= f'{EXP_DIR}/conala-corpus/'+self.dev+'.intent',ref_file= f'{EXP_DIR}/conala-corpus/'+self.dev+'.snippet')
+#       inference = AutoRegressiveInference(search_strategy= BeamSearch(beam_size= 5), post_process = 'none',src_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.intent',ref_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.snippet')
         
         #len_norm= PolynomialNormalization(apply_during_search=True),beam_size= 5))#post_process= 'join-piece')
         
@@ -193,27 +193,27 @@ class Seq2SeqRunner():
               lr_decay= 0.5,
               restart_trainer= True,
               run_for_epochs=self.epochs,
-              src_file= f'{EXP_DIR}/conala-corpus/'+self.train+'.tmspm'+str(self.vocab_size)+'.intent',
-              trg_file= f'{EXP_DIR}/conala-corpus/'+self.train+'.tmspm'+str(self.vocab_size)+'.snippet',
-              dev_tasks=[LossEvalTask(src_file=f'{EXP_DIR}/conala-corpus/'+ self.dev +'.tmspm'+str(self.vocab_size)+'.intent',
-                                     ref_file= f'{EXP_DIR}/conala-corpus/'+ self.dev +'.tmspm'+str(self.vocab_size)+'.snippet',
-               #src_file= f'{EXP_DIR}/conala-corpus/'+self.train+'.intent',
-               #trg_file= f'{EXP_DIR}/conala-corpus/'+self.train+'.snippet',
-               #dev_tasks=[LossEvalTask(src_file=f'{EXP_DIR}/conala-corpus/'+ self.dev +'.intent',
-               #                       ref_file= f'{EXP_DIR}/conala-corpus/'+ self.dev +'.snippet', 
+              src_file= f'{EXP_DIR}/processed_dataset/'+self.train+'.tmspm'+str(self.vocab_size)+'.intent',
+              trg_file= f'{EXP_DIR}/processed_dataset/'+self.train+'.tmspm'+str(self.vocab_size)+'.snippet',
+              dev_tasks=[LossEvalTask(src_file=f'{EXP_DIR}/processed_dataset/'+ self.dev +'.tmspm'+str(self.vocab_size)+'.intent',
+                                     ref_file= f'{EXP_DIR}/processed_dataset/'+ self.dev +'.tmspm'+str(self.vocab_size)+'.snippet',
+               #src_file= f'{EXP_DIR}/processed_dataset/'+self.train+'.intent',
+               #trg_file= f'{EXP_DIR}/processed_dataset/'+self.train+'.snippet',
+               #dev_tasks=[LossEvalTask(src_file=f'{EXP_DIR}/processed_dataset/'+ self.dev +'.intent',
+               #                       ref_file= f'{EXP_DIR}/processed_dataset/'+ self.dev +'.snippet', 
                                       model=model,
                                       batcher=WordSrcBatcher(avg_batch_size=64)),
                          AccuracyEvalTask(eval_metrics= 'bleu',
-                                          src_file= f'{EXP_DIR}/conala-corpus/'+self.dev+'.tmspm'+str(self.vocab_size)+'.intent',
-                                          #src_file= f'{EXP_DIR}/conala-corpus/'+self.dev+'.intent',
-                                          ref_file= f'{EXP_DIR}/conala-corpus/'+self.dev+'.snippet',
+                                          src_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.tmspm'+str(self.vocab_size)+'.intent',
+                                          #src_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.intent',
+                                          ref_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.snippet',
                                           hyp_file= f'{EXP_DIR}/results/{EXP}.dev.hyp',
                                           model = model)])
 
             evaluate = [AccuracyEvalTask(eval_metrics="bleu",
-                                         src_file=f'{EXP_DIR}/conala-corpus/'+self.test+'.tmspm'+str(self.vocab_size)+'.intent',
-                                         #src_file=f'{EXP_DIR}/conala-corpus/'+self.test+'.intent',
-                                         ref_file=f'{EXP_DIR}/conala-corpus/'+self.test+'.snippet',
+                                         src_file=f'{EXP_DIR}/processed_dataset/'+self.test+'.tmspm'+str(self.vocab_size)+'.intent',
+                                         #src_file=f'{EXP_DIR}/processed_dataset/'+self.test+'.intent',
+                                         ref_file=f'{EXP_DIR}/processed_dataset/'+self.test+'.snippet',
                                          hyp_file=f"{EXP_DIR}/results/{EXP}.test.hyp",
                                          inference=inference,
                                          model=model)]
@@ -231,9 +231,9 @@ class Seq2SeqRunner():
 
         else:
             evaluate = [AccuracyEvalTask(eval_metrics="bleu",
-            src_file=f'{EXP_DIR}/conala-corpus/'+self.test+'.tmspm'+str(self.vocab_size)+'.intent',
-            #src_file=f'{EXP_DIR}/conala-corpus/'+self.test+'.intent',
-            ref_file=f'{EXP_DIR}/conala-corpus/'+self.test+'.snippet',
+            src_file=f'{EXP_DIR}/processed_dataset/'+self.test+'.tmspm'+str(self.vocab_size)+'.intent',
+            #src_file=f'{EXP_DIR}/processed_dataset/'+self.test+'.intent',
+            ref_file=f'{EXP_DIR}/processed_dataset/'+self.test+'.snippet',
             hyp_file=f'{EXP_DIR}/results/'+self.dataset+'.test.hyp',
             inference=inference,
             model=model)]
@@ -251,20 +251,20 @@ class Seq2SeqRunner():
             lr_decay= 0.5,
             restart_trainer= True,
             run_for_epochs=self.epochs,
-            src_file= f'{EXP_DIR}/conala-corpus/'+self.train+'.tmspm'+str(self.vocab_size)+'.intent',
-            trg_file= f'{EXP_DIR}/conala-corpus/'+self.train+'.tmspm'+str(self.vocab_size)+'.snippet',
-            dev_tasks=[LossEvalTask(src_file=f'{EXP_DIR}/conala-corpus/'+self.dev+'.tmspm'+str(self.vocab_size)+'.intent',
-            ref_file= f'{EXP_DIR}/conala-corpus/'+self.dev+'.tmspm'+str(self.vocab_size)+'.snippet',
-            #src_file= f'{EXP_DIR}/conala-corpus/'+self.train+'.intent',
-            #trg_file= f'{EXP_DIR}/conala-corpus/'+self.train+'.snippet',
-            #dev_tasks=[LossEvalTask(src_file=f'{EXP_DIR}/conala-corpus/'+self.dev+'.intent',
-            #ref_file= f'{EXP_DIR}/conala-corpus/'+self.dev+'.snippet',
+            src_file= f'{EXP_DIR}/processed_dataset/'+self.train+'.tmspm'+str(self.vocab_size)+'.intent',
+            trg_file= f'{EXP_DIR}/processed_dataset/'+self.train+'.tmspm'+str(self.vocab_size)+'.snippet',
+            dev_tasks=[LossEvalTask(src_file=f'{EXP_DIR}/processed_dataset/'+self.dev+'.tmspm'+str(self.vocab_size)+'.intent',
+            ref_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.tmspm'+str(self.vocab_size)+'.snippet',
+            #src_file= f'{EXP_DIR}/processed_dataset/'+self.train+'.intent',
+            #trg_file= f'{EXP_DIR}/processed_dataset/'+self.train+'.snippet',
+            #dev_tasks=[LossEvalTask(src_file=f'{EXP_DIR}/processed_dataset/'+self.dev+'.intent',
+            #ref_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.snippet',
             model=model,
             batcher=WordSrcBatcher(avg_batch_size=64)),
             AccuracyEvalTask(eval_metrics= 'bleu',
-            src_file= f'{EXP_DIR}/conala-corpus/'+self.dev+'.tmspm'+str(self.vocab_size)+'.intent',
-            #src_file= f'{EXP_DIR}/conala-corpus/'+self.dev+'.intent',                 
-            ref_file= f'{EXP_DIR}/conala-corpus/'+self.dev+'.snippet',
+            src_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.tmspm'+str(self.vocab_size)+'.intent',
+            #src_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.intent',                 
+            ref_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.snippet',
             hyp_file= f'{EXP_DIR}/results/'+self.dataset+'.dev.hyp',
             model = model)]),
             evaluate=evaluate

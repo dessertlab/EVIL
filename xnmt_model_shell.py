@@ -31,7 +31,7 @@ Seq2Seq Params:
 
 
 #Add your options here and update the loop in Launch.sh
-dataset = str(sys.argv[2])
+dataset = str(sys.argv[1])
 xnmt_options = [
 Seq2SeqRunner(model_type='bpe',epochs= 200, layer_dim= 512, alpha= 0.001,min_freq= 1,dataset = dataset, vocab_size = 20000)
 
