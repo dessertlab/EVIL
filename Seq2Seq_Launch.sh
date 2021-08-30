@@ -72,7 +72,7 @@ echo "Welcome to EVIL's Seq2Seq Launcher!";
 select_dataset $1;
 select_preprocessing $2;
 echo_time "Processing the selected dataset...";
-bash $SRC_DIR/utils/test_split.sh $dataset $preprocessing
+bash $SRC_DIR/utils/test_split.sh $1 $2
 
 echo_time "Running $file_py";
 python $file_py $dataset
