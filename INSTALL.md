@@ -8,15 +8,16 @@ Before setting up our project we'd like to make sure you have some prerequisite 
 ## Step 1: Python Setup
 Ensure you have Anaconda3 installed, if not install **Python 3.7** from [*Anaconda*](https://www.anaconda.com) with the following steps:
 * Install the list of dependencies described [here](https://docs.anaconda.com/anaconda/install/linux/)
-* Download the installer [here](https://repo.anaconda.com/archive/). For example, you can use the `wget` command: `wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh`, then type `chmod +x Anaconda3-2021.05-Linux-x86_64.sh` and run `bash Anaconda3-2021.05-Linux-x86_64.sh` and complete the installation.
+* Download the installer [here](https://repo.anaconda.com/archive/). For example, you can use the `wget` command: `wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh`, then type `chmod +x Anaconda3-2021.05-Linux-x86_64.sh` and run `bash Anaconda3-2021.05-Linux-x86_64.sh` to complete the installation.
 * You may need to add *anaconda directory* to the PATH environment variable (e.g., `export PATH="/path_to_anaconda/anaconda/bin:$PATH"`).
 
 ### Recommended GPU Set up
 * If you are using an HPC cluster run the following command to enable **Python 3.7 with CUDA**: `module load cuda/9.2  anaconda3/5.0.1-cuda92`
-* If you are using a local machine and have anaconda set up already run the following command `conda env create -f evil_env_gpu.yml` Upon completion activate it using `conda activate evil_env`. The move to the Install Natural Language tools section.
+* If you are using a local machine and have anaconda set up already run the following command `conda env create -f evil_env_gpu.yml` Upon completion activate it using `conda activate evil_env`. The move to the Install Natural Language tools section. 
 
 
 ## Step 2: Dependencies Setup
+* Move to the EVIL main directory
 * It is recommended you use a virtual environment for the dependency set up (**Conda environment**). If you do not  wish to do so, then simply run ``pip3 install -r requirements.txt``.
 
 ### Setting up a Conda environment
@@ -27,7 +28,7 @@ Ensure you have Anaconda3 installed, if not install **Python 3.7** from [*Anacon
 * Run ``pip3 install -r requirements.txt`` to install the dependencies.
 
 ### Install Natural Language tools
-* Install nltk tokenizers and corpora ``python -m nltk.downloader``, then click on install all
+* Install nltk tokenizers and corpora ``python -m nltk.downloader``, then type `d` (Download), and type `all` in Identifier. Type `q` at the end of the installation.
 
 * Install the spacy language model by using the following command ``python -m spacy download en_core_web_lg``
    
