@@ -24,7 +24,7 @@ Please, find the detailed information of the dataset on the paper.
 
 ## Experiments
 We provide the code to replicate the experiments of the paper. In particular, the repository contains the code to generate assemby/Python exploits with CodeBERT and Seq2Seq models. We also added the code to run the pre-processing and post-processing phases. 
-The detailed steps to replicate the experiments are described in the [Installation.md file](https://github.com/dessertlab/EVIL/blob/main/INSTALL.md).
+The detailed steps to replicate the experiments are described in the [INSTALL.md](https://github.com/dessertlab/EVIL/blob/main/INSTALL.md) file.
 
 ## Appendix
 The folder *EVIL/Appendix* contains detailed information on the 20 encoders and decoders used in the test set.
