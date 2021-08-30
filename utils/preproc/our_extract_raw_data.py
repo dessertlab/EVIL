@@ -41,7 +41,6 @@ if __name__ == '__main__':
                   stemmer=None,
                   remove_punctuation=False,
                   std_var=False,
-                  parser=0
                   ),
 
         # Pre-processing 2: Encoder with IP
@@ -53,7 +52,7 @@ if __name__ == '__main__':
                   stemmer=None,
                   remove_punctuation=False,
                   std_var=True,
-                  parser=0),
+                  ),
 
         # Pre-processing 3: Decoder without IP
         Canonical(remove=[],
@@ -65,7 +64,6 @@ if __name__ == '__main__':
                   stemmer=None,
                   remove_punctuation=True,
                   std_var=False,
-                  parser=0,
                   reserved_words='assembly',
                   ),
 
@@ -81,7 +79,6 @@ if __name__ == '__main__':
                   stemmer=None,
                   remove_punctuation=False,
                   std_var=True,
-                  parser=0,
                   reserved_words='assembly',
                   ),
 
