@@ -52,10 +52,10 @@ function select_dataset() {
 
 function select_preprocessing() {
 	preproccessing=2; #modify this variable to change the model
-	if [ $2 -eq 1 ]; then
+	if [ $1 -eq 1 ]; then
 		preprocessing=1;
 		echo_time "Preprocessing without Intent Parser (IP) selected";
-	elif [ $2 -eq 2 ]; then
+	elif [ $1 -eq 2 ]; then
 		preprocessing=2;
 		echo_time "Preprocessing with Intent Parser (IP) selected";
 	else
@@ -70,7 +70,6 @@ function select_preprocessing() {
 echo "Welcome to EVIL's Seq2Seq Launcher!";
 
 select_dataset $1;
-
 select_preprocessing $2;
 echo_time "Processing the selected dataset...";
 bash $SRC_DIR/utils/test_split.sh $dataset $preprocessing
