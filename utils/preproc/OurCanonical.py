@@ -108,7 +108,7 @@ class Canonical:
     #remove_punctuation removes punctuation when set to True
     #lower converts intent to lower case when set to True
     #std_var Standardize Variables, replaces variables with standardized names when set to True
-    def __init__(self, remove = [], replace = {}, stemmer = None, remove_punctuation = False, lower = False, std_var = False):
+    def __init__(self, remove = [], replace = {}, stemmer = None, remove_punctuation = False, lower = False, std_var = False, reserved_words='python'):
         
         #Compile all the removes!
         #self.remove = re.compile('|'.join(re.compile(x).pattern for x in remove))
