@@ -40,11 +40,11 @@ function select_machine() {
 
 function select_dataset() {
 	dataset=1; #modify this variable to change the model
-	if [ $2 -eq 1 ]; then
+	if [ $1 -eq 1 ]; then
 		dataset=1;
 		dataset_str="encoder";
 		echo_time "Python Encoder dataset selected";
-	elif [ $2 -eq 2 ]; then
+	elif [ $1 -eq 2 ]; then
 		dataset=2;
 		dataset_str="decoder";
 		echo_time "Assembly Decoder dataset selected";
@@ -59,10 +59,10 @@ function select_dataset() {
 
 function select_preprocessing() {
 	preproccessing=2; #modify this variable to change the model
-	if [ $3 -eq 1 ]; then
+	if [ $1 -eq 1 ]; then
 		preprocessing=1;
 		echo_time "Preprocessing without Intent Parser (IP) selected";
-	elif [ $3 -eq 2 ]; then
+	elif [ $1 -eq 2 ]; then
 		preprocessing=2;
 		echo_time "Preprocessing with Intent Parser (IP) selected";
 	else
@@ -78,8 +78,8 @@ rm -rf $SRC_DIR/model/finetuned_model $SRC_DIR/model/__pycache__ >/dev/null 2>&1
 echo "Checking if pretrained models are installed..."
 python utils/model_prep.py
 rm -rf $SRC_DIR/model/pretrained_models/codebert.zip
-select_machine $1;
 
+select_machine $1;
 select_dataset $2;
 select_preprocessing $3;
 echo_time "Processing the selected dataset...";
