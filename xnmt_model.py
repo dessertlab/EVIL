@@ -79,7 +79,8 @@ class Seq2SeqRunner():
         seed=13
         random.seed(seed)
         np.random.seed(seed)
-        EXP_DIR = os.path.join(os.path.dirname(__file__),'seq2seq')
+        EXP_DIR = os.path.dirname(__file__)
+	RESULTS_DIR = os.path.join(os.path.dirname(__file__),'seq2seq')
         EXP = str(self.dataset)
         
         if self.parent_model != None:
@@ -89,8 +90,8 @@ class Seq2SeqRunner():
             
         
 
-        model_file = f"{EXP_DIR}/results/{EXP}.mod"
-        log_file = f"{EXP_DIR}/results/{EXP}.log"
+        model_file = f"{RESULTS_DIR}/results/{EXP}.mod"
+        log_file = f"{RESULTS_DIR}/results/{EXP}.log"
 
         xnmt.tee.set_out_file(log_file,exp_name=EXP)
         xnmt.tee.utils.dy.DynetParams().set_mem(1024) #Doesnt work figure out how to set memory
@@ -207,14 +208,14 @@ class Seq2SeqRunner():
                                           src_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.tmspm'+str(self.vocab_size)+'.intent',
                                           #src_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.intent',
                                           ref_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.snippet',
-                                          hyp_file= f'{EXP_DIR}/results/{EXP}.dev.hyp',
+                                          hyp_file= f'{RESULTS_DIR}/results/{EXP}.dev.hyp',
                                           model = model)])
 
             evaluate = [AccuracyEvalTask(eval_metrics="bleu",
                                          src_file=f'{EXP_DIR}/processed_dataset/'+self.test+'.tmspm'+str(self.vocab_size)+'.intent',
                                          #src_file=f'{EXP_DIR}/processed_dataset/'+self.test+'.intent',
                                          ref_file=f'{EXP_DIR}/processed_dataset/'+self.test+'.snippet',
-                                         hyp_file=f"{EXP_DIR}/results/{EXP}.test.hyp",
+                                         hyp_file=f"{RESULTS_DIR}/results/{EXP}.test.hyp",
                                          inference=inference,
                                          model=model)]
 
@@ -234,7 +235,7 @@ class Seq2SeqRunner():
             src_file=f'{EXP_DIR}/processed_dataset/'+self.test+'.tmspm'+str(self.vocab_size)+'.intent',
             #src_file=f'{EXP_DIR}/processed_dataset/'+self.test+'.intent',
             ref_file=f'{EXP_DIR}/processed_dataset/'+self.test+'.snippet',
-            hyp_file=f'{EXP_DIR}/results/'+self.dataset+'.test.hyp',
+            hyp_file=f'{RESULTS_DIR}/results/'+self.dataset+'.test.hyp',
             inference=inference,
             model=model)]
 
@@ -265,7 +266,7 @@ class Seq2SeqRunner():
             src_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.tmspm'+str(self.vocab_size)+'.intent',
             #src_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.intent',                 
             ref_file= f'{EXP_DIR}/processed_dataset/'+self.dev+'.snippet',
-            hyp_file= f'{EXP_DIR}/results/'+self.dataset+'.dev.hyp',
+            hyp_file= f'{RESULTS_DIR}/results/'+self.dataset+'.dev.hyp',
             model = model)]),
             evaluate=evaluate
             )
