@@ -79,7 +79,7 @@ class Seq2SeqRunner():
         seed=13
         random.seed(seed)
         np.random.seed(seed)
-        EXP_DIR = os.path.dirname(__file__)
+        EXP_DIR = os.path.join(os.path.dirname(__file__),'seq2seq')
         EXP = str(self.dataset)
         
         if self.parent_model != None:
