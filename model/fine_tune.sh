@@ -11,7 +11,7 @@ function select_dataset() {
 		echo "Assembly Decoder dataset selected";
 	else
 		echo "ERROR: Wrong machine";
-	        echo "Usage: ./Launch.sh [DEVICE] [DATASET] [PREPROCESSING]"
+	        echo "Usage: bash fine_tune.sh [DATASET]"
 		echo "DATASET: type 1 for the Encoder Python dataset, 2 for the Decoder Assembly Dataset."
 		exit 0;
 	fi

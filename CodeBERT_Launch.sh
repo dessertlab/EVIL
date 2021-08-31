@@ -102,11 +102,11 @@ elif [ $1 -eq 1 ]; then
 	mkdir -p job_logs
 	sbatch $file $dataset
 	echo_time "Job submitted!"
-	echo "Please run evaluate.sh $dataset from the ShellBe directory when the job is complete!"
+	echo "Please run bash evaluate.sh $dataset from the EVIL directory when the job is complete!"
 elif [ $1 -eq 2 ]; then
 	cd $SRC_DIR/model
 	mkdir -p job_logs
 	qsub $file -F $dataset
 	echo_time "Job submitted!"
-	echo "Please run evaluate.sh $dataset from the ShellBe directory when the job is complete!"
+	echo "Please run bash evaluate.sh $dataset from the EVIL directory when the job is complete!"
 	fi
