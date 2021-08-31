@@ -1,14 +1,15 @@
 name: evil_env
 channels:
 - pytorch
+- nvidia
 - conda-forge
 - defaults
 dependencies:
-- python==3.7
+- python
 - anaconda
 - pip
-- pytorch==1.4.0
-- cudatoolkit=10.1
-- torchvision==0.5.0
+- pytorch
+- cudatoolkit
+- torchvision
 - pip:
-  - -r file:requirements_gpu.txt
+  - -r requirements_gpu.txt
