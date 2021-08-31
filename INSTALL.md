@@ -63,11 +63,13 @@ To Launch the finetuning and evaluation processes of CodeBERT the basic command 
 * Navigate to ``EVIL/model/fine_tune.slurm`` and add in your GPU queue name under the TODO comment.
 * From the EVIL home directory, run ``bash CodeBERT_Launch.sh 1 [DATASET] [PREPROCESSING]``
 * When the job is complete, from the EVIL home directory, run ``bash evaluate.sh``
+* Note: If your cluster jobs do not connect to the internet you might want to run the bash script on the head node to download the models and terminate it before it gets to the training portion (you'll see a progress bar when right before the training starts).
 
 #### Running on an HPC with a TORQUE scheduler
 * Navigate to ``EVIL/model/fine_tune.pbs`` and add in your GPU queue name under the TODO comment.
 * From the EVIL home directory, run ``bash CodeBERT_Launch.sh 2 [DATASET] [PREPROCESSING]``
 * When the job is complete, from the EVIL home directory, run ``bash evaluate.sh``
+* Note: If your cluster jobs do not connect to the internet you might want to run the bash script on the head node to download the models and terminate it before it gets to the training portion (you'll see a progress bar when right before the training starts).
 
 #### Final Results
 The final evaluation results would appear on your console if you are running on your local machine and in the specified logging output directory if a job was submitted.
