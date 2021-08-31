@@ -8,7 +8,7 @@ The approach leverages Neural Machine Translation (NMT) techniques and a dataset
 
 This repository contains:
 1. A substantive **dataset** containing exploits collected from shellcode databases, and their descriptions in the English language. The dataset includes both assembly code (i.e, shellcodes and decoders) and Python code (i.e., encoders). Such data is valuable to support research in machine translation for security-oriented applications since the techniques are data-driven. 
-2. The code to reproduce the **experiments** described the paper.
+2. The code to reproduce the **experiments** described in the paper.
 3. The **appendix** of the paper containing additional information on the test set.
 
 
@@ -18,12 +18,12 @@ We collected exploits from publicly available databases ([*exploitdb*](https://w
 1. **Encoders**: a Python dataset, which contains Python code used by exploits to encode the shellcode;
 2. **Decoders**: an assembly dataset, which includes shellcode and decoders to revert the encoding.
 
-Both datasets are already slipt in train, dev and test set. ``encoder-*.in`` represents the natural language intents and ``encoder-*.out`` represents the corresponding code snippets. 
+Both datasets are already slipt in train, dev, and test set. ``encoder-*.in`` represents the natural language intents and ``encoder-*.out`` represents the corresponding code snippets. 
 Please, find the detailed information of the dataset on the paper. 
 
 
 ## Experiments
-We provide the code to replicate the experiments of the paper. In particular, the repository contains the code to generate assemby/Python exploits with CodeBERT and Seq2Seq models. We also added the code to run the pre-processing and post-processing phases. 
+We provide the code to replicate the experiments of the paper. In particular, the repository contains the code to generate assembly/Python exploits with CodeBERT and Seq2Seq models. We also added the code to run the pre-processing and post-processing phases. 
 The detailed steps to replicate the experiments are described in the [INSTALL.md](https://github.com/dessertlab/EVIL/blob/main/INSTALL.md) file.
 
 ## Appendix
@@ -33,7 +33,7 @@ In total, the test set for the Python programs contains 375 unique pairs of Pyth
 
 ## TODO
 - [x] Add in preprocessing options for both encoder and decoder datasets in the ``preproc`` folder
-- [x] Edit `Launch.sh` to account for dataset and preproccessing selections
+- [x] Edit `Launch.sh` to account for dataset and preprocessing selections
 - [x] Edit `eval_prep.py` to account for dataset selection.
 - [x] Update the README
 - [x] CodeBERT download and set up

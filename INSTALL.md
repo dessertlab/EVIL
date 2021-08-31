@@ -13,12 +13,12 @@ Ensure you have Anaconda3 installed, if not install **Python 3.7** from [*Anacon
 
 ### Recommended GPU Set up
 * If you are using an HPC cluster run the following command to enable **Python 3.7 with CUDA**: `module load cuda/9.2  anaconda3/5.0.1-cuda92`
-* If you are using a local machine and have anaconda set up already run the following command `conda env create -f evil_env_gpu.yml` Upon completion activate it using `conda activate evil_env`. Alternatively to using our environment file, you can run ``conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c nvidia`` followed by ``pip install -r requirements_gpu.txt``. After this you can move to the Install Natural Language tools section. 
+* If you are using a local machine and have anaconda set up already run the following command `conda env create -f evil_env_gpu.yml` Upon completion activate it using `conda activate evil_env`. Alternatively to using our environment file, you can run ``conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c nvidia`` followed by ``pip install -r requirements_gpu.txt``. After this, you can move to the Install Natural Language tools section. 
 
 
 ## Step 2: Dependencies Setup
 * Move to the EVIL main directory
-* It is recommended you use a virtual environment for the dependency set up (**Conda environment**). If you do not  wish to do so, then simply run ``pip3 install -r requirements.txt``.
+* It is recommended you use a virtual environment for the dependency set up (**Conda environment**). If you do not wish to do so, then simply run ``pip3 install -r requirements.txt``.
 
 ### Setting up a Conda environment
 * Import our saved conda environment using the command: ``conda env create -f evil_env.yml`` and activate it using ``source activate evil_env`` or ``conda activate evil_env``
@@ -34,7 +34,7 @@ Ensure you have Anaconda3 installed, if not install **Python 3.7** from [*Anacon
    
 
 ## Step 3: Running Experiments
-This section briefly describes how to replicate the experiment mentioned in the paper. If you are using an anaconda environment, please ensure that you conda environment is **activated** before running any of the bash commands below.
+This section briefly describes how to replicate the experiment mentioned in the paper. If you are using an anaconda environment, please ensure that your conda environment is **activated** before running any of the bash commands below.
 
 ### CodeBERT
 To Launch the finetuning and evaluation processes of CodeBERT the basic command template is as follows: <br>
