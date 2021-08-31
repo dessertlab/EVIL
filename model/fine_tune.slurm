@@ -21,6 +21,10 @@
 
 cd $SLURM_SUBMIT_DIR
 
+function echo_time() {
+        date +"%Y-%m-%d %H:%M:%S.%6N  $*"
+}
+
 function select_dataset() {
 	dataset=1; #modify this variable to change the model
 	if [ $1 -eq 1 ]; then
