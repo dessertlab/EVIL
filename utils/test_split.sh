@@ -42,7 +42,7 @@ if [ $1 -eq 1 ]; then
     mv $WDIR/encoder-*.json $WDIR/processed_dataset/
 
     #double check this
-    echo_time "Exctracting raw data ..."
+    echo_time "Extracting raw data ..."
     cd $WDIR/processed_dataset/
     python $SDIR/preproc/our_extract_raw_data.py $1 $2 # > raw_data.txt
     # Preprocess Assembly Dataset
@@ -63,7 +63,7 @@ elif [ $1 -eq 2 ]; then
     mv $WDIR/decoder-*.json $WDIR/processed_dataset/
 
     #double check this
-    echo_time "Exctracting raw data ..."
+    echo_time "Extracting raw data ..."
     cd $WDIR/processed_dataset/
     python $SDIR/preproc/our_extract_raw_data.py $1 $2 # > raw_data.txt
     # Preprocess Assembly Dataset
