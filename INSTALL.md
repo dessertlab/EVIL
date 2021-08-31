@@ -9,7 +9,7 @@ Before setting up our project we'd like to make sure you have some prerequisite 
 Ensure you have Anaconda3 installed, if not install **Python 3.7** from [*Anaconda*](https://www.anaconda.com) with the following steps:
 * Install the list of dependencies described [here](https://docs.anaconda.com/anaconda/install/linux/)
 * Download the installer [here](https://repo.anaconda.com/archive/). For example, you can use the `wget` command: `wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh`, then type `chmod +x Anaconda3-2021.05-Linux-x86_64.sh` and run `bash Anaconda3-2021.05-Linux-x86_64.sh` to complete the installation.
-* You may need to add *anaconda directory* to the PATH environment variable (e.g., `export PATH="/path_to_anaconda/anaconda/bin:$PATH"`).
+* You may need to add *anaconda directory* to the PATH environment variable (e.g., you can add `export PATH="/path_to_anaconda/anaconda3/bin:$PATH"` to the `bashrc` file).
 
 ### Recommended GPU Set up
 * If you are using an HPC cluster run the following command to enable **Python 3.7 with CUDA**: `module load cuda/9.2  anaconda3/5.0.1-cuda92`
