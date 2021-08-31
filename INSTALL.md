@@ -13,7 +13,7 @@ Ensure you have Anaconda3 installed, if not install **Python 3.7** from [*Anacon
 
 ### Recommended GPU Set up
 * If you are using an HPC cluster run the following command to enable **Python 3.7 with CUDA**: `module load cuda/9.2  anaconda3/5.0.1-cuda92`
-* If you are using a local machine and have anaconda set up already run the following command `conda env create -f evil_env_gpu.yml` Upon completion activate it using `conda activate evil_env`. The alternative to using our environment file, you can run ``conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c nvidia`` followed by ``pip install -r requirements_gpu.txt``. After this, you can move to the Install Natural Language tools section. 
+* If you are using a local machine and have anaconda set up already run the following command `conda env create -f evil_env_gpu.yml` Upon completion activate it using `conda activate evil_env`. Alternatively to using our environment file, you can run ``conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c nvidia`` followed by ``pip install -r requirements_gpu.txt``. After this, you can move to the Install Natural Language tools section. 
 
 
 ## Step 2: Dependencies Setup
