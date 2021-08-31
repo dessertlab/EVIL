@@ -39,7 +39,7 @@ function select_dataset() {
 	fi
 }
 
-select_dataset $dataset;
+select_dataset $1;
 
 lang=$dataset_str
 lr=5e-5

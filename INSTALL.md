@@ -13,7 +13,7 @@ Ensure you have Anaconda3 installed, if not install **Python 3.7** from [*Anacon
 
 ### Recommended GPU Set up
 * If you are using an HPC cluster run the following command to enable **Python 3.7 with CUDA**: `module load cuda/9.2  anaconda3/5.0.1-cuda92`
-* If you are using a local machine and have anaconda set up already run the following command `conda env create -f evil_env_gpu.yml` Upon completion activate it using `conda activate evil_env`. The move to the Install Natural Language tools section. 
+* If you are using a local machine and have anaconda set up already run the following command `conda env create -f evil_env_gpu.yml` Upon completion activate it using `conda activate evil_env`. Alternatively to using our environment file, you can run ``conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c nvidia`` followed by ``pip install -r requirements_gpu.txt``. After this you can move to the Install Natural Language tools section. 
 
 
 ## Step 2: Dependencies Setup
@@ -25,7 +25,7 @@ Ensure you have Anaconda3 installed, if not install **Python 3.7** from [*Anacon
 
 * Alternatively, you can create an anaconda Python 3.7 virtual environment using the command ``conda create -n yourenvname python=3.7 anaconda``.  Activate the environment by typing ``source activate yourenvname``.
 
-* Run ``pip3 install -r requirements.txt`` to install the dependencies.
+* Run ``pip install -r requirements.txt`` to install the dependencies.
 
 ### Install Natural Language tools
 * Install nltk tokenizers and corpora ``python -m nltk.downloader``, then type `d` (Download), and type `all` in Identifier. Type `q` at the end of the installation.
@@ -63,13 +63,13 @@ To Launch the finetuning and evaluation processes of CodeBERT the basic command 
 * Navigate to ``EVIL/model/fine_tune.slurm`` and add in your GPU queue name under the TODO comment.
 * From the EVIL home directory, run ``bash CodeBERT_Launch.sh 1 [DATASET] [PREPROCESSING]``
 * When the job is complete, from the EVIL home directory, run ``bash evaluate.sh``
-* Note: If your cluster jobs do not connect to the internet you might want to run the bash script on the head node to download the models and terminate it before it gets to the training portion (you'll see a progress bar when right before the training starts).
+* Note: If your cluster jobs do not connect to the internet you might want to run the bash script on the head node using the local machine option ``bash CodeBERT_Launch.sh 0 [DATASET] [PREPROCESSING]`` to download the models and terminate it before it gets to the training portion (you'll see a progress bar when right before the training starts).
 
 #### Running on an HPC with a TORQUE scheduler
 * Navigate to ``EVIL/model/fine_tune.pbs`` and add in your GPU queue name under the TODO comment.
 * From the EVIL home directory, run ``bash CodeBERT_Launch.sh 2 [DATASET] [PREPROCESSING]``
 * When the job is complete, from the EVIL home directory, run ``bash evaluate.sh``
-* Note: If your cluster jobs do not connect to the internet you might want to run the bash script on the head node to download the models and terminate it before it gets to the training portion (you'll see a progress bar when right before the training starts).
+* Note: If your cluster jobs do not connect to the internet you might want to run the bash script on the head node using the local machine option ``bash CodeBERT_Launch.sh 0 [DATASET] [PREPROCESSING]`` to download the models and terminate it before it gets to the training portion (you'll see a progress bar when right before the training starts).
 
 #### Final Results
 The final evaluation results would appear on your console if you are running on your local machine and in the specified logging output directory if a job was submitted.

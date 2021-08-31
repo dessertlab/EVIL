@@ -4,11 +4,11 @@ function select_dataset() {
 	if [ $1 -eq 1 ]; then
 		dataset=1;
 		dataset_str="encoder";
-		echo_time "Python Encoder dataset selected";
+		echo "Python Encoder dataset selected";
 	elif [ $1 -eq 2 ]; then
 		dataset=2;
 		dataset_str="decoder";
-		echo_time "Assembly Decoder dataset selected";
+		echo "Assembly Decoder dataset selected";
 	else
 		echo "ERROR: Wrong machine";
 	        echo "Usage: ./Launch.sh [DEVICE] [DATASET] [PREPROCESSING]"

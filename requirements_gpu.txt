@@ -7,7 +7,7 @@ sentencepiece>=0.0.6
 unidecode
 tensorflow
 pylru
-spacy==2.2.4
+spacy
 transformers==2.5.0
 bigcode-astgen
 bigcode-embeddings
