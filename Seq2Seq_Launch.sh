@@ -60,7 +60,7 @@ function select_preprocessing() {
 		echo_time "Preprocessing with Intent Parser (IP) selected";
 	else
 		echo "ERROR: Invalid preprocessing";
-	        echo "Usage: ./Seq2Seq_Launch.sh [DEVICE] [DATASET] [PREPROCESSING]"
+	        echo "Usage: ./Seq2Seq_Launch.sh [DATASET] [PREPROCESSING]"
 		echo "PREPROCESSING: type 1 preprocessing without the Intent Parser, 2 for preprocessing with the Intent Parser"
 		exit 0;
 	fi
