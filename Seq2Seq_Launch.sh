@@ -78,7 +78,7 @@ echo_time "Running $file_py";
 python $file_py $dataset
 echo_time "$file_py executed"
 
-python $SRC_DIR/utils/preproc/seq2seq_output_to_code.py $RES_DIR/$file_hyp $SRC_DIR/processed_dataset/$testset.json.seq2seq $RES_DIR/$file_json
+python $SRC_DIR/utils/preproc/seq2seq_output_to_code.py $RES_DIR/$file_hyp $SRC_DIR/processed_dataset/$testset.json.seq2seq $RES_DIR/$file_json $dataset_str
 python $SRC_DIR/utils/eval/codegen_eval.py --strip_ref_metadata --input_ref $SRC_DIR/processed_dataset/$testset.json --input_hyp $RES_DIR/$file_json
 cp $RES_DIR/$file_json $RES_DIR/$file_answer;
 mv $RES_DIR $ARCHIVE/id-$timestamp

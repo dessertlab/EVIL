@@ -10,11 +10,15 @@ if __name__ == '__main__':
     seq2seq_output = sys.argv[1]
     dataset_path = sys.argv[2]
     code_output = sys.argv[3]
+    dataset = sys.argv[4]
     code_list = []
-
+    if dataset == 'encoder':
+        res_words = 'python'
+    elif dataset =='decoder':
+        res_words = 'assembly'
     dataset = json.load(open(dataset_path))
 
-    cannon = Canonical()
+    cannon = Canonical(reserved_words = res_words)
 
     for line, example in zip(open(seq2seq_output), dataset):
         encoded_tokens = line.strip().split(' ')
