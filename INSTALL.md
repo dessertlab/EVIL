@@ -91,8 +91,3 @@ The predicted output will be generated in the subdirectory ``seq2seq/archive/id-
 * Run ``bash utils/test_split.sh`` for details on the different preprocessing options
 * If you chose to submit a job, the logs will be stored in ``model/job_logs/``, named with the job id.
 * Run ``bash utils/test_split.sh [DATASET] 0`` for raw corpus token counts
-
-
-## Contacts
-If you run to any issue, you can contact us via email: *pietro.liguori@unina.it* and *ealhossa@uncc.edu* 
-
