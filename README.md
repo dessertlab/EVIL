@@ -1,6 +1,6 @@
 # EVIL: Exploiting Software via Natural Language
 
-This repository contains the dataset and the code related to the paper **EVIL: Exploiting Software via Natural Language** accepted for publication at the 32nd International Symposium on Software Reliability Engineering (ISSRE 2021) conference. The preprint of the paper is publicaly available [here](http://arxiv.org/abs/2109.00279). 
+This repository contains the dataset and the code related to the paper **EVIL: Exploiting Software via Natural Language** accepted for publication at the 32nd International Symposium on Software Reliability Engineering (ISSRE 2021) conference. The preprint of the paper is publicly available [here](http://arxiv.org/abs/2109.00279). 
 
 *EVIL* is an approach to automatically generate software exploits in assembly/Python language from descriptions in natural language. 
 The approach leverages Neural Machine Translation (NMT) techniques and a dataset that we developed for this work. 
