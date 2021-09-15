@@ -3,11 +3,11 @@ Sphinx
 sphinxcontrib-napoleon
 docopt
 graphviz
-sentencepiece>=0.0.6
+sentencepiece==0.1.91
 unidecode
-tensorflow
+tensorflow==1.15.2
 pylru
-spacy
+spacy==2.2.4
 transformers==2.5.0
 bigcode-astgen
 bigcode-embeddings
