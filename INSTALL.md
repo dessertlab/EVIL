@@ -13,19 +13,19 @@ Ensure you have Anaconda3 installed, if not install **Python 3.7** from [*Anacon
 
 ### Recommended GPU Set up
 * If you are using an HPC cluster run the following command to enable **Python 3.7 with CUDA**: `module load cuda/9.2  anaconda3/5.0.1-cuda92`
-* If you are using a local machine and have anaconda set up already run the following command `conda env create -f evil_env_gpu.yml` Upon completion activate it using `conda activate evil_env`. Alternatively to using our environment file, you can run ``conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c nvidia`` followed by ``pip install -r requirements_gpu.txt``. After this, you can move to the Install Natural Language tools section. 
+* If you are using a local machine and have anaconda set up already run the following command `conda env create -f evil_env_gpu.yml` Upon completion activate it using `conda activate evil_env`. Alternatively to using our environment file, you can run ``conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c nvidia`` followed by ``pip3 install -r requirements_gpu.txt --user``. After this, you can move to the Install Natural Language tools section. 
 
 
 ## Step 2: Dependencies Setup
 * Move to the EVIL main directory
-* It is recommended you use a virtual environment for the dependency set up (**Conda environment**). If you do not wish to do so, then simply run ``pip3 install -r requirements.txt``.
+* It is recommended you use a virtual environment for the dependency set up (**Conda environment**). If you do not wish to do so, then simply run ``pip3 install -r requirements.txt --user``.
 
 ### Setting up a Conda environment
 * Import our saved conda environment using the command: ``conda env create -f evil_env.yml`` and activate it using ``source activate evil_env`` or ``conda activate evil_env``
 
 * Alternatively, you can create an anaconda Python 3.7 virtual environment using the command ``conda create -n yourenvname python=3.7 anaconda``.  Activate the environment by typing ``source activate yourenvname``.
 
-* Run ``pip install -r requirements.txt`` to install the dependencies.
+* Run ``pip3 install -r requirements.txt --user`` to install the dependencies.
 
 ### Install Natural Language tools
 * Install nltk tokenizers and corpora ``python -m nltk.downloader``, then type `d` (Download), and type `all` in Identifier. Type `q` at the end of the installation.
