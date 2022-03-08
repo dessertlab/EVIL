@@ -2,7 +2,7 @@
 
 This repository contains the dataset and the code related to the paper **EVIL: Exploiting Software via Natural Language** accepted for publication at the 32nd International Symposium on Software Reliability Engineering (ISSRE 2021) conference. 
 
-The preprint of the paper is publicly available on [Arxiv](http://arxiv.org/abs/2109.00279). 
+The paper is publicly available on [IEEEXplore](https://doi.org/10.1109/ISSRE52982.2021.00042). 
 The slide presentation is available on [slideshare](https://www.slideshare.net/PietroLiguori4/evil-exploiting-software-via-natural-language-250549168), while you can find the video presentation of the paper on [Youtube](https://www.youtube.com/watch?v=vq3n8znFn-k&list=PLhBMpvlFe-cHGnN9-9R5h2FWqjbBdyjA0&index=3&t=4s)
 
 *EVIL* is an approach to automatically generate software exploits in assembly/Python language from descriptions in natural language. 
